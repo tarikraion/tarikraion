@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "explorium": {
+      "url": "https://mcp.explorium.ai/mcp",
+      "headers": {
+        "api_key": "<YOUR_EXPLORIUM_API_KEY>"
+      }
+    },
+    "arxiv-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "arxiv-mcp-server"
+      ]
+    }
+  }
+}
