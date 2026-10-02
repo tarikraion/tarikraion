@@ -1,0 +1,433 @@
+[
+  {
+    "company": "Emulate",
+    "website": null,
+    "hq_city": "UK (city not confirmed in sources; reported as a UK start-up)",
+    "hq_country": "United Kingdom",
+    "segment": "Model lab - world models / physical AI",
+    "what_they_do": "Started in August 2026 by former Google DeepMind world-model researchers (the team behind Genie). Builds AI world models that simulate physical environments, for robotics and simulation.",
+    "signals": [
+      {
+        "signal": "Reported closing a seed round of up to $700M at about a $3.5-3.7B valuation, led by Index Ventures and Lightspeed, about one month after incorporation",
+        "date": "2026-09-17",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-09-17/deepmind-offshoot-emulate-closes-in-on-700-million-seed-round"
+      },
+      {
+        "signal": "Founded Aug 2026 by Jack Parker-Holder (a principal researcher on Genie 3), Matthew McGill and Philip Ball; in advanced talks on the $700M round",
+        "date": "2026-09",
+        "source_url": "https://www.silicon.co.uk/e-enterprise/start-up/emulate-funding-ai-631626"
+      },
+      {
+        "signal": "Round coverage: DeepMind spinout nears $700M seed at $3.7B valuation",
+        "date": "2026-09",
+        "source_url": "https://thenextweb.com/news/emulate-deepmind-world-models-700m-seed"
+      }
+    ],
+    "est_gpu_need": "2,000-4,000+ H100-equiv (4-10 MW), mostly pretraining with some real-time inference. World models (Genie-class interactive video/3D) are among the most compute-hungry workloads. A $700M seed with no product means most of the money will go on compute, and the company has no installed base yet.",
+    "fit_score": 10,
+    "timing_rationale": "The company is weeks old, newly funded, and has no clusters of its own. It has to secure training capacity for a first model in H1 2027, so supplier selection is happening in Q4 2026. Raion's Nov 2026 go-live with 0.5 MW block scaling matches a staged ramp in Feb-Apr 2027, and a UK-hosted, isolated cluster fits a UK-founded lab with Index as lead investor.",
+    "contacts": [
+      {
+        "name": "Jack Parker-Holder",
+        "title": "Co-founder (C-level title not confirmed; likely CEO)",
+        "linkedin_url": null,
+        "source_url": "https://www.silicon.co.uk/e-enterprise/start-up/emulate-funding-ai-631626",
+        "confidence": "low"
+      },
+      {
+        "name": "Matthew McGill",
+        "title": "Co-founder (C-level title not confirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.silicon.co.uk/e-enterprise/start-up/emulate-funding-ai-631626",
+        "confidence": "low"
+      },
+      {
+        "name": "Philip Ball",
+        "title": "Co-founder (C-level title not confirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.silicon.co.uk/e-enterprise/start-up/emulate-funding-ai-631626",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "CuspAI",
+    "website": "https://www.cusp.ai",
+    "hq_city": "Cambridge",
+    "hq_country": "United Kingdom",
+    "segment": "AI for science - materials discovery",
+    "what_they_do": "Generative AI platform for discovering new materials (semiconductors, clean energy, advanced manufacturing). Generative models propose candidate compounds, which are filtered and then validated in the lab. Recently launched an 'AI Materials Foundry' with 45+ industry partners.",
+    "signals": [
+      {
+        "signal": "Closed a $450M Series B at a $2.6B valuation, led by Kleiner Perkins and NEA with Bezos Expeditions",
+        "date": "2026-07-20",
+        "source_url": "https://sifted.eu/articles/cuspai-lands-450m-round-to-accelerate-ai-materials-discovery"
+      },
+      {
+        "signal": "Launched the AI Materials Foundry with 45+ partners incl. Nvidia, Meta, Samsung, Hyundai, Applied Materials, Lam Research",
+        "date": "2026-07",
+        "source_url": "https://www.siliconrepublic.com/start-ups/cambridges-cuspai-launches-ai-materials-foundry-confirms-450m-raise"
+      },
+      {
+        "signal": "Named as a new UK Sovereign AI Fund (DSIT) investment in James Wise's Quarterly Update #3",
+        "date": "2026-08-12",
+        "source_url": "https://www.jameswise.com/sovereign-ai-quarterly-update-3/"
+      }
+    ],
+    "est_gpu_need": "256-2,000 H100-equiv for training generative materials models plus very large ML-accelerated simulation (ML potentials / DFT surrogates). Foundry partners will add inference and screening load.",
+    "fit_score": 9,
+    "timing_rationale": "The $450M closed in July 2026 and the Foundry has to deliver to 45+ partners, so a compute build-out over the next 2-3 quarters is likely. The UK government is now a shareholder through the Sovereign AI Fund, which makes UK-hosted sovereign capacity an easy story. Partner IP (Samsung, Hyundai and others) favours isolated, dedicated clusters.",
+    "contacts": [
+      {
+        "name": "Chad Edwards",
+        "title": "Co-founder & CEO (CEO title from prior public reporting; sources seen describe him as co-founder)",
+        "linkedin_url": null,
+        "source_url": "https://www.siliconrepublic.com/start-ups/scientific-research-start-up-cuspai-to-raise-400m-with-jeff-bezos-among-backers-ft",
+        "confidence": "medium"
+      },
+      {
+        "name": "Max Welling",
+        "title": "Co-founder (C-level title not confirmed in sources seen)",
+        "linkedin_url": null,
+        "source_url": "https://sifted.eu/articles/cuspai-lands-450m-round-to-accelerate-ai-materials-discovery",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Synthesia",
+    "website": "https://www.synthesia.io",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "Generative video / avatars",
+    "what_they_do": "Enterprise AI video platform with photorealistic avatars and voice. It trains its own avatar models (EXPRESS series), and now runs real-time interactive avatars with a Synthesia-hosted LLM and TTS stack.",
+    "signals": [
+      {
+        "signal": "Raised a $200M Series E at a $4B valuation led by GV, with NVentures participating",
+        "date": "2026-01-26",
+        "source_url": "https://www.siliconrepublic.com/start-ups/uks-synthesia-valued-at-4bn-after-google-ventures-led-series-e-raise-ai-video"
+      },
+      {
+        "signal": "Launched Express-3, its most lifelike avatar model, which powers the new Style Avatars, plus an 'Assistant' prompt-to-video tool",
+        "date": "2026-07",
+        "source_url": "https://www.synthesia.io/blog/category/synthesia"
+      },
+      {
+        "signal": "Interactive Avatar API (real-time avatars) is available to Enterprise now; the full-stack pipeline with Synthesia-hosted LLM, TTS and avatar launches 1 Oct 2026, a step-change in real-time GPU inference",
+        "date": "2026-10-01",
+        "source_url": "https://www.synthesia.io/post/interactive-avatar-api-real-time-avatars"
+      }
+    ],
+    "est_gpu_need": "512-2,000 H100-equiv. Training next-gen video diffusion avatar models, plus latency-sensitive real-time inference (avatar, LLM and TTS per session), which grows with enterprise adoption.",
+    "fit_score": 8,
+    "timing_rationale": "The real-time product went live 1 Oct 2026. Concurrency-driven inference demand should climb through Q1 2027 as enterprise customers roll it out, so capacity planning for Feb-Apr 2027 is happening now. A UK/EU enterprise customer base values data residency and isolation.",
+    "contacts": [
+      {
+        "name": "Victor Riparbelli",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.siliconrepublic.com/start-ups/uks-synthesia-valued-at-4bn-after-google-ventures-led-series-e-raise-ai-video",
+        "confidence": "high"
+      },
+      {
+        "name": "Peter Hill",
+        "title": "Chief Technology Officer",
+        "linkedin_url": null,
+        "source_url": "https://theorg.com/org/synthesia/org-chart/peter-hill",
+        "confidence": "medium"
+      },
+      {
+        "name": "Steffen Tjerrild",
+        "title": "Co-founder (C-level title not confirmed in sources seen; historically COO/CFO)",
+        "linkedin_url": null,
+        "source_url": "https://techcrunch.com/2026/01/26/synthesia-hits-4b-valuation-lets-employees-cash-in",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "PhysicsX",
+    "website": "https://www.physicsx.ai",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "AI for engineering / physics simulation",
+    "what_they_do": "Replaces parts of traditional engineering simulation with ML models. It is building pre-trained 'Large Physics Models' for industrial engineering customers in aerospace, automotive, semiconductors and energy.",
+    "signals": [
+      {
+        "signal": "Announced a $300M Series C led by Temasek at a $2.4B valuation (with M&G, NVIDIA, Siemens, Applied Materials, Atomico, General Catalyst) to develop larger pre-trained Large Physics Models",
+        "date": "2026-06-08",
+        "source_url": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering"
+      },
+      {
+        "signal": "Revenue doubled YoY, booked revenue tripled, headcount over 300 (doubled)",
+        "date": "2026-06-08",
+        "source_url": "https://theaiinsider.tech/2026/06/08/physicsx-announces-300m-series-c-to-expand-physics-ai-platform-for-industrial-engineering/"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv for pretraining Large Physics Models on simulation data, plus customer-dedicated inference. Aerospace and defence customers often need isolated environments.",
+    "fit_score": 8,
+    "timing_rationale": "Series C money raised in June 2026 explicitly funds bigger pre-trained models, so the next-gen LPM training runs are likely in H1 2027. Industrial and defence customers' IP sensitivity matches Raion's isolated clusters and SPV structure.",
+    "contacts": [
+      {
+        "name": "Jacomo Corbo",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.physicsx.ai/newsroom/physicsx-announces-300m-series-c-to-accelerate-physics-ai-for-industrial-engineering",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Cosine",
+    "website": "https://cosine.sh",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "Model lab - coding agents / sovereign frontier model",
+    "what_they_do": "AI software-engineering agent (CLI, VS Code, desktop, cloud). It is building 'Lumen Sovereign', billed as Britain's first sovereign frontier model, trained from scratch for regulated environments.",
+    "signals": [
+      {
+        "signal": "Selected for the UK Sovereign AI programme: 500,000 GPU hours on Isambard-AI, and Sovereign AI holds an option to join its next funding round",
+        "date": "2026-04-17",
+        "source_url": "https://tech.eu/2026/04/17/cosine-goes-from-benchmark-leader-to-cornerstone-of-uk-sovereign-ai-strategy/"
+      },
+      {
+        "signal": "Formed an industry coalition (BT, Lloyds, NatWest, LSEG, PwC, BAE Systems, Leonardo UK, Babcock) to co-design Lumen Sovereign; deployment targeted for end of 2026",
+        "date": "2026-06-08",
+        "source_url": "https://tech.eu/2026/06/08/cosine-secures-industry-backing-for-britain-s-first-sovereign-frontier-model/"
+      },
+      {
+        "signal": "Lumen Sovereign product page: frontier model for sovereign software engineering and regulated environments; trained on Isambard-AI with no dependence on foreign infrastructure",
+        "date": "2026",
+        "source_url": "https://cosine.sh/lumen-sovereign"
+      }
+    ],
+    "est_gpu_need": "256-2,000 H100-equiv. The 500k GPU-hour Isambard grant is reported as roughly two orders of magnitude below a true frontier run, so continued training needs more capacity. Serving a ~1T-parameter MoE to regulated banks and defence primes needs dedicated, UK-resident inference.",
+    "fit_score": 8,
+    "timing_rationale": "Lumen Sovereign is due to deploy at the end of 2026. Production inference for coalition members (banks, defence) would ramp in Q1 2027, and the next funding round is expected. Raion's British-law SPV and isolated clusters match the 'no foreign infrastructure' positioning almost exactly. The coalition also opens warm introductions to Lloyds, NatWest, BT, BAE and others.",
+    "contacts": [
+      {
+        "name": "Alistair Pullen",
+        "title": "Co-founder & CEO (CEO title from prior reporting; sources seen list him as co-founder)",
+        "linkedin_url": null,
+        "source_url": "https://www.ycombinator.com/companies/cosine",
+        "confidence": "medium"
+      },
+      {
+        "name": "Yang Li",
+        "title": "Co-founder (C-level title not confirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.ycombinator.com/companies/cosine",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Wayve",
+    "website": "https://wayve.ai",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "Autonomous driving / embodied AI",
+    "what_they_do": "End-to-end embodied AI driving software for automakers (supervised autonomy in consumer vehicles) and robotaxis (with Uber). It also trains generative world models for driving.",
+    "signals": [
+      {
+        "signal": "Raised a $1.2B Series D at an $8.6B valuation (Microsoft, NVIDIA, Uber, Mercedes-Benz, Nissan, Stellantis); $1.5B total including Uber milestone capital",
+        "date": "2026-02-24",
+        "source_url": "https://www.cnbc.com/2026/02/24/wayve-fundraise-nvidia-microsoft.html"
+      },
+      {
+        "signal": "Series D extended with $60M from AMD, Arm and Qualcomm Ventures",
+        "date": "2026-04-15",
+        "source_url": "https://techcrunch.com/2026/04/15/chipmakers-amd-arm-and-qualcomm-are-all-investing-in-this-buzzy-self-driving-tech-startup/"
+      },
+      {
+        "signal": "Commercial robotaxi trials with Uber in London in 2026; supervised autonomy in consumer vehicles from 2027",
+        "date": "2026-02",
+        "source_url": "https://wayve.ai/press/series-d/"
+      },
+      {
+        "signal": "Appointed ex-Waymo CFO Elisa de Martel as CFO to run global finance as it enters the next growth phase",
+        "date": "2026-09-18 (approx; reported week ending 18 Sep)",
+        "source_url": "https://wayve.ai/press/wayve-appoints-elisa-de-martel/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000+ H100-equiv of incremental capacity for driving foundation-model and world-model training ahead of the 2027 consumer launch and multi-city robotaxi data growth. Existing Microsoft/NVIDIA relationships mean Raion is more likely to win dedicated overflow or a UK-resident cluster than primary supply.",
+    "fit_score": 7,
+    "timing_rationale": "The consumer-vehicle launch from 2027 and robotaxi scale-up drive a training ramp in H1 2027. A new CFO (Sept 2026) is reviewing capital and infrastructure plans now. London robotaxi data favours UK residency.",
+    "contacts": [
+      {
+        "name": "Alex Kendall",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://wayve.ai/company/leadership-team/",
+        "confidence": "high"
+      },
+      {
+        "name": "Erez Dagan",
+        "title": "President",
+        "linkedin_url": null,
+        "source_url": "https://wayve.ai/company/leadership-team/erez-dagan/",
+        "confidence": "high"
+      },
+      {
+        "name": "Elisa de Martel",
+        "title": "Chief Financial Officer (based in Sunnyvale)",
+        "linkedin_url": null,
+        "source_url": "https://wayve.ai/press/wayve-appoints-elisa-de-martel/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Stability AI",
+    "website": "https://stability.ai",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "Generative image / audio / 3D model lab",
+    "what_they_do": "Open and licensed generative models (Stable Diffusion, audio, 3D). It is building new models with music labels and EA on licensed catalogues and IP.",
+    "signals": [
+      {
+        "signal": "Closed a $76M Series B (total funding $232M) with Universal Music Group, Warner Music Group, Sony Music, Electronic Arts, AMD Ventures and Pacific Alliance Ventures",
+        "date": "2026-08-25",
+        "source_url": "https://variety.com/2026/biz/news/stability-ai-raises-76-million-funding-round-1236842351/"
+      },
+      {
+        "signal": "The round follows deals with UMG, WMG and EA to build new AI models on their catalogues and IP",
+        "date": "2026-08-26",
+        "source_url": "https://dataconomy.com/2026/08/26/stability-ai-raises-76-million-series-b-funding/"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv for training partner-specific music, audio and game-asset models on licensed data, plus enterprise inference.",
+    "fit_score": 7,
+    "timing_rationale": "Fresh capital from August 2026 is tied to new partner model builds, so training runs are likely in H1 2027. Licensed-IP training (labels, EA) needs provable data isolation, which is a strong argument for dedicated, isolated clusters. Caveat: AMD Ventures is an investor (possible AMD GPU preference) and the budget is modest.",
+    "contacts": [
+      {
+        "name": "Prem Akkaraju",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": "https://variety.com/2026/biz/news/stability-ai-raises-76-million-funding-round-1236842351/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "ElevenLabs",
+    "website": "https://elevenlabs.io",
+    "hq_city": "London / New York (dual HQ)",
+    "hq_country": "United Kingdom",
+    "segment": "Generative voice / audio / voice agents",
+    "what_they_do": "AI voice models (TTS, dubbing, speech-to-speech, music) and a conversational voice-agent platform. London is its European HQ and worldwide operations centre.",
+    "signals": [
+      {
+        "signal": "Raised a $500M Series D at an $11B valuation led by Sequoia",
+        "date": "2026-02-04",
+        "source_url": "https://www.cnbc.com/2026/02/04/nvidia-backed-ai-startup-elevenlabs-11-billion-valuation.html"
+      },
+      {
+        "signal": "Partnered with Google Cloud for NVIDIA Blackwell (RTX PRO 6000) GPUs to train and serve voice models",
+        "date": "2026-02-26",
+        "source_url": "https://www.googlecloudpresscorner.com/2026-02-26-ElevenLabs-Partners-with-Google-Cloud-for-Cloud-Services-and-the-Latest-NVIDIA-Blackwell-GPUs,1"
+      },
+      {
+        "signal": "Closed a $300M employee tender at a $22B valuation (double the Series D) on surging voice-agent demand",
+        "date": "2026-09-30",
+        "source_url": "https://tech.eu/2026/09/30/elelvenlabs-doubles-valuation-to-22bn-with-300m-employee-tender-offer/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv, mostly inference for voice agents at scale plus model training. A dedicated block could serve UK/EU data-residency workloads alongside Google Cloud.",
+    "fit_score": 6,
+    "timing_rationale": "The valuation doubled in 7 months on voice-agent demand, and inference capacity has to scale ahead of that, so diversifying away from a single hyperscaler is a reasonable 2027 pitch. Fit is lowered because of the Google Cloud commitment and the US/UK dual-HQ ambiguity.",
+    "contacts": [
+      {
+        "name": "Mati Staniszewski",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.clay.com/dossier/elevenlabs-ceo",
+        "confidence": "high"
+      },
+      {
+        "name": "Piotr Dąbkowski",
+        "title": "Co-founder (CTO per prior public reporting; not confirmed in sources seen)",
+        "linkedin_url": null,
+        "source_url": "https://en.wikipedia.org/wiki/ElevenLabs",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "Prima Mente",
+    "website": "https://www.primamente.com",
+    "hq_city": "London / San Francisco",
+    "hq_country": "United Kingdom",
+    "segment": "AI for science - biology foundation models",
+    "what_they_do": "Builds biological foundation models, including Pleiades, a whole-genome epigenetic foundation model, to understand the brain and diagnose and treat diseases such as Alzheimer's.",
+    "signals": [
+      {
+        "signal": "Named in the founding cohort of the UK Sovereign AI Unit, with access to up to 1M GPU hours on Isambard-AI and Dawn",
+        "date": "2026-04",
+        "source_url": "https://www.eu-startups.com/2026/04/britain-puts-e573-million-on-the-table-as-sovereign-ai-names-its-first-startup-cohort/"
+      },
+      {
+        "signal": "Existing GPU-cloud customer story with Nebius (scaling Pleiades), so it already buys external GPU capacity",
+        "date": "2025-2026 (undated)",
+        "source_url": "https://nebius.com/customer-stories/prima-mente"
+      }
+    ],
+    "est_gpu_need": "64-512 H100-equiv for scaling Pleiades-family epigenomic models. Patient and clinical data favours isolated, UK-resident compute.",
+    "fit_score": 6,
+    "timing_rationale": "Isambard allocations are time-boxed, so follow-on dedicated capacity will be needed as models scale into 2027. It already buys from a neocloud (Nebius), so the pitch is a competitive displacement.",
+    "contacts": []
+  },
+  {
+    "company": "Doubleword",
+    "website": "https://www.doubleword.ai",
+    "hq_city": "London (not re-verified this session)",
+    "hq_country": "United Kingdom",
+    "segment": "AI inference infrastructure / model serving",
+    "what_they_do": "AI inference platform company. It was selected for UK Sovereign AI compute access. (Detailed product description not re-verified in this session.)",
+    "signals": [
+      {
+        "signal": "Named in the founding cohort of the UK Sovereign AI Unit, with access to up to 1M GPU hours on UK supercomputers (Isambard-AI, Dawn)",
+        "date": "2026-04",
+        "source_url": "https://www.eu-startups.com/2026/04/britain-puts-e573-million-on-the-table-as-sovereign-ai-names-its-first-startup-cohort/"
+      }
+    ],
+    "est_gpu_need": "64-1,000 H100-equiv for production inference serving. Could be a customer or a channel partner (inference layer on Raion capacity).",
+    "fit_score": 6,
+    "timing_rationale": "A government-backed inference player with time-limited supercomputer access will need production-grade dedicated capacity to serve customers in 2027. Worth exploring as a channel partner too.",
+    "contacts": []
+  },
+  {
+    "company": "PolyAI",
+    "website": "https://poly.ai",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "segment": "Voice AI agents (enterprise customer service)",
+    "what_they_do": "Enterprise conversational voice agents for customer service, through its Agent Studio platform.",
+    "signals": [
+      {
+        "signal": "Raised an $86M Series D co-led by Georgian, Hedosophia and Khosla, with NVentures, British Business Bank and Citi Ventures; total funding over $200M",
+        "date": "2025-12-15",
+        "source_url": "https://poly.ai/blog/polyai-raises-86-million-series-d"
+      }
+    ],
+    "est_gpu_need": "64-512 H100-equiv, mostly inference for large-scale enterprise voice traffic plus fine-tuning.",
+    "fit_score": 5,
+    "timing_rationale": "Scaling Agent Studio and go-to-market after the Series D. Enterprise customers (banks, telcos) value UK data residency. The signal predates the Apr-Oct 2026 window, so it ranks lower.",
+    "contacts": [
+      {
+        "name": "Nikola Mrkšić",
+        "title": "Co-founder & CEO (CEO title from prior reporting; sources seen list him as co-founder)",
+        "linkedin_url": null,
+        "source_url": "https://tracxn.com/d/companies/poly/__My025LkcanktGaFpFyFVB5xplSF10iUeWDs0ae6eRAs",
+        "confidence": "medium"
+      },
+      {
+        "name": "Tsung-Hsien Wen",
+        "title": "Co-founder (CTO per prior reporting; not confirmed in sources seen)",
+        "linkedin_url": null,
+        "source_url": "https://tracxn.com/d/companies/poly/__My025LkcanktGaFpFyFVB5xplSF10iUeWDs0ae6eRAs",
+        "confidence": "medium"
+      }
+    ]
+  }
+]

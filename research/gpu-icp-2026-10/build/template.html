@@ -1,0 +1,571 @@
+<title>Raion Compute ICP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: Raion deal-room terminal. One 1120px column, hard 1px rules, square corners, mono labels, orange used only for state and timing. */
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --muted: #4b5262;
+  --line: rgba(0, 0, 0, 0.14);
+  --line-strong: #000000;
+  --soft: #f6f5f4;
+  --accent: #e03c00;
+  --accent-soft: rgba(224, 60, 0, 0.10);
+  --on-accent: #ffffff;
+  --good: #0b7a45;
+  --warn: #a35f00;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000; --fg: #ffffff; --muted: #a7acb8; --line: rgba(255,255,255,0.16); --line-strong: #ffffff;
+    --soft: #0e0c0b; --accent: #ff5b20; --accent-soft: rgba(255, 91, 32, 0.16); --on-accent: #000000;
+    --good: #3fcf8a; --warn: #f0a640; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #000000; --fg: #ffffff; --muted: #a7acb8; --line: rgba(255,255,255,0.16); --line-strong: #ffffff;
+  --soft: #0e0c0b; --accent: #ff5b20; --accent-soft: rgba(255, 91, 32, 0.16); --on-accent: #000000;
+  --good: #3fcf8a; --warn: #f0a640; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-sans); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; font-feature-settings: "ss01", "cv11"; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 16px; padding-block: 0 64px; }
+@media (min-width: 720px) { .wrap { padding-inline: 32px; } }
+a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { letter-spacing: -0.03em; font-weight: 800; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(30px, 5vw, 52px); line-height: 1.02; }
+h2 { font-size: clamp(22px, 3vw, 30px); line-height: 1.1; }
+h3 { font-size: 18px; line-height: 1.25; font-weight: 700; letter-spacing: -0.02em; }
+p { margin: 0; max-width: 68ch; }
+.mono { font-family: var(--font-mono); }
+.label { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Top bar */
+.bar { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line-strong); padding-block: 14px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 5; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: 0.18em; font-size: 15px; }
+.pix { display: grid; grid-template-columns: repeat(3, 5px); gap: 1px; }
+.pix i { width: 5px; height: 5px; background: var(--fg); }
+.pix i.o { background: var(--accent); }
+.pix i.e { background: transparent; }
+.nav { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.nav a { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; color: var(--muted); }
+.nav a:hover { color: var(--accent); }
+
+/* Hero */
+.hero { display: grid; gap: 20px; padding-block: 40px 28px; border-bottom: 1px solid var(--line); }
+.hero .lede { font-size: 17px; color: var(--fg); max-width: 72ch; }
+.hero .lede strong { font-weight: 700; }
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 1px solid var(--line-strong); }
+@media (min-width: 720px) { .stats { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+.stat { padding: 14px 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+.stat b { font-size: 28px; font-weight: 800; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+
+section { padding-block: 44px 8px; display: grid; gap: 18px; }
+.sec-head { display: grid; gap: 8px; border-top: 1px solid var(--line-strong); padding-top: 14px; }
+.sec-head p { color: var(--muted); }
+
+/* Timeline */
+.tl { border: 1px solid var(--line-strong); padding: 18px 16px 14px; display: grid; gap: 10px; overflow-x: auto; }
+.tl-inner { min-width: 620px; display: grid; gap: 8px; }
+.tl-months { position: relative; height: 18px; border-bottom: 1px solid var(--line); }
+.tl-months span { position: absolute; top: 0; font-family: var(--font-mono); font-size: 10.5px; color: var(--muted); letter-spacing: 0.06em; transform: translateX(2px); }
+.tl-row { position: relative; height: 34px; }
+.tl-row .band { position: absolute; top: 4px; bottom: 4px; display: flex; align-items: center; padding-inline: 8px; font-family: var(--font-mono); font-size: 11px; white-space: nowrap; overflow: hidden; }
+.band.decide { background: var(--soft); border: 1px solid var(--line-strong); color: var(--fg); }
+.band.live { background: transparent; border: 1px dashed var(--fg); color: var(--fg); }
+.band.need { background: var(--accent); color: var(--on-accent); font-weight: 700; }
+.tl-today { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px solid var(--fg); }
+.tl-grid { position: relative; }
+.tl-note { font-size: 13px; color: var(--muted); }
+
+/* Segment cards */
+.grid2 { display: grid; gap: 0; grid-template-columns: minmax(0, 1fr); border: 1px solid var(--line-strong); }
+@media (min-width: 860px) { .grid2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.seg { padding: 20px; display: grid; gap: 12px; align-content: start; border-bottom: 1px solid var(--line); }
+@media (min-width: 860px) { .seg:nth-child(odd) { border-right: 1px solid var(--line); } }
+.seg-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.chip { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border: 1px solid var(--line-strong); white-space: nowrap; }
+.chip.hot { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.kv { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 6px 12px; font-size: 14px; }
+.kv dt { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
+.kv dd { margin: 0; }
+
+/* Lists */
+.cols { display: grid; gap: 0; grid-template-columns: minmax(0, 1fr); border: 1px solid var(--line-strong); }
+@media (min-width: 760px) { .cols { grid-template-columns: repeat(2, minmax(0, 1fr)); } .cols > div:first-child { border-right: 1px solid var(--line); } }
+.cols > div { padding: 18px 20px; display: grid; gap: 10px; align-content: start; }
+.ticks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ticks li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; font-size: 14px; }
+.ticks li::before { content: "+"; font-family: var(--font-mono); font-weight: 700; color: var(--good); }
+.ticks.no li::before { content: "×"; color: var(--accent); }
+
+/* Tables */
+.tbl-wrap { border: 1px solid var(--line-strong); overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); font-weight: 500; background: var(--soft); white-space: nowrap; }
+td.pts { font-family: var(--font-mono); font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.persona td:first-child { font-weight: 700; white-space: nowrap; }
+
+/* Accounts */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg-btns { display: flex; border: 1px solid var(--line-strong); }
+.seg-btns button { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em; padding: 7px 11px; background: var(--bg); color: var(--fg); border: 0; border-right: 1px solid var(--line); cursor: pointer; }
+.seg-btns button:last-child { border-right: 0; }
+.seg-btns button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.filters select, .filters input { font: inherit; font-size: 13px; padding: 7px 10px; border: 1px solid var(--line-strong); background: var(--bg); color: var(--fg); border-radius: 0; min-width: 0; }
+.filters input { flex: 1 1 180px; }
+.btn { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em; padding: 8px 12px; border: 1px solid var(--accent); background: var(--accent); color: var(--on-accent); cursor: pointer; border-radius: 0; }
+.btn.ghost { background: var(--bg); color: var(--fg); border-color: var(--line-strong); }
+.btn:hover { filter: brightness(1.08); }
+.count { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
+.acc-table tr.row { cursor: pointer; }
+.acc-table tr.row:hover td { background: var(--accent-soft); }
+.acc-table tr.row[aria-expanded="true"] td { background: var(--soft); }
+.acc-table td.co { min-width: 170px; }
+.acc-table td.co b { font-weight: 700; display: block; }
+.acc-table td.co span { font-size: 12px; color: var(--muted); }
+.acc-table td.sig { min-width: 260px; }
+.acc-table td.sig .d { font-family: var(--font-mono); font-size: 11px; color: var(--muted); display: block; }
+.acc-table td.ppl { min-width: 200px; font-size: 13px; }
+.meter { display: inline-grid; grid-template-columns: repeat(10, 7px); gap: 2px; vertical-align: middle; }
+.meter i { height: 12px; border: 1px solid var(--line-strong); }
+.meter i.on { background: var(--accent); border-color: var(--accent); }
+.score { display: flex; align-items: center; gap: 8px; white-space: nowrap; font-family: var(--font-mono); font-size: 12px; }
+.detail td { background: var(--soft); padding: 16px 16px 20px; }
+.detail-grid { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .detail-grid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+.detail h4 { margin: 0 0 6px; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.detail ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 13.5px; }
+.detail p { font-size: 13.5px; }
+.person { display: grid; gap: 1px; padding: 8px 10px; border: 1px solid var(--line); background: var(--bg); }
+.person b { font-size: 14px; }
+.person .t { font-size: 13px; }
+.person .m { font-family: var(--font-mono); font-size: 11px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.people { display: grid; gap: 6px; }
+.conf-high { color: var(--good); }
+.conf-medium { color: var(--warn); }
+.conf-low { color: var(--accent); }
+.empty { padding: 28px; text-align: center; color: var(--muted); }
+
+pre.code { margin: 0; padding: 14px 16px; border: 1px solid var(--line-strong); background: var(--soft); font-family: var(--font-mono); font-size: 12.5px; line-height: 1.6; white-space: pre-wrap; word-break: break-word; }
+.codebox { display: grid; gap: 8px; }
+.codebox .row-h { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.note { border-left: 3px solid var(--accent); padding: 10px 14px; background: var(--soft); font-size: 14px; }
+.small { font-size: 13px; color: var(--muted); }
+footer { margin-top: 48px; border-top: 1px solid var(--line-strong); padding-top: 16px; display: grid; gap: 8px; }
+.tbl-wrap table:not(.acc-table) { min-width: 680px; }
+@media (max-width: 760px) {
+  .acc-table thead { display: none; }
+  .acc-table, .acc-table tbody, .acc-table tr, .acc-table td { display: block; width: 100%; }
+  .acc-table tr.row { border-bottom: 1px solid var(--line); padding-block: 10px; }
+  .acc-table tr.row td { border-bottom: 0; padding: 4px 14px; min-width: 0; }
+  .acc-table td.co, .acc-table td.sig, .acc-table td.ppl { min-width: 0; }
+  .acc-table tr.detail td { padding: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="bar">
+    <div class="brand"><span class="pix" aria-hidden="true"><i></i><i class="e"></i><i></i><i class="e"></i><i class="o"></i><i class="e"></i><i></i><i class="e"></i><i></i></span>RAION</div>
+    <nav class="nav" aria-label="Sections">
+      <a href="#timing">Timing</a><a href="#segments">Segments</a><a href="#qualify">Qualify</a><a href="#signals">Signals</a><a href="#buyers">Buyers</a><a href="#accounts">Accounts</a><a href="#market">Market</a><a href="#sourcing">Find more</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="label">Ideal customer profile · GPU capacity · US / UK / Europe · C-level only · 2 Oct 2026</div>
+    <h1>Who needs GPUs live between 30&nbsp;Jan and 1&nbsp;Apr&nbsp;2027</h1>
+    <p class="lede">Raion's best buyers for this window are <strong>funded AI companies that train or serve their own models</strong> and need <strong>dedicated capacity of roughly 200 to 4,000 GPUs</strong> (one to twenty 0.5&nbsp;MW blocks) on a 12 to 36 month term. Behind them come <strong>regulated enterprises and sovereign buyers in the UK and EU</strong>, who need capacity they control in their own jurisdiction. Because dedicated clusters take months to contract and hand over, every buyer who needs capacity in February or March 2027 is choosing a supplier between October and December 2026. They do that at C-level.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <section id="timing">
+    <div class="sec-head">
+      <div class="label">Timing</div>
+      <h2>The 120–180 day window, and when the decision is made</h2>
+      <p>Today plus 120 days is 30 January 2027; plus 180 days is 1 April 2027. A buyer who needs a cluster running in that window has to sign this quarter. Raion's first capacity goes live from November 2026, ahead of the window.</p>
+    </div>
+    <div class="tl">
+      <div class="tl-inner" id="timeline"></div>
+    </div>
+    <p class="tl-note" id="tl-note"></p>
+  </section>
+
+  <section id="segments">
+    <div class="sec-head">
+      <div class="label">Segments</div>
+      <h2>Four buyer segments, in priority order</h2>
+      <p>Segments 1 and 2 are the volume: fast decisions, founder-led, triggered by funding. Segments 3 and 4 are fewer, larger and slower, but they fit Raion's ownership and sovereignty model best.</p>
+    </div>
+    <div class="grid2">
+      <article class="seg">
+        <div class="seg-top"><h3>1 · Scaling model builders</h3><span class="chip hot">Priority</span></div>
+        <dl class="kv">
+          <dt>Who</dt><dd>Series A–D AI companies that pre-train, post-train or fine-tune their own models: generative video, image, audio and voice; robotics, world models and physical AI; AI for science and drug discovery; open-weight and code models.</dd>
+          <dt>Size</dt><dd>20–1,000 staff; $50M+ raised, latest round in the last 6 months.</dd>
+          <dt>Need</dt><dd>One to eight blocks (about 200–2,000 Blackwell GPUs), dedicated, InfiniBand, 12–24 months, for a training run that starts in Q1 2027.</dd>
+          <dt>Why now</dt><dd>New money is earmarked for compute, and the next model is already on the roadmap. Hyperscaler credits run out about when the run starts.</dd>
+          <dt>Who signs</dt><dd>CEO (founder) with the CTO or Chief Scientist; the CFO signs from Series C up.</dd>
+          <dt>Lead with</dt><dd>A cluster that is yours alone, live on the date your run starts, with no thermal throttling.</dd>
+        </dl>
+      </article>
+      <article class="seg">
+        <div class="seg-top"><h3>2 · Inference-heavy AI products</h3><span class="chip hot">Priority</span></div>
+        <dl class="kv">
+          <dt>Who</dt><dd>AI-native products growing fast that serve their own or open-weight models: agents, voice, avatars, search, copilots and vertical AI (legal, health, finance).</dd>
+          <dt>Size</dt><dd>$10M+ ARR or fast usage growth; $50M+ raised.</dd>
+          <dt>Need</dt><dd>One to four blocks (about 200–1,000 GPUs) of steady inference, often in the EU or UK for data residency, at a predictable unit cost.</dd>
+          <dt>Why now</dt><dd>Usage is outgrowing on-demand capacity, and inference margins are under board pressure. EU customers ask where data is processed.</dd>
+          <dt>Who signs</dt><dd>CEO and CTO; the CFO owns the gross-margin case.</dd>
+          <dt>Lead with</dt><dd>A fixed price per GPU-hour for the term and in-region capacity that lifts gross margin.</dd>
+        </dl>
+      </article>
+      <article class="seg">
+        <div class="seg-top"><h3>3 · Sovereign and regulated enterprises</h3><span class="chip">Strategic</span></div>
+        <dl class="kv">
+          <dt>Who</dt><dd>Banks, insurers, telcos, pharma, defence, energy, industrials and public bodies in the UK and EU, plus quant and trading firms in the US, UK and EU, that build AI in-house.</dd>
+          <dt>Size</dt><dd>1,000+ staff or a regulated entity; an approved AI budget or a named AI programme.</dd>
+          <dt>Need</dt><dd>0.5–10 MW they own or control, in jurisdiction, isolated from other tenants.</dd>
+          <dt>Why now</dt><dd>2026 AI programmes are moving from pilots to production; data-sovereignty rules and board risk reviews are pushing workloads off shared US clouds.</dd>
+          <dt>Who signs</dt><dd>CIO, CTO or Chief AI Officer with the CFO; the CEO for strategic or sovereign deals.</dd>
+          <dt>Lead with</dt><dd>Capacity you own through an SPV under British common law, specified across several vendors.</dd>
+        </dl>
+      </article>
+      <article class="seg">
+        <div class="seg-top"><h3>4 · Capital and power owners</h3><span class="chip">Financing side</span></div>
+        <dl class="kv">
+          <dt>Who</dt><dd>Family offices, energy and utility companies, colocation and real-estate owners with spare grid capacity, who want to own AI infrastructure as an asset.</dd>
+          <dt>Size</dt><dd>Spare power of 1 MW or more, or capital to commit in 0.5 MW increments.</dd>
+          <dt>Need</dt><dd>Standardised modular GPU shells that turn power into revenue, with an operator and offtake attached.</dd>
+          <dt>Why now</dt><dd>Grid queues and hyperscale backlash make distributed modular capacity the fastest route to a yielding asset.</dd>
+          <dt>Who signs</dt><dd>CEO, CIO (investments) and CFO.</dd>
+          <dt>Lead with</dt><dd>A yielding AI asset in 0.5 MW blocks, with demand from Raion's founder network.</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section id="qualify">
+    <div class="sec-head">
+      <div class="label">Qualify</div>
+      <h2>In or out in two minutes</h2>
+    </div>
+    <div class="cols">
+      <div>
+        <div class="label">Must have</div>
+        <ul class="ticks">
+          <li>Headquarters or main compute footprint in the US, UK or Europe.</li>
+          <li>Trains, fine-tunes or serves its own or open-weight models. Calling OpenAI or Anthropic APIs alone does not count.</li>
+          <li>Can use at least one 0.5 MW block (about 200–250 Blackwell GPUs) for 12 months or more. The sweet spot is 0.5–5 MW.</li>
+          <li>Can commit about $7M+ a year per block. That usually means $50M+ raised in a startup, or an approved AI budget in an enterprise.</li>
+          <li>A dated trigger in the last 6 months that points to more compute in Q1 2027.</li>
+          <li>A reachable C-level owner: CEO, CTO, Chief Scientist, Chief AI Officer, CIO, CFO or COO.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="label">Disqualify</div>
+        <ul class="ticks no">
+          <li>Frontier labs and hyperscalers (OpenAI, Anthropic, xAI, Meta, Google, Microsoft, Amazon). They buy direct at gigawatt scale.</li>
+          <li>GPU clouds and neoclouds. They are competitors; treat them as channel partners at most.</li>
+          <li>API-wrapper products with no model of their own.</li>
+          <li>Needs less than a block, or only short bursts of on-demand hours. Send seed and Series A teams to a pooled or forum offer instead.</li>
+          <li>Pre-seed or unfunded teams that cannot commit to a 12-month term.</li>
+          <li>Infrastructure already locked in a multi-year deal that runs past mid-2027.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="signals">
+    <div class="sec-head">
+      <div class="label">Signals</div>
+      <h2>What predicts a GPU purchase 4–6 months out</h2>
+      <p>Score each account out of 100. Tier A is 70 or more: work it this week. Tier B is 50–69: run a sequence. Below 50, keep it on a watch list. The account list below uses the same logic on a 10-point scale.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Signal</th><th>Points</th><th>Where to see it</th></tr></thead>
+        <tbody>
+          <tr><td>Raised $50M+ (or €/£ equivalent) in the last 6 months, especially if the release mentions compute, training or infrastructure</td><td class="pts">25</td><td>Crunchbase, Dealroom, Sifted, TechCrunch, press releases</td></tr>
+          <tr><td>Trains or post-trains its own models (model cards, papers, Hugging Face org)</td><td class="pts">20</td><td>Hugging Face, arXiv, company blog, GitHub</td></tr>
+          <tr><td>Announced a model launch, training run or usage jump in the last 90 days</td><td class="pts">15</td><td>Launch posts, CEO posts on LinkedIn and X, product changelogs</td></tr>
+          <tr><td>Hiring now for GPU, HPC, ML infrastructure or training-platform roles</td><td class="pts">10</td><td>Careers pages, Ashby, Greenhouse, Lever, LinkedIn Jobs ("Slurm", "InfiniBand", "GPU cluster")</td></tr>
+          <tr><td>Needs UK or EU data residency or sovereignty (regulated customers, public sector, EU AI Act exposure)</td><td class="pts">10</td><td>Customer list, trust page, tenders, sovereign AI programmes</td></tr>
+          <tr><td>Talks publicly about compute: shortage, credits ending, a multi-cloud move, or capex on AI</td><td class="pts">10</td><td>Podcasts, interviews, earnings calls, investor letters</td></tr>
+          <tr><td>New CTO, CFO or Chief AI Officer in the last 6 months</td><td class="pts">5</td><td>LinkedIn job changes, press releases</td></tr>
+          <tr><td>Warm path: Raion forum member, shared investor or event attendee</td><td class="pts">5</td><td>Raion member list, investor portfolios, event lists</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="buyers">
+    <div class="sec-head">
+      <div class="label">Buyers</div>
+      <h2>The C-level buying committee</h2>
+      <p>Go after two people per account: the economic buyer (CEO or CFO) and the technical owner (CTO, Chief Scientist, CIO or Chief AI Officer). In startups below Series C, the CEO usually signs alone once the CTO approves the spec.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table class="persona">
+        <thead><tr><th>Title</th><th>Role in the deal</th><th>What they care about</th><th>Opening angle</th></tr></thead>
+        <tbody>
+          <tr><td>CEO / Founder</td><td>Final signer up to Series C; owns runway and roadmap</td><td>Capacity on the date the roadmap needs it; cost per trained model; not waiting in a hyperscaler queue</td><td>"Your next run starts in Q1. We can have a dedicated cluster live for it, priced and locked this quarter."</td></tr>
+          <tr><td>CTO / Chief Scientist</td><td>Writes the spec, runs the benchmark; usually the champion</td><td>GPU generation, NVLink and InfiniBand fabric, isolation, liquid cooling, Slurm or Kubernetes, uptime, burst headroom</td><td>"Isolated, liquid-cooled nodes, no shared tenancy and no throttling. Here's the spec and a test window."</td></tr>
+          <tr><td>CFO</td><td>Signs the multi-year commitment</td><td>Price per GPU-hour, prepayment, term, opex versus capex, financing options</td><td>"Rent it at a fixed price, or own it through an SPV. Either way the cost is known for the full term."</td></tr>
+          <tr><td>CIO / Chief AI Officer / CDO</td><td>Owns the enterprise AI platform and risk</td><td>Sovereignty, data residency, security isolation, compliance, avoiding lock-in</td><td>"Sovereign capacity in your jurisdiction, under British common law, specified across several vendors."</td></tr>
+          <tr><td>COO / President</td><td>Delivery, SLAs and vendor risk</td><td>Handover dates, support model, counterparty risk</td><td>"Standard 0.5 MW blocks, a dated delivery plan, and no single-vendor dependency."</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="accounts">
+    <div class="sec-head">
+      <div class="label">Accounts</div>
+      <h2>Target accounts with dated signals</h2>
+      <p>Researched from public sources on 2 Oct 2026. Every signal links to its source. Click a row for the signals, sizing and C-level contacts. Confidence shows how well each person's current title was confirmed. Check it before you send anything.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter accounts">
+      <div class="seg-btns" id="regionBtns"></div>
+      <select id="segFilter" aria-label="Sector"></select>
+      <select id="tierFilter" aria-label="Tier">
+        <option value="">All tiers</option>
+        <option value="A">Tier A (8–10)</option>
+        <option value="B">Tier B (6–7)</option>
+        <option value="C">Tier C (≤5)</option>
+      </select>
+      <input id="q" type="search" placeholder="Search company, person, signal" aria-label="Search">
+      <button class="btn" id="copyCsv" type="button">Copy contacts CSV</button>
+    </div>
+    <div class="count" id="count" aria-live="polite"></div>
+    <div class="tbl-wrap">
+      <table class="acc-table">
+        <thead><tr><th>Company</th><th>Sector</th><th>Latest signal</th><th>Fit</th><th>C-level</th></tr></thead>
+        <tbody id="accBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!--__MARKET_SECTION__-->
+
+  <section id="sourcing">
+    <div class="sec-head">
+      <div class="label">Find more</div>
+      <h2>Rebuild and extend this list every week</h2>
+      <p>The accounts above are a starting set. These filters find the next ones and keep the list fresh.</p>
+    </div>
+    <div class="cols">
+      <div>
+        <div class="label">LinkedIn Sales Navigator: lead filters</div>
+        <dl class="kv">
+          <dt>Geography</dt><dd>United States; United Kingdom; EU countries, Switzerland and Norway</dd>
+          <dt>Seniority</dt><dd>CXO; Owner / Partner</dd>
+          <dt>Headcount</dt><dd>11–1,000 for segments 1–2; 1,001+ for segment 3</dd>
+          <dt>Industry</dt><dd>Software Development; Technology, Information and Internet; Research Services; Biotechnology Research; Defense and Space; Financial Services; Telecommunications</dd>
+          <dt>Growth</dt><dd>Company headcount growth above 10% a year</dd>
+          <dt>Spotlights</dt><dd>Changed jobs in the past 90 days; posted on LinkedIn in the past 30 days</dd>
+        </dl>
+      </div>
+      <div>
+        <div class="label">Account lists</div>
+        <dl class="kv">
+          <dt>Crunchbase / Dealroom</dt><dd>HQ in US, UK or Europe · last round on or after 1 Apr 2026 · round ≥ $30M · total raised ≥ $50M · industry AI, generative AI, ML, robotics or biotech · description mentions "model"</dd>
+          <dt>Job boards</dt><dd>"GPU cluster" OR "Slurm" OR "InfiniBand" OR "training infrastructure" OR "ML infrastructure" on Ashby, Greenhouse, Lever and LinkedIn Jobs</dd>
+          <dt>Hugging Face</dt><dd>Organisations that released a model in the last 60 days, sorted by downloads</dd>
+          <dt>Programmes</dt><dd>UK AI Growth Zones and AIRR allocations; EuroHPC AI Factories and Gigafactories consortia; national sovereign AI funds</dd>
+          <dt>Explorium</dt><dd>Connected. Find businesses by country with a new funding round or engineering hiring in the last 90 days, then pull their C-suite. Contacts marked "Explorium" below were confirmed this way.</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="codebox">
+      <div class="row-h"><div class="label">Boolean for the "Current job title" filter</div><button class="btn ghost" type="button" data-copy="bool">Copy</button></div>
+      <pre class="code" id="bool">("CEO" OR "Chief Executive" OR "Co-Founder" OR "Cofounder" OR "Founder" OR "CTO" OR "Chief Technology" OR "Chief AI" OR "Chief Artificial Intelligence" OR "Chief Scientist" OR "Chief Science" OR "CFO" OR "Chief Financial" OR "CIO" OR "Chief Information" OR "Chief Data" OR "COO" OR "Chief Operating" OR "President") NOT ("Assistant" OR "Intern" OR "Advisor" OR "Former" OR "Chief of Staff" OR "Fractional")</pre>
+    </div>
+    <div class="codebox">
+      <div class="row-h"><div class="label">Company keyword filter</div><button class="btn ghost" type="button" data-copy="kw">Copy</button></div>
+      <pre class="code" id="kw">("foundation model" OR "frontier model" OR "open-weight" OR "LLM" OR "generative AI" OR "video generation" OR "text-to-speech" OR "world model" OR "robotics" OR "embodied AI" OR "AI drug discovery" OR "computer vision" OR "AI inference")</pre>
+    </div>
+    <p class="note">For UK and EU outreach, rely on legitimate interest for B2B: keep the message relevant to the person's role, say where you found the signal, and offer an easy opt-out. Keep the source links in the list as your record.</p>
+  </section>
+
+  <footer>
+    <div class="label">Method</div>
+    <p class="small">Raion's offer is taken from raion.io: dedicated, liquid-cooled GPU clusters; modular data centres in 0.5 MW blocks; client-controlled SPVs under British common law; capacity live from November 2026; and a forum of 900+ AI founders across the US, UK and Europe. Accounts and signals were researched from public web sources on 2 Oct 2026, and every signal links to its source. C-level names and titles were checked against press coverage, LinkedIn search results and Explorium profile data. "High" confidence means the current title was confirmed; "medium" means the name is confirmed but the title comes from earlier reporting or a single data source; "low" means unconfirmed. LinkedIn URLs come only from search results or Explorium, never guessed. Confirm each person before outreach.</p>
+  </footer>
+</div>
+
+<script>
+const ACCOUNTS = /*__ACCOUNTS__*/[];
+const TODAY = new Date("2026-10-02T00:00:00Z");
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u) ? u : "");
+const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
+const fmtDate = (d) => {
+  if (!d) return "";
+  const m = String(d).match(/^(\d{4})-(\d{2})(?:-(\d{2}))?/);
+  if (!m) return esc(d);
+  const mon = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m[2] - 1];
+  return (m[3] ? +m[3] + " " : "") + mon + " " + m[1];
+};
+
+/* Stats */
+(function stats() {
+  const contacts = ACCOUNTS.reduce((n, a) => n + (a.contacts || []).length, 0);
+  const reg = (r) => ACCOUNTS.filter((a) => a.region === r).length;
+  const tierA = ACCOUNTS.filter((a) => a.tier === "A").length;
+  const items = [
+    [ACCOUNTS.length, "Target accounts"],
+    [contacts, "C-level contacts"],
+    [tierA, "Tier A accounts"],
+    [reg("US") + " / " + reg("UK") + " / " + reg("Europe"), "US / UK / Europe"],
+    ["0.5 MW", "Raion block size"],
+  ];
+  document.getElementById("stats").innerHTML = items.map(([v, l]) => `<div class="stat"><b>${esc(v)}</b><span class="label">${esc(l)}</span></div>`).join("");
+})();
+
+/* Timeline: Oct 2026 to May 2027 */
+(function timeline() {
+  const start = Date.UTC(2026, 9, 1), end = Date.UTC(2027, 4, 1);
+  const pct = (y, m, d) => ((Date.UTC(y, m, d) - start) / (end - start)) * 100;
+  const months = [];
+  for (let i = 0; i < 7; i++) {
+    const dt = new Date(Date.UTC(2026, 9 + i, 1));
+    months.push(`<span style="left:${pct(dt.getUTCFullYear(), dt.getUTCMonth(), 1)}%">${dt.toLocaleString("en-GB", { month: "short", timeZone: "UTC" }).toUpperCase()} ${String(dt.getUTCFullYear()).slice(2)}</span>`);
+  }
+  const band = (cls, a, b, text) => `<div class="tl-row"><div class="band ${cls}" style="left:${a}%;width:${b - a}%">${text}</div></div>`;
+  const today = pct(2026, 9, 2);
+  document.getElementById("timeline").innerHTML =
+    `<div class="tl-months">${months.join("")}</div>` +
+    `<div class="tl-grid"><div class="tl-today" style="left:${today}%"></div>` +
+    band("decide", today, pct(2026, 11, 31), "Buyer shortlists, signs contract") +
+    band("live", pct(2026, 10, 1), 100, "Raion capacity live from Nov 2026") +
+    band("need", pct(2027, 0, 30), pct(2027, 3, 1), "Need window: 30 Jan – 1 Apr 2027") +
+    `</div>`;
+  document.getElementById("tl-note").textContent = "Black line marks today, 2 Oct 2026. Elsewhere, reserved capacity is booked 6+ months ahead and new cluster hardware takes 36–52 weeks, so a February start means signing in Q4 with a supplier whose capacity is already coming online.";
+})();
+
+/* Accounts */
+const state = { region: "All", seg: "", tier: "", q: "", open: new Set() };
+const regions = ["All", "US", "UK", "Europe"];
+document.getElementById("regionBtns").innerHTML = regions.map((r) => `<button type="button" data-r="${r}" aria-pressed="${r === "All"}">${r === "All" ? "All regions" : r}</button>`).join("");
+const segs = [...new Set(ACCOUNTS.map((a) => a.sector).filter(Boolean))].sort();
+document.getElementById("segFilter").innerHTML = `<option value="">All sectors</option>` + segs.map((s) => `<option>${esc(s)}</option>`).join("");
+
+function meter(n) {
+  let h = "";
+  for (let i = 0; i < 10; i++) h += `<i class="${i < n ? "on" : ""}"></i>`;
+  return `<span class="score"><span class="meter" aria-hidden="true">${h}</span>${n}/10</span>`;
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  return ACCOUNTS.filter((a) => {
+    if (state.region !== "All" && a.region !== state.region) return false;
+    if (state.seg && a.sector !== state.seg) return false;
+    if (state.tier && a.tier !== state.tier) return false;
+    if (q) {
+      const hay = [a.company, a.sector, a.segment, a.what_they_do, a.hq_city, a.hq_country, ...(a.signals || []).map((s) => s.signal), ...(a.contacts || []).map((c) => c.name + " " + c.title)].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function detailHtml(a) {
+  const sig = (a.signals || []).map((s) => {
+    const u = safeUrl(s.source_url);
+    return `<li><span class="mono">${fmtDate(s.date)}</span> · ${esc(s.signal)}${u ? ` <a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>` : ""}</li>`;
+  }).join("");
+  const ppl = (a.contacts || []).map((c) => {
+    const li = safeUrl(c.linkedin_url), src = safeUrl(c.source_url);
+    const conf = (c.confidence || "").toLowerCase();
+    return `<div class="person"><b>${esc(c.name)}</b><span class="t">${esc(c.title)}</span><span class="m">${li ? `<a href="${esc(li)}" target="_blank" rel="noopener">LinkedIn</a>` : `<span>LinkedIn: search by name</span>`}${src ? `<a href="${esc(src)}" target="_blank" rel="noopener">source: ${esc(host(src))}</a>` : ""}<span class="conf-${esc(conf)}">confidence: ${esc(conf || "n/a")}</span>${c.verified_by ? `<span>checked in Explorium</span>` : ""}</span></div>`;
+  }).join("") || `<p class="small">No verified C-level contact yet. Find one in Sales Navigator.</p>`;
+  const web = safeUrl(a.website);
+  return `<div class="detail-grid">
+    <div style="display:grid;gap:14px;min-width:0">
+      <div><h4>What they do</h4><p>${esc(a.what_they_do)}${web ? ` <a href="${esc(web)}" target="_blank" rel="noopener">${esc(host(web))}</a>` : ""}</p></div>
+      <div><h4>Signals</h4><ul>${sig || "<li>None recorded</li>"}</ul></div>
+      <div><h4>Estimated GPU need</h4><p>${esc(a.est_gpu_need)}</p></div>
+      <div><h4>Why February–April 2027</h4><p>${esc(a.timing_rationale)}</p></div>
+    </div>
+    <div style="min-width:0"><h4>C-level contacts</h4><div class="people">${ppl}</div></div>
+  </div>`;
+}
+
+function render() {
+  const rows = filtered();
+  document.getElementById("count").textContent = `${rows.length} of ${ACCOUNTS.length} accounts · ${rows.reduce((n, a) => n + (a.contacts || []).length, 0)} C-level contacts`;
+  const body = document.getElementById("accBody");
+  if (!rows.length) { body.innerHTML = `<tr><td colspan="5" class="empty">No accounts match. Clear a filter or the search.</td></tr>`; return; }
+  body.innerHTML = rows.map((a) => {
+    const key = a.company;
+    const open = state.open.has(key);
+    const top = (a.signals || [])[0] || {};
+    const people = (a.contacts || []).map((c) => `${esc(c.name)} <span class="small">· ${esc(c.title)}</span>`).join("<br>");
+    return `<tr class="row" tabindex="0" data-k="${esc(key)}" aria-expanded="${open}">
+      <td class="co"><b>${esc(a.company)}</b><span>${esc([a.hq_city, a.hq_country].filter(Boolean).join(", "))}</span></td>
+      <td><span class="chip">${esc(a.region)}</span><div class="small" style="margin-top:6px">${esc(a.sector)}</div><div class="small" title="${esc(a.icp_name)}">ICP segment ${esc(a.icp)}</div></td>
+      <td class="sig"><span class="d">${fmtDate(top.date)}</span>${esc(top.signal || "")}</td>
+      <td>${meter(a.fit_score)}<div class="small" style="margin-top:4px">Tier ${esc(a.tier)}</div></td>
+      <td class="ppl">${people || '<span class="small">To find</span>'}</td>
+    </tr>${open ? `<tr class="detail"><td colspan="5">${detailHtml(a)}</td></tr>` : ""}`;
+  }).join("");
+}
+
+document.getElementById("regionBtns").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.region = b.dataset.r;
+  document.querySelectorAll("#regionBtns button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  render();
+});
+document.getElementById("segFilter").addEventListener("change", (e) => { state.seg = e.target.value; render(); });
+document.getElementById("tierFilter").addEventListener("change", (e) => { state.tier = e.target.value; render(); });
+document.getElementById("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+const toggle = (tr) => { const k = tr.dataset.k; state.open.has(k) ? state.open.delete(k) : state.open.add(k); render(); };
+document.getElementById("accBody").addEventListener("click", (e) => {
+  if (e.target.closest("a")) return;
+  const tr = e.target.closest("tr.row"); if (tr) toggle(tr);
+});
+document.getElementById("accBody").addEventListener("keydown", (e) => {
+  const tr = e.target.closest("tr.row");
+  if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggle(tr); }
+});
+
+function csvCell(v) { const s = String(v ?? ""); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; }
+function buildCsv() {
+  const head = ["first_name","last_name","title","company","linkedin_url","country","region","sector","icp_segment","tier","fit_score","top_signal","signal_date","signal_source"];
+  const lines = [head.join(",")];
+  filtered().forEach((a) => {
+    const top = (a.signals || [])[0] || {};
+    (a.contacts || []).forEach((c) => {
+      const parts = String(c.name || "").split(/\s+/);
+      lines.push([parts[0], parts.slice(1).join(" "), c.title, a.company, c.linkedin_url || "", a.hq_country, a.region, a.sector, a.icp_name, a.tier, a.fit_score, top.signal, top.date, top.source_url].map(csvCell).join(","));
+    });
+  });
+  return lines.join("\n");
+}
+async function copyText(text, btn, label) {
+  try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
+  catch (err) {
+    const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); btn.textContent = "Copied"; } catch (e2) { btn.textContent = "Select and copy manually"; }
+    ta.remove();
+  }
+  setTimeout(() => { btn.textContent = label; }, 1800);
+}
+document.getElementById("copyCsv").addEventListener("click", (e) => copyText(buildCsv(), e.currentTarget, "Copy contacts CSV"));
+document.querySelectorAll("[data-copy]").forEach((b) => b.addEventListener("click", () => copyText(document.getElementById(b.dataset.copy).textContent, b, "Copy")));
+
+render();
+</script>

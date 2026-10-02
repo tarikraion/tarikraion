@@ -1,0 +1,797 @@
+[
+  {
+    "company": "Generalist AI",
+    "website": "https://generalistai.com",
+    "hq_city": "San Francisco Bay Area (city unverified)",
+    "hq_country": "USA",
+    "segment": "Robotics & physical AI / robot foundation models",
+    "what_they_do": "Builds AI models (not hardware) that let robots perceive and act dexterously in the physical world; founded by Google DeepMind and Boston Dynamics alumni.",
+    "signals": [
+      {
+        "signal": "Raised ~$200M led by 8VC at $3B valuation, taking total Series B to $600M; proceeds earmarked for high-performance compute acquisition, ML research and robotics engineering",
+        "date": "2026-08",
+        "source_url": "https://www.finsmes.com/2026/08/generalist-ai-raises-200m-in-additional-series-b-funding-valued-at-3-billion.html"
+      },
+      {
+        "signal": "$200M came two months after a $400M round (two raises in one quarter)",
+        "date": "2026-08",
+        "source_url": "https://dealroom.co/news/146666-generalist-raises-200m-for-robot-brains-two-months-after-400m-round/"
+      }
+    ],
+    "est_gpu_need": "512-2,000 H100-equiv, training (VLA/robot foundation model pretraining on large video+teleop corpora). $600M Series B with compute named as the first use of funds suggests a multi-MW buildout.",
+    "fit_score": 10,
+    "timing_rationale": "Funding closed Aug 2026 explicitly for compute acquisition; procurement for next-gen training runs is likely being contracted now for Q1-Q2 2027 delivery.",
+    "contacts": [
+      {
+        "name": "Pete Florence",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://dealroom.co/news/146666-generalist-raises-200m-for-robot-brains-two-months-after-400m-round/",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "General Intuition",
+    "website": null,
+    "hq_city": "New York, NY",
+    "hq_country": "USA",
+    "segment": "World models / physical AI (trained on gameplay video)",
+    "what_they_do": "Spun out of Medal; trains world models and agents on billions of action-labelled gameplay videos; latest model MIRA (5.6B params) renders interactive video at 20 fps on a single B200.",
+    "signals": [
+      {
+        "signal": "Raised $220M at $6.2B valuation (Valor, Atreides, Seven Seven Six, Point72, Khosla, General Catalyst)",
+        "date": "2026-09-29",
+        "source_url": "https://siliconangle.com/2026/09/29/world-model-startup-general-intuition-closes-220m-investment/"
+      },
+      {
+        "signal": "Plans to scale team in New York AND Europe while training on billions of action-labelled videos (Europe expansion signal)",
+        "date": "2026-09-30",
+        "source_url": "https://mobilegamer.biz/general-intuition-raises-220m-at-6-2bn-valuation-trains-ai-on-gameplay-clips/"
+      },
+      {
+        "signal": "Prior $320M round at $2.3B (Jan 2026); MIRA model released June 2026",
+        "date": "2026-01",
+        "source_url": "https://www.pocketgamer.biz/general-intuition-raises-220m-at-62bn-valuation/"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv, training + interactive-inference serving. Video world-model pretraining at billions-of-clips scale is GPU-hungry; serving real-time interactive video adds sustained inference load.",
+    "fit_score": 10,
+    "timing_rationale": "Fresh $220M (late Sep 2026) on top of $320M (Jan) — next model generation needs capacity in H1 2027; Europe hiring makes UK/EU capacity relevant.",
+    "contacts": [
+      {
+        "name": "Pim de Witte",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://siliconangle.com/2026/09/29/world-model-startup-general-intuition-closes-220m-investment/",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Arcee AI",
+    "website": "https://www.arcee.ai",
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "Open-weight foundation model lab (below frontier tier)",
+    "what_they_do": "US developer of open-weight enterprise LLMs (Trinity family incl. 400B-param Trinity Large); positions as American alternative to Chinese open models.",
+    "signals": [
+      {
+        "signal": "$150M Series B led by Vista Equity Partners, Cambium Capital and Emergence Capital at >$1B valuation (M12, Hitachi, Wipro participating)",
+        "date": "2026-09-16",
+        "source_url": "https://siliconangle.com/2026/09/16/open-weight-model-developer-arcee-ai-reaches-1b-plus-valuation-with-undisclosed-series-b-funding/"
+      },
+      {
+        "signal": "Funds to develop new models and collaborate with US Department of Energy; trained four models for ~$20M last year",
+        "date": "2026-09",
+        "source_url": "https://ventureburn.com/arcee-raises-150-million-to-build-open-enterprise-ai-models/"
+      }
+    ],
+    "est_gpu_need": "1,000-2,500 H100-equiv (or ~500-1,000 GB200/B300) for next pretraining run, plus post-training/RL. ~$20M/yr historical training spend; $150M raise implies several-fold scale-up.",
+    "fit_score": 9,
+    "timing_rationale": "Series B closed mid-Sep 2026 for next model generation; a 2027 training run needs capacity contracted in Q4 2026. Dedicated/isolated clusters fit their US-sovereign/DOE positioning.",
+    "contacts": [
+      {
+        "name": "Mark McQuade",
+        "title": "Founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://alphasignal.ai/news/arcee-ai-raises-150m-to-build-open-trinity-models-america-can-own",
+        "confidence": "medium",
+        "note": "Name seen in cited source; exact C-level title from prior knowledge, not re-confirmed this session."
+      },
+      {
+        "name": "Lucas Atkins",
+        "title": "CTO",
+        "linkedin_url": null,
+        "source_url": "https://www.arcee.ai",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Chai Discovery",
+    "website": "https://www.chaidiscovery.com",
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "AI for science / drug discovery",
+    "what_they_do": "Builds frontier molecular-structure and antibody design foundation models (Chai-1/Chai-2) and partners with pharma on AI-designed drugs.",
+    "signals": [
+      {
+        "signal": "$400M Series C at $3.8B valuation led by Index Ventures with Kleiner Perkins, Sequoia, Dimension; Thrive, OpenAI, Menlo, General Catalyst following on",
+        "date": "2026-07",
+        "source_url": "https://www.finsmes.com/2026/07/chai-discovery-raises-400m-in-series-c-funding.html"
+      },
+      {
+        "signal": "Round to expand use of its molecular design platform across pharma",
+        "date": "2026-07",
+        "source_url": "https://www.thepharmaletter.com/pharma-news/chai-discovery-raises-400-million-to-advance-ai-designed-drug-discovery"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv, training + large-scale inference (design campaigns). Bio foundation models are smaller than LLMs but generative design screening is inference-heavy.",
+    "fit_score": 9,
+    "timing_rationale": "$400M raised July 2026, total $630M; scaling models and pharma partnerships into 2027 means new capacity decisions now.",
+    "contacts": [
+      {
+        "name": "Joshua Meier",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.chaidiscovery.com",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Suno",
+    "website": "https://suno.com",
+    "hq_city": "Cambridge, MA",
+    "hq_country": "USA",
+    "segment": "Generative audio / music",
+    "what_they_do": "AI music generation platform training its own music models; ~2M paid subscribers and ~$300M annualized revenue.",
+    "signals": [
+      {
+        "signal": "Over $400M Series D at $5.4B post-money, led by Bond with IVP, Forerunner, USV, Alkeon",
+        "date": "2026-06-03",
+        "source_url": "https://www.digitalmusicnews.com/2026/06/03/suno-series-d/"
+      },
+      {
+        "signal": "Launched new models trained exclusively on licensed music (WMG, BMG, Believe) — retraining on licensed corpora",
+        "date": "2026",
+        "source_url": "https://www.hollywoodreporter.com/music/music-industry-news/suno-launches-new-model-trained-on-licensed-songs-1236694047/"
+      },
+      {
+        "signal": "~$300M ARR and 2M paid subscribers driving heavy inference",
+        "date": "2026-06",
+        "source_url": "https://valueaddvc.com/blog/suno-ai-valuation-2026-5-4b-round-300m-arr-and-the-business-model-behind-ai-music"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv, mostly inference + periodic retraining. Millions of generations/day at $300M ARR; licensed-data retrains add training bursts.",
+    "fit_score": 9,
+    "timing_rationale": "Large Series D (June 2026) + rapid subscriber growth = inference capacity needs compounding into 2027; licensing deals require ongoing model retraining.",
+    "contacts": [
+      {
+        "name": "Mikey Shulman",
+        "title": "Co-founder & CEO",
+        "linkedin_url": "https://www.linkedin.com/in/mikeyshulman/",
+        "source_url": "https://www.cnbc.com/video/2026/09/10/watch-cnbcs-full-interview-with-suno-ceo-mikey-shulman.html",
+        "confidence": "high"
+      },
+      {
+        "name": "Georg Kucsko",
+        "title": "Co-founder & CTO",
+        "linkedin_url": null,
+        "source_url": "https://research.contrary.com/company/suno",
+        "confidence": "medium"
+      },
+      {
+        "name": "Martin Camacho",
+        "title": "Co-founder & President",
+        "linkedin_url": null,
+        "source_url": "https://research.contrary.com/company/suno",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "Higgsfield",
+    "website": "https://higgsfield.ai",
+    "hq_city": "San Francisco, CA (not re-verified)",
+    "hq_country": "USA",
+    "segment": "Generative video / image (AI-native creator app)",
+    "what_they_do": "AI video and image creation platform for creators and enterprises (30M users, 390 of the Fortune 500). Mixes proprietary models with partner models.",
+    "signals": [
+      {
+        "signal": "$400M Series B at $5.4B led by DST Global; proceeds fund R&D, compute infrastructure, hiring and international expansion; $700M annualized revenue",
+        "date": "2026-08-24",
+        "source_url": "https://theaiinsider.tech/2026/08/24/higgsfield-announces-400m-series-b-financing-at-5-4b-valuation-with-annualized-revenue-reaching-700m/"
+      },
+      {
+        "signal": "Reported on track for $1B revenue run-rate",
+        "date": "2026-09-25",
+        "source_url": "https://videoweek.com/2026/09/25/week-in-review-netflix-ads-expands-in-europe-higgsfield-on-track-for-1-billion-run-rate-and-tvs-account-for-half-of-uk-youtube-viewing/"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv, inference-dominant (video gen serving) + own-model training. Caveat: share of traffic served by third-party model APIs vs own GPUs is unknown.",
+    "fit_score": 8,
+    "timing_rationale": "Compute infrastructure is a named use of the Aug 2026 round; revenue growing toward $1B run-rate means inference capacity must be added through H1 2027.",
+    "contacts": [
+      {
+        "name": "Alex Mashrabov",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://en.wowtale.net/2026/08/18/234760/",
+        "confidence": "medium",
+        "note": "Name seen in cited source; exact C-level title from prior knowledge, not re-confirmed this session."
+      },
+      {
+        "name": "Yerzat Dulat",
+        "title": "Co-founder (C-level title unconfirmed; reported CTO)",
+        "linkedin_url": null,
+        "source_url": "https://en.wowtale.net/2026/08/18/234760/",
+        "confidence": "low",
+        "note": "Co-founder status seen in coverage; title not confirmed."
+      }
+    ]
+  },
+  {
+    "company": "Fish Audio (Hanabi AI Inc.)",
+    "website": "https://fish.audio",
+    "hq_city": "Palo Alto, CA",
+    "hq_country": "USA",
+    "segment": "Voice / audio generative AI (open-weight TTS)",
+    "what_they_do": "Expressive voice/TTS models released open-source and hosted; 8M+ users, $21M ARR.",
+    "signals": [
+      {
+        "signal": "$52M seed led by Coreline Ventures and Capital Today to build AI voice models",
+        "date": "2026-07-28",
+        "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+      },
+      {
+        "signal": "8M users and $21M ARR across open-source and hosted models (inference load)",
+        "date": "2026-07-28",
+        "source_url": "https://mlq.ai/news/fish-audio-raises-52m-seed-round-with-21m-arr-across-8-million-users/"
+      }
+    ],
+    "est_gpu_need": "64-512 H100-equiv, training + hosted inference. Speech models are modest to train but hosted TTS for 8M users is steady inference.",
+    "fit_score": 8,
+    "timing_rationale": "Large seed (July 2026) for next-gen voice models; a 0.5 MW block matches their scale exactly in early 2027.",
+    "contacts": [
+      {
+        "name": "Rissa Cao",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://fish.audio/author/rissa/",
+        "confidence": "high"
+      },
+      {
+        "name": "Shijia Liao",
+        "title": "Founder & Chief Scientist",
+        "linkedin_url": "https://www.linkedin.com/in/leng-yue/",
+        "source_url": "https://fish.audio/author/lengyue/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Periodic Labs",
+    "website": null,
+    "hq_city": "Menlo Park, CA (not re-verified)",
+    "hq_country": "USA",
+    "segment": "AI for science / materials",
+    "what_they_do": "AI scientist lab pairing frontier models with autonomous labs for materials discovery (e.g. high-temperature superconductors). Founded 2025 by ex-OpenAI and ex-DeepMind researchers.",
+    "signals": [
+      {
+        "signal": "In talks to raise ~$500M at ~$7B valuation",
+        "date": "2026-03-25",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
+      },
+      {
+        "signal": "Reported raising $500M at ~$7.5B (Coatue, DST, NVentures among investors); closing not confirmed as of June",
+        "date": "2026-05-07",
+        "source_url": "https://www.forbes.com/sites/iainmartin/2026/05/07/former-openai-researcher-to-raise-500-million-for-ai-science-startup/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv, training (LLM post-training/RL for science + simulation). Founders come from frontier labs; $800M+ total capital implies heavy compute.",
+    "fit_score": 8,
+    "timing_rationale": "Large round in progress mid-2026; capital deployment into compute for 2027 runs. Closing not confirmed — check status.",
+    "contacts": [
+      {
+        "name": "Liam Fedus",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://mlq.ai/news/periodic-labs-reportedly-raises-300m-for-ai-powered-materials-science-platform/",
+        "confidence": "high"
+      },
+      {
+        "name": "Ekin Dogus Cubuk",
+        "title": "Co-founder (C-level title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.caproasia.com/2026/06/02/united-states-ai-scientific-discovery-startup-periodic-labs-to-raise-500-million-new-funding-at-7-billion-valuation-founded-in-2025-by-william-liam-fedus-ekin-dogus-cubuk-investors-include-coa/",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Mirendil",
+    "website": null,
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "Foundation model lab (AI for AI R&D)",
+    "what_they_do": "Frontier lab building systems that excel at AI research and development.",
+    "signals": [
+      {
+        "signal": "$200M seed led by Andreessen Horowitz and Kleiner Perkins, Nvidia also backing",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-marketing-robotics-baseten/"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv, training. A $200M seed for a new lab mostly goes to compute.",
+    "fit_score": 7,
+    "timing_rationale": "New lab with fresh capital and no installed base — will be buying first dedicated clusters. Round date not confirmed; verify.",
+    "contacts": []
+  },
+  {
+    "company": "Odyssey",
+    "website": "https://odyssey.ml",
+    "hq_city": "San Francisco Bay Area (city not re-verified)",
+    "hq_country": "USA",
+    "segment": "World models / interactive video",
+    "what_they_do": "Builds general world models that simulate the physical world for robotics, gaming, science and defense; founded by autonomous-driving veterans.",
+    "signals": [
+      {
+        "signal": "$310M Series B at $1.45B led by Natural Capital (Amazon, AMD Ventures, GV, EQT, IQT); CEO: round provides 'the compute, infrastructure, and partners'",
+        "date": "2026-06-17",
+        "source_url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/"
+      },
+      {
+        "signal": "CAVEAT: reported optimizing for AWS Trainium and backing Amazon/AMD over Nvidia",
+        "date": "2026-06",
+        "source_url": "https://techfundingnews.com/odyssey-310m-series-b-nvidia-amazon-amd-ai-world-models/"
+      }
+    ],
+    "est_gpu_need": "500-2,000 accelerator-equiv, training + real-time inference. Strategic Trainium/AMD tilt lowers Nvidia-cluster demand.",
+    "fit_score": 7,
+    "timing_rationale": "Compute is the stated use of the June 2026 round; possible Nvidia hedge alongside Trainium for 2027 training. Pitch as multi-vendor diversification.",
+    "contacts": [
+      {
+        "name": "Oliver Cameron",
+        "title": "Co-founder & CEO",
+        "linkedin_url": "https://www.linkedin.com/in/olivercameron/",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/odyssey-raises-310-million-accelerate-160500939.html",
+        "confidence": "high"
+      },
+      {
+        "name": "Jeff Hawke",
+        "title": "Co-founder & CTO",
+        "linkedin_url": null,
+        "source_url": "https://theaiinsider.tech/2026/06/18/world-models-startup-odyssey-raises-310m-in-series-b-funding-valued-at-1-45b/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Cognition AI",
+    "website": "https://cognition.com",
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "Code agents with own models",
+    "what_they_do": "Devin / Windsurf autonomous software-engineering agents; trains its own SWE models (SWE-1.6) on open-source foundations.",
+    "signals": [
+      {
+        "signal": "$2B+ Series E at $48B led by a16z and Accel",
+        "date": "2026-09-08",
+        "source_url": "https://runtimewire.com/article/cognition-series-e-48-billion-valuation-scott-wu"
+      },
+      {
+        "signal": "Run-rate revenue grew from $492M (May) to ~$900M; training own models to cut dependency on external providers; ~$800M/yr compute spend, mostly leased Nvidia clusters",
+        "date": "2026-09",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/cognition-ai-hit-48b-real-140831144.html"
+      },
+      {
+        "signal": "Launched SWE-1.6 model serving at up to 950 tokens/sec",
+        "date": "2026-05",
+        "source_url": "https://www.unite.ai/cognition-raises-over-2b-series-e-at-48b-valuation-to-scale-devin-agents/"
+      }
+    ],
+    "est_gpu_need": "2,000-4,000+ H100-equiv increment (inference + RL post-training). Already ~$800M/yr compute; Raion would be one of several suppliers.",
+    "fit_score": 7,
+    "timing_rationale": "Revenue nearly doubled in 4 months and $2B fresh capital — inference for in-house SWE models must scale into 2027. Larger than sweet spot; target a multi-block deal.",
+    "contacts": [
+      {
+        "name": "Scott Wu",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://runtimewire.com/article/cognition-series-e-48-billion-valuation-scott-wu",
+        "confidence": "medium",
+        "note": "Name seen in cited source; exact C-level title from prior knowledge, not re-confirmed this session."
+      }
+    ]
+  },
+  {
+    "company": "Physical Intelligence",
+    "website": "https://www.pi.website",
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "Robotics foundation models",
+    "what_they_do": "Develops general-purpose robot foundation models (pi-0 family) for any robot.",
+    "signals": [
+      {
+        "signal": "Series C of ~$1.05B appears in May 2026 corporate filings; total raised ~$2.1B",
+        "date": "2026-05",
+        "source_url": "https://www.revenuememo.com/p/physical-intelligence-funding"
+      },
+      {
+        "signal": "Reported in talks to raise ~$1B at >$11B valuation",
+        "date": "2026-03-27",
+        "source_url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/"
+      }
+    ],
+    "est_gpu_need": "2,000-4,000+ H100-equiv, training. Large capital base; likely multi-supplier and may also use Google TPU (CapitalG-led Series B).",
+    "fit_score": 7,
+    "timing_rationale": "New ~$1B+ round in 2026 funds the next model generation; at the top of Raion's range — target a multi-block deal.",
+    "contacts": [
+      {
+        "name": "Karol Hausman",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.pi.website",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Wispr Flow",
+    "website": "https://wisprflow.ai",
+    "hq_city": "San Francisco, CA (not re-verified)",
+    "hq_country": "USA",
+    "segment": "Voice AI (own speech models, heavy inference)",
+    "what_they_do": "Voice dictation app used at 10,000+ enterprises; building proprietary speech model 'Canto'.",
+    "signals": [
+      {
+        "signal": "$280M Series B at $2B led by Menlo Ventures; most capital to fund speech research and distribution; previewed first proprietary speech model Canto (date varies by source: May-Aug 2026)",
+        "date": "2026-08 (sources conflict; one dated 2026-05-19)",
+        "source_url": "https://valasys.com/wispr-flow-280m-series-b/"
+      }
+    ],
+    "est_gpu_need": "128-1,000 H100-equiv, training + inference. Moving from third-party ASR to own model means new training and serving footprint.",
+    "fit_score": 7,
+    "timing_rationale": "Shift to proprietary Canto model means they must stand up own inference capacity for 10k+ enterprises during 2027.",
+    "contacts": [
+      {
+        "name": "Tanay Kothari",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://wisprflow.ai",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Armadin",
+    "website": null,
+    "hq_city": "Palo Alto, CA",
+    "hq_country": "USA",
+    "segment": "Defense / cyber AI (offensive security agents)",
+    "what_they_do": "AI-native offensive-security platform using agent swarms to attack networks before adversaries do; founded by Mandiant founder Kevin Mandia.",
+    "signals": [
+      {
+        "signal": "$255.5M Series B at >$2.5B co-led by a16z and Accel (In-Q-Tel, GV, Kleiner, Menlo participating); funds to scale research, MODEL TRAINING and GTM",
+        "date": "2026-10-01",
+        "source_url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/"
+      }
+    ],
+    "est_gpu_need": "128-1,000 H100-equiv, post-training/RL of security models + agent inference. Isolated (non-shared) clusters suit security/In-Q-Tel customers.",
+    "fit_score": 7,
+    "timing_rationale": "Round announced Oct 1 2026 names model training as a use of funds; isolated capacity is a selling point for sensitive security workloads.",
+    "contacts": [
+      {
+        "name": "Kevin Mandia",
+        "title": "Founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.securityweek.com/kevin-mandias-armadin-raises-255-million-at-2-5-billion-valuation/",
+        "confidence": "medium",
+        "note": "Name seen in cited source; exact C-level title from prior knowledge, not re-confirmed this session."
+      }
+    ]
+  },
+  {
+    "company": "Aureka Biotechnologies",
+    "website": "https://aurekabio.com",
+    "hq_city": "Laguna Hills, CA",
+    "hq_country": "USA",
+    "segment": "AI for science / drug discovery (biological foundation models)",
+    "what_they_do": "AI-native TechBio building a 'biological world model' with foundation models, agents and closed-loop experimental platforms.",
+    "signals": [
+      {
+        "signal": "$100M Series B (Granite Asia first tranche; strategic investor leading second tranche) to build a biological world model",
+        "date": "2026-08-10",
+        "source_url": "https://www.prnewswire.com/news-releases/aureka-biotechnologies-raises-us100-million-series-b-to-build-a-biological-world-model-for-drug-discovery-302847165.html"
+      }
+    ],
+    "est_gpu_need": "128-512 H100-equiv, training. Biological foundation models with closed-loop data generation.",
+    "fit_score": 7,
+    "timing_rationale": "Fresh $100M (Aug 2026) to build a new model class; compute ramps as data platform matures in 2027.",
+    "contacts": [
+      {
+        "name": "Weian Zhao",
+        "title": "Founder & CEO",
+        "linkedin_url": "https://www.linkedin.com/in/weian-zhao-04824276/",
+        "source_url": "https://www.biospace.com/press-releases/aureka-biotechnologies-raises-us-100-million-series-b-to-build-a-biological-world-model-for-drug-discovery",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Lila Sciences",
+    "website": "https://www.lila.ai",
+    "hq_city": "Cambridge, MA (not re-verified)",
+    "hq_country": "USA",
+    "segment": "AI for science (life sciences, chemistry, materials)",
+    "what_they_do": "Scientific superintelligence lab running AI models plus autonomous 'AI Science Factories'.",
+    "signals": [
+      {
+        "signal": "In talks to raise ~$2B at ~$8.5B pre-money, Series B anchored by CalPERS and Nvidia's NVentures",
+        "date": "2026-06-03",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-06-03/lila-sciences-said-in-talks-for-funds-at-8-5-billion-valuation"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv, training + simulation. A ~$2B round implies large compute commitments.",
+    "fit_score": 7,
+    "timing_rationale": "A ~$2B round under way mid-2026 would be deployed into compute and labs through 2027. Confirm the close.",
+    "contacts": [
+      {
+        "name": "Geoffrey von Maltzahn",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.lila.ai",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Mind Robotics",
+    "website": null,
+    "hq_city": "Unverified (US; Rivian-founded spin-out)",
+    "hq_country": "USA",
+    "segment": "Robotics & physical AI (industrial)",
+    "what_they_do": "AI-powered industrial robots for automotive manufacturing and broader industry; founded by Rivian CEO RJ Scaringe.",
+    "signals": [
+      {
+        "signal": "$400M round led by Kleiner Perkins (Salesforce Ventures, VW-affiliated Incharge Capital) at $3.4B; total >$1B raised",
+        "date": "2026-05-13",
+        "source_url": "https://www.therobotreport.com/mind-robotics-raises-400m-scale-ai-powered-robots-in-manufacturing/"
+      },
+      {
+        "signal": "Earlier $500M Series A led by Accel and a16z in 2026",
+        "date": "2026",
+        "source_url": "https://www.investing.com/news/stock-market-news/mind-robotics-raises-400m-in-funding-round-led-by-kleiner-perkins-93CH-4685421"
+      }
+    ],
+    "est_gpu_need": "256-2,000 H100-equiv, training robot policies/foundation models on factory data.",
+    "fit_score": 7,
+    "timing_rationale": ">$1B raised in 2026 to scale AI robots — model training ramps through 2027. Find the CEO/CTO; Scaringe is chairman.",
+    "contacts": [
+      {
+        "name": "RJ Scaringe",
+        "title": "Founder & Chairman (not an operating C-level role; CEO of Rivian)",
+        "linkedin_url": null,
+        "source_url": "https://www.therobotreport.com/mind-robotics-raises-400m-scale-ai-powered-robots-in-manufacturing/",
+        "confidence": "high",
+        "note": "Operating CEO/CTO of Mind Robotics not identified this session."
+      }
+    ]
+  },
+  {
+    "company": "Axiom Math",
+    "website": null,
+    "hq_city": "Palo Alto, CA",
+    "hq_country": "USA",
+    "segment": "AI for science / math reasoning & verified code",
+    "what_they_do": "Formal-math AI (AxiomProver, Lean-based) to verify AI-generated code and reasoning.",
+    "signals": [
+      {
+        "signal": "$200M Series A at $1.6B+ led by Menlo Ventures (Greycroft, Madrona)",
+        "date": "2026-03",
+        "source_url": "https://x.com/CarinaLHong/status/2032124589162299522"
+      },
+      {
+        "signal": "Coverage of raise and scaling plans",
+        "date": "2026-05-05",
+        "source_url": "https://siliconvalleyinvestclub.com/2026/05/05/inside-axiom-math-with-carina-hong-founder-ceo-the-200m-raise-at-1-6b-valuation/"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv, RL/post-training of prover models + search-heavy inference.",
+    "fit_score": 7,
+    "timing_rationale": "$200M for a ~20-person team goes mostly to compute; RL-heavy prover training scales into 2027. Signal is slightly before the preferred window.",
+    "contacts": [
+      {
+        "name": "Carina Hong",
+        "title": "Founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://siliconvalleyinvestclub.com/2026/05/05/inside-axiom-math-with-carina-hong-founder-ceo-the-200m-raise-at-1-6b-valuation/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Runway",
+    "website": "https://runway.com",
+    "hq_city": "New York, NY (not re-verified)",
+    "hq_country": "USA",
+    "segment": "Generative video / world models",
+    "what_they_do": "Video generation models (Gen-4.5) pivoting to general world models.",
+    "signals": [
+      {
+        "signal": "$315M Series E at $5.3B led by General Atlantic (NVIDIA, AMD Ventures, Adobe Ventures, Fidelity) to pre-train next-gen world models",
+        "date": "2026-02-10",
+        "source_url": "https://runway.com/news/runway-series-e-funding"
+      },
+      {
+        "signal": "CAVEAT: compute expansion deal with CoreWeave; Gen-4.5 demoed on Vera Rubin NVL72",
+        "date": "2026",
+        "source_url": "https://creati.ai/ai-news/2026-02-10/runway-ai-raises-315-million-at-5-3-billion-valuation-for-world-models-development/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv, training + inference. Incumbent CoreWeave supply.",
+    "fit_score": 6,
+    "timing_rationale": "World-model pretraining funded in Feb 2026; may want a second supplier for 2027. Signal is before the preferred window.",
+    "contacts": [
+      {
+        "name": "Cristobal Valenzuela",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://runway.com/news/runway-series-e-funding",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      },
+      {
+        "name": "Anastasis Germanidis",
+        "title": "Co-founder & CTO",
+        "linkedin_url": null,
+        "source_url": "https://techcrunch.com/2025/04/03/runway-best-known-for-its-video-generating-models-raises-308m",
+        "confidence": "medium",
+        "note": "Name seen in cited source; exact C-level title from prior knowledge, not re-confirmed this session."
+      }
+    ]
+  },
+  {
+    "company": "Harmonic",
+    "website": "https://harmonic.fun",
+    "hq_city": "Palo Alto, CA (not re-verified)",
+    "hq_country": "USA",
+    "segment": "AI for science / mathematical superintelligence",
+    "what_they_do": "Builds Aristotle, a formal-math reasoning model that claims hallucination-free proofs.",
+    "signals": [
+      {
+        "signal": "NVentures (Nvidia) joins Series C ($120M at $1.45B, originally Nov 2025)",
+        "date": "2026-01-15",
+        "source_url": "https://siliconangle.com/2026/01/15/nvidias-nventures-backs-harmonic-ai-series-c-mathematical-superintelligence/"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv, RL training + search inference.",
+    "fit_score": 6,
+    "timing_rationale": "Capital raised ~10 months ago; likely raising again or scaling RL in 2027. No signal yet in the Apr-Oct 2026 window.",
+    "contacts": [
+      {
+        "name": "Tudor Achim",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://harmonic.fun",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Xaira Therapeutics",
+    "website": "https://www.xaira.com",
+    "hq_city": "San Francisco Bay Area (not re-verified)",
+    "hq_country": "USA",
+    "segment": "AI for science / drug discovery",
+    "what_they_do": "AI-first drug discovery company ($1B launch funding) building generative protein/antibody models.",
+    "signals": [
+      {
+        "signal": "Promoted Dr. Bo Wang to Chief AI Scientist and Dr. Ci Chu to Chief Discovery Officer; won 2026 Fierce AI Innovation Award",
+        "date": "2026-03",
+        "source_url": "https://tracxn.com/d/companies/xaira/__PE8-W4eauAodAW56LGlgLehVGwq_hdQp4WZEPaoQ3fY"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv, training.",
+    "fit_score": 5,
+    "timing_rationale": "Well funded with an AI leadership build-out, but no fresh funding or compute signal in the window.",
+    "contacts": [
+      {
+        "name": "Bo Wang",
+        "title": "Chief AI Scientist",
+        "linkedin_url": null,
+        "source_url": "https://tracxn.com/d/companies/xaira/__PE8-W4eauAodAW56LGlgLehVGwq_hdQp4WZEPaoQ3fY",
+        "confidence": "medium"
+      },
+      {
+        "name": "Marc Tessier-Lavigne",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.xaira.com",
+        "confidence": "low",
+        "note": "Name/title from prior knowledge; NOT seen in a source during this session (search budget exhausted). Verify before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Reactor",
+    "website": null,
+    "hq_city": "San Francisco, CA",
+    "hq_country": "USA",
+    "segment": "Real-time generative video / world-model inference platform",
+    "what_they_do": "Developer platform/SDK for real-time generative video and interactive world models; optimizes partners' models for low-latency serving.",
+    "signals": [
+      {
+        "signal": "Emerged from stealth with $59M (Series A led by Lightspeed; WndrCo, Amplify, Sky9, FPV)",
+        "date": "2026-05-29",
+        "source_url": "https://www.hpcwire.com/aiwire/2026/05/29/reactor-emerges-from-stealth-with-59m-to-build-the-platform-for-real-time-ai-worlds/"
+      },
+      {
+        "signal": "CAVEAT: named AWS as preferred cloud partner",
+        "date": "2026",
+        "source_url": "https://softprom.com/aws-reactor-real-time-ai-video-platform"
+      }
+    ],
+    "est_gpu_need": "64-512 H100-equiv, real-time inference.",
+    "fit_score": 5,
+    "timing_rationale": "Inference capacity scales with developer adoption in 2027; the AWS partnership lowers odds.",
+    "contacts": [
+      {
+        "name": "Alberto Taiuti",
+        "title": "Co-founder (C-level title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://variety.com/2026/digital/news/reactor-real-time-ai-video-funding-jeffrey-katzenberg-1236755883/",
+        "confidence": "low"
+      },
+      {
+        "name": "Bryce Schmidtchen",
+        "title": "Co-founder (C-level title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://variety.com/2026/digital/news/reactor-real-time-ai-video-funding-jeffrey-katzenberg-1236755883/",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Instinct",
+    "website": null,
+    "hq_city": "Unverified (US)",
+    "hq_country": "USA",
+    "segment": "AI-native consumer app (personal assistant, heavy inference)",
+    "what_they_do": "Viral AI personal assistant over text and phone; private beta.",
+    "signals": [
+      {
+        "signal": "$250M Series B co-led by Index and Benchmark at $2.5B ($350M total)",
+        "date": "2026-08-26",
+        "source_url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
+      },
+      {
+        "signal": "Reported $1B Series C at ~$10B valuation",
+        "date": "2026-09-30",
+        "source_url": "https://fortune.com/2026/09/30/noah-shinn-instinct-ai-assistant-meta-muse-alexandr-wang-tech-series-c-ai-agent-mark-zuckerberg/"
+      }
+    ],
+    "est_gpu_need": "Unknown, 256-2,000 H100-equiv if serving own/open models. Not confirmed that they train or serve their own models.",
+    "fit_score": 5,
+    "timing_rationale": "$1.25B raised in ~5 weeks for a consumer assistant at scale; serving cost will matter in 2027 IF they self-host models. Qualify first.",
+    "contacts": [
+      {
+        "name": "Noah Shinn",
+        "title": "Founder (CEO title not confirmed)",
+        "linkedin_url": null,
+        "source_url": "https://fortune.com/2026/09/30/noah-shinn-instinct-ai-assistant-meta-muse-alexandr-wang-tech-series-c-ai-agent-mark-zuckerberg/",
+        "confidence": "medium"
+      }
+    ]
+  }
+]

@@ -1,0 +1,769 @@
+[
+  {
+    "company": "Jane Street Group",
+    "website": "https://www.janestreet.com",
+    "hq_city": "New York",
+    "hq_country": "US",
+    "segment": "Quant / trading firm",
+    "what_they_do": "Global quantitative market maker/proprietary trading firm; trains internal ML/AI models for price forecasting.",
+    "signals": [
+      {
+        "signal": "Signed ~$6bn AI cloud deal with CoreWeave (incl. Vera Rubin) plus $1bn equity investment in CoreWeave",
+        "date": "2026-04",
+        "source_url": "https://www.datacenterdynamics.com/en/news/quantative-trading-firm-jane-street-signs-6bn-ai-cloud-deal-with-coreweave/"
+      },
+      {
+        "signal": "Bloomberg: plans to BUILD AND SELF-FINANCE its own data center (100-200 MW sought) for training internal AI models; talks early-stage, no location/capacity decision",
+        "date": "2026-06-04",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-06-04/jane-street-plans-new-data-center-as-compute-power-runs-scarce"
+      },
+      {
+        "signal": "Coverage of 100-200 MW self-financed data center plan",
+        "date": "2026-06",
+        "source_url": "https://mlq.ai/news/jane-street-plans-to-build-and-self-finance-100-200mw-data-center/"
+      },
+      {
+        "signal": "Reported to be weighing a 200 MW data center as 'quant trading becomes a compute war'",
+        "date": "2026-07-20",
+        "source_url": "https://www.disruptionbanking.com/2026/07/20/jane-street-weighs-a-200-mw-data-center-as-quant-trading-becomes-a-compute-war/"
+      },
+      {
+        "signal": "Five-year ~$13bn AI cloud (GPU cluster) contract with Crusoe",
+        "date": "2026-09-03",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-09-03/crusoe-signs-roughly-13-billion-ai-cloud-deal-with-jane-street"
+      },
+      {
+        "signal": "Newsletter tally: ~$19bn committed to AI compute in 2026",
+        "date": "2026-09",
+        "source_url": "https://www.ai-street.co/p/jane-streets-13b-ai-deal-ants-quant"
+      },
+      {
+        "signal": "Existing 4,032-GPU liquid-cooled data center in Texas (Dwarkesh tour)",
+        "date": "2026 (c. May; exact date not verified)",
+        "source_url": "https://cryptobriefing.com/jane-street-ai-gpu-data-center/"
+      }
+    ],
+    "est_gpu_need": "5-20 MW near-term (10-40 Raion 0.5 MW blocks, ~2,500-16,000 GPUs) as owned bridge capacity ahead of a self-financed 100-200 MW campus. Reasoning: ~$19bn of 2026 commitments went to rented neocloud capacity; Bloomberg says compute is 'scarce' and the firm wants to own/finance its own facility.",
+    "fit_score": 9,
+    "timing_rationale": "Own-DC talks were early-stage in June 2026; a 100-200 MW greenfield campus will not energise before 2028. Owned, liquid-cooled modular blocks live from Nov 2026 can fill the Feb-Apr 2027 gap and match the stated preference to own and self-finance.",
+    "contacts": [],
+    "notes": "Jane Street does not publish a conventional C-suite; no CTO/CIO/COO name could be verified. Approach via infrastructure/data-center leadership identified through warm intro or LinkedIn research."
+  },
+  {
+    "company": "Hudson River Trading (HRT)",
+    "website": "https://www.hudsonrivertrading.com",
+    "hq_city": "New York",
+    "hq_country": "US",
+    "segment": "Quant / trading firm",
+    "what_they_do": "Algorithmic/quantitative trading firm; heavy AI model training and trading-simulation workloads.",
+    "signals": [
+      {
+        "signal": "Selected Lambda for AI compute (NVIDIA HGX B200) for model training and trading simulation",
+        "date": "2026-05",
+        "source_url": "https://www.datacenterdynamics.com/en/news/hudson-river-trading-selects-lambda-for-ai-compute-infrastructure/"
+      },
+      {
+        "signal": "Lambda blog: partnership to power HRT quant research and development",
+        "date": "2026-05",
+        "source_url": "https://lambda.ai/blog/lambda-partners-with-hudson-river-trading-to-power-quantitative-research-and-development"
+      },
+      {
+        "signal": "Multi-year, multi-billion-dollar CoreWeave deal for a next-gen research platform on Vera Rubin NVL72 + HGX B200, with dedicated links to HRT on-prem infrastructure (hybrid)",
+        "date": "2026-08",
+        "source_url": "https://investors.coreweave.com/news/news-details/2026/Hudson-River-Trading-to-Build-Next-Gen-Research-Platform-Powered-by-NVIDIA-Vera-Rubin-NVL72-on-CoreWeave-Cloud/default.aspx"
+      },
+      {
+        "signal": "Coverage: expansion driven by more complex models, larger datasets, faster research cycles",
+        "date": "2026-08",
+        "source_url": "https://www.crowdfundinsider.com/2026/08/299651-hudson-river-trading-expands-partnership-with-coreweave-for-advanced-ai-infrastructure/"
+      }
+    ],
+    "est_gpu_need": "2-10 MW owned/dedicated tranche alongside cloud contracts. Reasoning: two neocloud deals in four months plus an existing on-prem estate point to multi-sourcing and rising demand.",
+    "fit_score": 7,
+    "timing_rationale": "Signed two cloud deals between May and Aug 2026, so it is buying actively now. An owned SPV block from Nov 2026 gives it a second source and on-prem-style control that fits its hybrid design, with procurement for 1H 2027 being decided in Q4 2026.",
+    "contacts": [],
+    "notes": "No C-level name verified this session. Current customers of CoreWeave/Lambda (competitors), so position Raion as owned second source."
+  },
+  {
+    "company": "XTX Markets",
+    "website": "https://www.xtxmarkets.com",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Quant / trading firm",
+    "what_they_do": "Algorithmic trading firm using ML/deep-learning price forecasts across 50,000+ instruments; building own data-centre campus in Kajaani, Finland.",
+    "signals": [
+      {
+        "signal": "YIT and XTX sign interior-finishing / building-services / commissioning contract for 2nd Kajaani data centre; whole project to finish early 2027",
+        "date": "2026-03-18",
+        "source_url": "https://www.yitgroup.com/en/news-repository/investor-news/yit-and-xtx-markets-agree-on-interior-finishing-and-building-services-contract-for-the-second-data-center-building-in-kajaani"
+      },
+      {
+        "signal": "DCD: XTX taps YIT to build a THIRD Finnish data center",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.datacenterdynamics.com/en/news/xtx-markets-taps-yit-to-build-third-finnish-data-center/"
+      },
+      {
+        "signal": "Background: >€1bn Kajaani campus; first DC 22.5 MW IT; research cluster of ~25,000 GPUs",
+        "date": "2024 (background)",
+        "source_url": "https://www.marketsmedia.com/xtx-markets-to-invest-over-e1bn-in-data-centre-in-finland/"
+      }
+    ],
+    "est_gpu_need": "1-5 MW bridge capacity or GPU-fleet financing for DC2/DC3 fit-out. Reasoning: fleet of more than 25k GPUs growing fast enough to justify DC2 and DC3 builds back to back.",
+    "fit_score": 7,
+    "timing_rationale": "DC2 completes in early 2027, so the GPU fill (purchase vs finance) is being decided in Q4 2026. A UK HQ makes British-law SPV ownership natural. Raion can finance the fleet or provide overflow until DC3.",
+    "contacts": [
+      {
+        "name": "Alex Gerko",
+        "title": "Founder & Co-CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Citadel Securities",
+    "website": "https://www.citadelsecurities.com",
+    "hq_city": "Miami",
+    "hq_country": "US",
+    "segment": "Quant / trading firm",
+    "what_they_do": "Global market maker; heavy quantitative/AI research.",
+    "signals": [
+      {
+        "signal": "Bloomberg Professional: Citadel Securities seeing strong returns from ramping up AI investment while soaring GPU/infrastructure costs raise barriers to entry",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.bloomberg.com/professional/insights/markets/citadel-sees-costs-of-ai-alongside-trading-benefits/"
+      },
+      {
+        "signal": "Published 'Tokenomics' research note on the economics of AI compute scarcity",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://app.dealroom.co/news/note/citadel-securities-research-note-tokenomics-the-economics-of-ai-compute"
+      }
+    ],
+    "est_gpu_need": "1-5 MW (speculative). No specific 2026 GPU contract found.",
+    "fit_score": 5,
+    "timing_rationale": "Peers (Jane Street, HRT) locked large capacity in Apr-Sep 2026, which puts pressure on Citadel Securities to secure capacity for 1H 2027. The signal is indirect.",
+    "contacts": [
+      {
+        "name": "Peng Zhao",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Man Group",
+    "website": "https://www.man.com",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Quant / hedge fund",
+    "what_they_do": "Listed global alternative investment manager; Man Systematic (AHL + Numeric, ~$156bn) quant business.",
+    "signals": [
+      {
+        "signal": "Partnership with Anthropic to put AI at the centre of investing / alpha generation",
+        "date": "2026-02",
+        "source_url": "https://www.man.com/news-centre/man-group-anthropic-partnership"
+      },
+      {
+        "signal": "Completed merger of AHL and Numeric into Man Systematic ($156bn), citing accelerating AI capabilities and talent war",
+        "date": "2026-06",
+        "source_url": "https://www.hedgeweek.com/ai-and-talent-war-big-factors-in-man-groups-quant-revamp/"
+      }
+    ],
+    "est_gpu_need": "0.5-2 MW private research cluster for the merged quant platform (speculative). No GPU purchase announced.",
+    "fit_score": 5,
+    "timing_rationale": "Post-merger platform consolidation in 2H 2026 usually includes harmonising research compute, with budget decisions for FY2027 being made now.",
+    "contacts": [
+      {
+        "name": "Robyn Grew",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Bristol Myers Squibb",
+    "website": "https://www.bms.com",
+    "hq_city": "Princeton, NJ",
+    "hq_country": "US",
+    "segment": "Enterprise - pharma",
+    "what_they_do": "Global biopharma; training foundation models on proprietary R&D data.",
+    "signals": [
+      {
+        "signal": "Deploying 2nd NVIDIA DGX SuperPOD built on 8x DGX Vera Rubin NVL72 for foundation models on BMS proprietary data ('most powerful AI factory in life sciences')",
+        "date": "2026-07-20",
+        "source_url": "https://www.biospace.com/press-releases/bristol-myers-squibb-to-build-the-most-powerful-ai-factory-in-life-sciences-with-nvidia"
+      },
+      {
+        "signal": "Bloomberg/BNN: BMS buys Nvidia's latest AI computing system for drug research",
+        "date": "2026-07-20",
+        "source_url": "https://www.bnnbloomberg.ca/business/2026/07/20/bristol-myers-buys-nvidias-latest-ai-computing-system-for-drug-research/"
+      }
+    ],
+    "est_gpu_need": "~1.5-2 MW liquid-cooled, about 576 Rubin GPUs (8 NVL72 racks), plus follow-on. Reasoning: rack-scale NVL72 needs high-density liquid cooling that many enterprise facilities lack.",
+    "fit_score": 7,
+    "timing_rationale": "Vera Rubin systems ship in late 2026 to 2027. Liquid-cooled hosting and financing for the racks (and the next tranche) is needed in the Feb-Apr 2027 window. The CDTO is publicly championing more compute.",
+    "contacts": [
+      {
+        "name": "Greg Meyers",
+        "title": "EVP, Chief Digital & Technology Officer",
+        "linkedin_url": null,
+        "source_url": "https://www.biospace.com/press-releases/bristol-myers-squibb-to-build-the-most-powerful-ai-factory-in-life-sciences-with-nvidia",
+        "confidence": "high",
+        "note": "Quoted in 20 Jul 2026 BMS/NVIDIA announcement on expanding compute."
+      },
+      {
+        "name": "Christopher Boerner",
+        "title": "Board Chair & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Roche",
+    "website": "https://www.roche.com",
+    "hq_city": "Basel",
+    "hq_country": "Switzerland",
+    "segment": "Enterprise - pharma/diagnostics",
+    "what_they_do": "Global pharma and diagnostics group; hybrid-cloud NVIDIA AI factory for drug discovery and diagnostics.",
+    "signals": [
+      {
+        "signal": "Launched NVIDIA AI factory: 2,176 Blackwell GPUs on-premises across US and Europe; total on-prem + cloud >3,500 Blackwell GPUs (largest announced pharma footprint)",
+        "date": "2026-03-16",
+        "source_url": "https://www.roche.com/media/releases/med-cor-2026-03-16"
+      }
+    ],
+    "est_gpu_need": "1-3 MW next on-prem tranche in Europe. Reasoning: a hybrid strategy that is already majority on-prem, with stated intent to keep scaling.",
+    "fit_score": 6,
+    "timing_rationale": "The Mar 2026 build will hit utilisation limits within 9-12 months. The next European on-prem tranche (sovereign, data-residency for patient/diagnostic data) would be planned now for 1H 2027. The signal falls just before the preferred window.",
+    "contacts": [
+      {
+        "name": "Thomas Schinecker",
+        "title": "CEO, Roche Group",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Eli Lilly and Company",
+    "website": "https://www.lilly.com",
+    "hq_city": "Indianapolis",
+    "hq_country": "US",
+    "segment": "Enterprise - pharma",
+    "what_they_do": "Global pharma; operates LillyPod on-prem AI supercomputer.",
+    "signals": [
+      {
+        "signal": "Launched LillyPod: on-prem DGX SuperPOD with 1,016 Blackwell Ultra (B300) GPUs at Indianapolis HQ; aims for 100% renewable power by 2030",
+        "date": "2026-02-27",
+        "source_url": "https://www.hpcwire.com/aiwire/2026/02/27/lilly-launches-lillypod-nvidia-dgx-superpod-for-genomics-and-drug-discovery-ai/"
+      }
+    ],
+    "est_gpu_need": "1-3 MW expansion (speculative). An on-prem-first stance and foundation-model training ambitions suggest follow-on tranches.",
+    "fit_score": 5,
+    "timing_rationale": "One year after go-live (Feb 2027) is a typical point to expand. The US location reduces the UK/Gibraltar SPV advantage. The signal falls before the preferred window.",
+    "contacts": [
+      {
+        "name": "David A. Ricks",
+        "title": "Chair & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      },
+      {
+        "name": "Diogo Rau",
+        "title": "EVP, Chief Information & Digital Officer",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Deutsche Telekom (T-Systems)",
+    "website": "https://www.telekom.com",
+    "hq_city": "Bonn",
+    "hq_country": "Germany",
+    "segment": "Telco - sovereign AI cloud",
+    "what_they_do": "European telco; operates the Industrial AI Cloud (Munich) with NVIDIA; pursuing an EU AI Gigafactory.",
+    "signals": [
+      {
+        "signal": "Launched Industrial AI Cloud in Munich (~10,000 NVIDIA Blackwell GPUs, €1bn); over a third of capacity spoken for at launch",
+        "date": "2026-02-04",
+        "source_url": "https://www.telekom.com/en/media/media-information/archive/launch-industrial-ai-cloud-with-nvidia-1098706"
+      },
+      {
+        "signal": "Advanced talks with Schwarz Group on a joint EU AI Gigafactory bid (Brookfield as potential financial backer), initiated by the two CEOs",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-sharpens-ai-gigafactory-focus-with-schwarz-report"
+      },
+      {
+        "signal": "EU AI Gigafactories call for tenders opened (consortia or SPVs; deadline 12 Nov 2026; selection early 2027)",
+        "date": "2026-07-31",
+        "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
+      }
+    ],
+    "est_gpu_need": "5-20 MW modular extension of Industrial AI Cloud (phase 2) while the gigafactory decision is pending. Reasoning: a third of capacity was sold at launch and enterprise demand is growing.",
+    "fit_score": 6,
+    "timing_rationale": "Gigafactory awards are expected in early 2027 with multi-year builds. Modular blocks from Nov 2026 give DT sellable sovereign capacity in Feb-Apr 2027. They are large and NVIDIA-direct, so expect a partner or finance angle rather than a turnkey sale.",
+    "contacts": [
+      {
+        "name": "Timotheus Höttges",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-sharpens-ai-gigafactory-focus-with-schwarz-report",
+        "confidence": "medium",
+        "note": "Named in search-result coverage as initiator of the Schwarz gigafactory talks; title is long-standing."
+      }
+    ]
+  },
+  {
+    "company": "Schwarz Group (Schwarz Digits)",
+    "website": "https://gruppe.schwarz",
+    "hq_city": "Neckarsulm",
+    "hq_country": "Germany",
+    "segment": "Enterprise / sovereign cloud owner",
+    "what_they_do": "Parent of Lidl/Kaufland; Schwarz Digits runs its IT/cloud business; co-developing a German AI Gigafactory bid with Deutsche Telekom.",
+    "signals": [
+      {
+        "signal": "In advanced talks with Deutsche Telekom on joint EU-funded AI Gigafactory in Germany",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.mobileworldlive.com/europe/deutsche-telekom-schwarz-eye-joint-ai-infrastructure-move"
+      },
+      {
+        "signal": "EU AI Gigafactories call open; deadline 12 Nov 2026",
+        "date": "2026-07-31",
+        "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
+      }
+    ],
+    "est_gpu_need": "Multi-MW interim sovereign GPU capacity (2-10 MW) ahead of any gigafactory (speculative).",
+    "fit_score": 5,
+    "timing_rationale": "Gigafactory selection is expected in early 2027. Before that, consortium partners need interim capacity and anchor customers.",
+    "contacts": [
+      {
+        "name": "Gerd Chrzanowski",
+        "title": "CEO, Schwarz Group",
+        "linkedin_url": null,
+        "source_url": "https://www.lightreading.com/ai-machine-learning/deutsche-telekom-sharpens-ai-gigafactory-focus-with-schwarz-report",
+        "confidence": "medium",
+        "note": "Named in search-result coverage of DT/Schwarz talks."
+      }
+    ]
+  },
+  {
+    "company": "Telefónica",
+    "website": "https://www.telefonica.com",
+    "hq_city": "Madrid",
+    "hq_country": "Spain",
+    "segment": "Telco - sovereign AI",
+    "what_they_do": "Pan-European/LatAm telco; leading Spain's state-backed AI Gigafactory venture; piloting NVIDIA edge AI fabric in Spain.",
+    "signals": [
+      {
+        "signal": "Spanish government green-lights Telefónica-led AI Gigafactory bid",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.telcotitans.com/telefonicawatch/spanish-government-green-lights-telefonica-led-gigafactory-bid/10569.article"
+      },
+      {
+        "signal": "Spanish AI Gigafactory vehicle: ACS, Telefónica, Banco Santander and SETT (state) as shareholders",
+        "date": "2026-Q3",
+        "source_url": "https://www.yeandel.co.uk/22-q3-2026-updates/spain-ai-gigafactory-state-equity.html"
+      },
+      {
+        "signal": "Telefónica preps final bid for AI gigafactory in Spain",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.lightreading.com/ai-machine-learning/telef-nica-preps-final-bid-for-ai-gigafactory-in-spain"
+      }
+    ],
+    "est_gpu_need": "2-10 MW interim sovereign capacity in Spain plus distributed edge GPUs (hundreds of NVIDIA GPUs announced earlier).",
+    "fit_score": 6,
+    "timing_rationale": "The gigafactory bid closes 12 Nov 2026 with awards in early 2027. Interim sovereign GPU capacity and anchor tenants are needed in 1H 2027 whatever the outcome.",
+    "contacts": [
+      {
+        "name": "Marc Murtra",
+        "title": "Chairman & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "ACS Group",
+    "website": "https://www.grupoacs.com",
+    "hq_city": "Madrid",
+    "hq_country": "Spain",
+    "segment": "Infrastructure / data-centre developer",
+    "what_they_do": "Construction and infrastructure group; its vehicle 'AI Infrastructure Development' is a shareholder in Spain's AI Gigafactory company.",
+    "signals": [
+      {
+        "signal": "ACS vehicle joins Telefónica, Santander and SETT in Sociedad Gigafactoría Española de Inteligencia Artificial",
+        "date": "2026-Q3",
+        "source_url": "https://www.yeandel.co.uk/22-q3-2026-updates/spain-ai-gigafactory-state-equity.html"
+      },
+      {
+        "signal": "Spain doubles up on AI Gigafactory proposal",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.telcotitans.com/infrawatch/spain-doubles-up-on-ai-gigafactory-proposal/10081.article"
+      }
+    ],
+    "est_gpu_need": "Site/power owner: 5-20 MW of modular GPU blocks on ACS-developed sites (speculative).",
+    "fit_score": 6,
+    "timing_rationale": "An infrastructure owner with power and sites wants to monetise AI capacity before a gigafactory is built (2027+). Raion's financed modular blocks fit 1H 2027.",
+    "contacts": [
+      {
+        "name": "Florentino Pérez",
+        "title": "Chairman & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Orange",
+    "website": "https://www.orange.com",
+    "hq_city": "Issy-les-Moulineaux (Paris)",
+    "hq_country": "France",
+    "segment": "Telco - sovereign AI",
+    "what_they_do": "French telco; member of the AION consortium bidding for an EU AI Gigafactory; NVIDIA sovereign AI factory partner.",
+    "signals": [
+      {
+        "signal": "AION consortium (Ardian, Artefact, Bull, Capgemini, EDF, Iliad, Orange, Scaleway) bids ~€10bn for a 200 MW EU AI Gigafactory in France",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.investmentmonitor.ai/news/french-consortium-eu-ai-gigafactory/"
+      },
+      {
+        "signal": "NVIDIA names Orange among European telcos building sovereign AI factories",
+        "date": "2025-06 (background)",
+        "source_url": "https://blogs.nvidia.com/blog/european-telcos-ai-factories/"
+      }
+    ],
+    "est_gpu_need": "2-10 MW interim sovereign AI capacity in France pending the AION outcome (speculative).",
+    "fit_score": 6,
+    "timing_rationale": "EU selection is in early 2027 and the 200 MW build will take years. Orange Business needs sellable sovereign GPU capacity in 1H 2027.",
+    "contacts": [
+      {
+        "name": "Christel Heydemann",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "EDF",
+    "website": "https://www.edf.fr",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "Energy / power & site owner",
+    "what_they_do": "French state utility; member of the AION AI Gigafactory consortium; has power and land to host data centres.",
+    "signals": [
+      {
+        "signal": "Member of AION consortium bidding ~€10bn for 200 MW EU AI Gigafactory",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://thenextweb.com/news/french-companies-bid-10bn-eu-ai-gigafactory-aion"
+      },
+      {
+        "signal": "EU AI Gigafactories call open; deadline 12 Nov 2026",
+        "date": "2026-07-31",
+        "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
+      }
+    ],
+    "est_gpu_need": "5-20 MW of modular, liquid-cooled GPU blocks on EDF sites with available grid connections (speculative).",
+    "fit_score": 7,
+    "timing_rationale": "Energy owners with spare grid capacity can deploy modular blocks in months, against years for a gigafactory. Committing in Q4 2026 lands go-live in Feb-Apr 2027.",
+    "contacts": [
+      {
+        "name": "Bernard Fontana",
+        "title": "Chairman & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Nokia",
+    "website": "https://www.nokia.com",
+    "hq_city": "Espoo",
+    "hq_country": "Finland",
+    "segment": "Industrial / telecom vendor - sovereign AI",
+    "what_they_do": "Network infrastructure company; bidding to host an EU AI Gigafactory in Oulu.",
+    "signals": [
+      {
+        "signal": "Nokia bids to host an EU AI Gigafactory in Oulu; Brussels to decide on up to seven sites in early 2027",
+        "date": "2026-09",
+        "source_url": "https://mreast.eu/2026/09/nokia-bids-for-eu-ai-gigafactory-in-oulu"
+      }
+    ],
+    "est_gpu_need": "1-5 MW pilot/anchor cluster to make the Oulu bid credible (speculative).",
+    "fit_score": 5,
+    "timing_rationale": "Decision expected in early 2027. A pilot or anchor cluster in Feb-Apr 2027 de-risks the bid either way.",
+    "contacts": [
+      {
+        "name": "Justin Hotard",
+        "title": "President & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Telenor",
+    "website": "https://www.telenor.com",
+    "hq_city": "Fornebu",
+    "hq_country": "Norway",
+    "segment": "Telco - sovereign AI cloud",
+    "what_they_do": "Nordic telco; operates Norway's Sovereign AI Factory (NVIDIA) and Skygard data centres.",
+    "signals": [
+      {
+        "signal": "Telenor AI Factory to use Skygard's existing and planned Oslo data centres (up to 40 MW)",
+        "date": "2026-03-03",
+        "source_url": "https://www.globalinfrastructuresherpa.com/deal/telenor-ai-factory-to-utilize-skygard-s-existing-and-planned-data-centers-in-osl-284e1183-25b3-431f-bb55-2d02b1e1f6e0"
+      },
+      {
+        "signal": "MWC 2026: Red Hat and Telenor team up for Sovereign Norway AI Factory",
+        "date": "2026-03",
+        "source_url": "https://www.datacenterknowledge.com/business/mwc-2026-red-hat-telenor-team-up-for-sovereign-norway-ai-factory"
+      },
+      {
+        "signal": "Telenor expands Sovereign AI Factory capacity due to internal and external demand; new renewable AI data centre",
+        "date": "2026 (exact date not verified)",
+        "source_url": "https://www.telenor.com/media/newsroom/announcement/telenor-advances-its-sovereign-ai-infrastructure/"
+      }
+    ],
+    "est_gpu_need": "2-10 MW GPU expansion into Skygard space (up to 40 MW campus). Currently on DGX H100, so a Blackwell/Rubin refresh is due.",
+    "fit_score": 7,
+    "timing_rationale": "Capacity expansion is publicly underway and Skygard space is coming online. Next-gen GPU tranches for 1H 2027 would be ordered or financed now. Raion's financing can offload capex from the telco balance sheet.",
+    "contacts": [
+      {
+        "name": "Benedicte Schilbred Fasmer",
+        "title": "President & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Proximus",
+    "website": "https://www.proximus.com",
+    "hq_city": "Brussels",
+    "hq_country": "Belgium",
+    "segment": "Telco - sovereign cloud",
+    "what_they_do": "Belgian telco; Proximus NXT selected as sovereign cloud provider to EU institutions.",
+    "signals": [
+      {
+        "signal": "Proximus NXT selected as sovereign cloud provider for EU institutions (6-year framework: Commission, Parliament, Council + ~70 agencies)",
+        "date": "2026-04",
+        "source_url": "https://www.proximus.com/news/2026/202604-proximus-nxt-sovereign-cloud.html"
+      }
+    ],
+    "est_gpu_need": "1-5 MW sovereign GPU capacity in Belgium/EU for AI workloads under the EU-institutions framework (speculative).",
+    "fit_score": 6,
+    "timing_rationale": "Framework onboarding in 2H 2026 leads to AI/GPU service demand from EU bodies in 2027. Sovereign, dedicated capacity is needed within about 6 months.",
+    "contacts": [
+      {
+        "name": "Stijn Bijnens",
+        "title": "CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "BT Group",
+    "website": "https://www.bt.com",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Telco - sovereign AI / site & power owner",
+    "what_they_do": "UK telco; repurposing strategic BT sites for sovereign AI data centres; launched sovereign services suite.",
+    "signals": [
+      {
+        "signal": "BT to work with Nscale to build up to 14 MW of sovereign AI DC capacity across three BT sites (NVIDIA)",
+        "date": "2026-04",
+        "source_url": "https://newsroom.bt.com/bt-to-work-with-nscale-to-accelerate-uk-sovereign-ai-capability-powered-by-nvidia/"
+      },
+      {
+        "signal": "BT Business launches UK's first full suite of sovereign services (connectivity, voice, cloud, AI)",
+        "date": "2026-05",
+        "source_url": "https://www.operatorwatch.com/2026/05/bt-turns-sovereign-cloud-into-telco.html"
+      }
+    ],
+    "est_gpu_need": "Additional BT sites/power: 1-10 MW as a second-source sovereign AI partner (speculative).",
+    "fit_score": 4,
+    "timing_rationale": "BT has shown it will monetise site power for sovereign AI. The Nscale deal covers only three sites, so other exchange sites could host Raion blocks in 1H 2027. Note that it is currently partnered with a competitor.",
+    "contacts": [
+      {
+        "name": "Allison Kirkby",
+        "title": "Chief Executive",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "UK Department for Science, Innovation and Technology (DSIT) - AI Research Resource",
+    "website": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Sovereign / public sector",
+    "what_they_do": "UK ministry running the AI Research Resource (Isambard-AI, Dawn) and national compute strategy.",
+    "signals": [
+      {
+        "signal": "PIN: AIRR Expansion AI Cloud Compute, £0-214m, 33.5 months (23 Jun 2026 - 31 Mar 2029), single MSP via CCS RM6190 Lot 6",
+        "date": "2026-02",
+        "source_url": "https://bidstats.uk/tenders/2026/W06/863961488"
+      },
+      {
+        "signal": "DSIT launches procurement for UK AI cloud compute capacity expansion",
+        "date": "2026-02",
+        "source_url": "https://www.ukauthority.com/articles/dsit-launches-procurement-for-uk-s-ai-cloud-compute-capacity-expansion"
+      },
+      {
+        "signal": "UK AI Hardware Plan: £1.1bn incl. £400m for next-gen processors (£150m inference chips 'this summer'), £750m Edinburgh supercomputer; AIRR 20x by 2030",
+        "date": "2026-06-08",
+        "source_url": "https://assets.publishing.service.gov.uk/media/6a29795c15f2a70fac7e5cf9/UK_AI_Hardware_Plan_PDF_.pdf"
+      }
+    ],
+    "est_gpu_need": "5-20+ MW over 2027-2029 (AIRR 20x by 2030, blended on-prem + cloud).",
+    "fit_score": 8,
+    "timing_rationale": "Cloud-compute MSP contract delivers through Mar 2029 and processor purchases run through 2026-27, so capacity must come online in 1H 2027. UK sovereign SPVs under British law match the brief. The likely route is supplying via the winning MSP or a framework partner.",
+    "contacts": [],
+    "notes": "No AIRR programme director / DSIT C-level verified this session; identify via the tender notice contact and DSIT AI compute directorate."
+  },
+  {
+    "company": "University of Edinburgh - EPCC",
+    "website": "https://www.epcc.ed.ac.uk",
+    "hq_city": "Edinburgh",
+    "hq_country": "UK",
+    "segment": "Sovereign / research institute",
+    "what_they_do": "UK national supercomputing centre; host of the £750m next national supercomputer and a UKRI National Compute Resource.",
+    "signals": [
+      {
+        "signal": "UKRI £76m for four new National Compute Resources (Birmingham, Cambridge, Edinburgh, UCL), at least two launching summer 2026, all by 2026-27",
+        "date": "2026-02-27",
+        "source_url": "https://www.ukri.org/news/new-national-computing-resources-to-open-doors-for-researchers/"
+      },
+      {
+        "signal": "Ministers announce new £750m national AI supercomputer (Edinburgh)",
+        "date": "2026-06",
+        "source_url": "https://www.researchprofessionalnews.com/rr-news-uk-innovation-2026-6-ministers-announce-new-750m-national-ai-supercomputer/"
+      },
+      {
+        "signal": "Construction begins on £750m national supercomputer facility (Robertson)",
+        "date": "2026-06",
+        "source_url": "https://bdcmagazine.com/2026/06/supercomputer-construction-begins-on-landmark-750m-national-research-facility/"
+      }
+    ],
+    "est_gpu_need": "0.5-3 MW interim AI capacity, since the main system is not due until about 2030 according to Hardware Plan coverage.",
+    "fit_score": 5,
+    "timing_rationale": "The national system is years away while AI research demand is immediate. Interim GPU blocks for 2027 are plausible but would go through public procurement.",
+    "contacts": [
+      {
+        "name": "Mark Parsons",
+        "title": "Director, EPCC",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "HSBC",
+    "website": "https://www.hsbc.com",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Enterprise - bank",
+    "what_they_do": "Global bank; new enterprise-wide AI leadership.",
+    "signals": [
+      {
+        "signal": "Appointed first Chief AI Officer, David Rice, effective 1 April 2026; CTO remit expanded",
+        "date": "2026-04-01",
+        "source_url": "https://www.hsbc.com/news-and-views/news/media-releases/2026/david-rice-announced-as-chief-ai-officer"
+      }
+    ],
+    "est_gpu_need": "1-5 MW private cluster for GenAI/agentic workloads on regulated data (speculative; no compute purchase announced).",
+    "fit_score": 5,
+    "timing_rationale": "A new CAIO 6 months into the role typically sets the FY2027 infrastructure plan in Q4. UK HQ and data-residency needs favour sovereign, owned capacity.",
+    "contacts": [
+      {
+        "name": "David Rice",
+        "title": "Group Chief AI Officer",
+        "linkedin_url": null,
+        "source_url": "https://www.hsbc.com/news-and-views/news/media-releases/2026/david-rice-announced-as-chief-ai-officer",
+        "confidence": "high"
+      },
+      {
+        "name": "Georges Elhedery",
+        "title": "Group Chief Executive",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  },
+  {
+    "company": "Lloyds Banking Group",
+    "website": "https://www.lloydsbankinggroup.com",
+    "hq_city": "London",
+    "hq_country": "UK",
+    "segment": "Enterprise - bank",
+    "what_they_do": "UK's largest retail bank; new Chief Data & AI Officer.",
+    "signals": [
+      {
+        "signal": "Appointed Sameer Gupta (ex-DBS chief analytics officer) as Chief Data & AI Officer, effective June 2026",
+        "date": "2026-06",
+        "source_url": "https://www.bankingdive.com/news/lloyds-taps-chief-data-ai-officer-sameer-gupta/818049/"
+      }
+    ],
+    "est_gpu_need": "0.5-3 MW sovereign UK cluster (speculative; no compute purchase announced).",
+    "fit_score": 4,
+    "timing_rationale": "A new CDAO from June 2026 will set the data/AI platform roadmap for 2027, and UK data residency favours UK-sovereign capacity. The signal is weak.",
+    "contacts": [
+      {
+        "name": "Sameer Gupta",
+        "title": "Chief Data & AI Officer",
+        "linkedin_url": null,
+        "source_url": "https://www.bankingdive.com/news/lloyds-taps-chief-data-ai-officer-sameer-gupta/818049/",
+        "confidence": "high"
+      },
+      {
+        "name": "Charlie Nunn",
+        "title": "Group Chief Executive",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low",
+        "note": "Not re-verified this session (web search budget exhausted, WebFetch egress-blocked); from pre-2026 public record - confirm before outreach."
+      }
+    ]
+  }
+]

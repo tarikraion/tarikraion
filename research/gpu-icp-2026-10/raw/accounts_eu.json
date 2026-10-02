@@ -1,0 +1,733 @@
+[
+  {
+    "company": "Black Forest Labs",
+    "website": "https://bfl.ai",
+    "hq_city": "Freiburg",
+    "hq_country": "Germany",
+    "segment": "European model lab - generative image/video/multimodal",
+    "what_they_do": "Frontier lab behind the FLUX image models; in July 2026 launched FLUX 3, one model trained jointly on image, video, audio and robot-action prediction. Offices in Freiburg and San Francisco.",
+    "signals": [
+      {
+        "signal": "$300M Series B at $3.25B post-money (co-led by Salesforce Ventures and AMP; a16z, NVIDIA, General Catalyst, Temasek). Money is earmarked for scaling research, increasing compute capacity and growing teams in Freiburg and SF.",
+        "date": "2025-12",
+        "source_url": "https://www.vestbee.com/insights/articles/black-forest-labs-secures-300-m"
+      },
+      {
+        "signal": "Launched FLUX 3, a multimodal frontier model (image, video, audio, action) trained 'by scaling up compute and data resources'. Faster and open-weight versions are planned for later in 2026.",
+        "date": "2026-07-23",
+        "source_url": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/"
+      },
+      {
+        "signal": "First robotics/action model (Flux-mimic, built with Swiss startup mimic and validated with Audi Production Lab). This marks the shift to physical AI.",
+        "date": "2026-07-23",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-07-23/black-forest-labs-unveils-first-model-for-robotics-in-shift-to-physical-ai"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv for training plus heavy inference. Joint video/audio/action training is far more compute-hungry than image-only FLUX, and video inference for API partners (Canva, Figma, Cloudflare and others) scales with usage.",
+    "fit_score": 9,
+    "timing_rationale": "FLUX 3 shipped in July 2026. Open-weight and faster variants arrive in late 2026, and the next training cycle (FLUX 3.x, action models) plus video-inference growth lands in Q1-Q2 2027. A German-headquartered lab gains from EU-sited, isolated capacity in 0.5 MW increments.",
+    "contacts": [
+      {
+        "name": "Robin Rombach",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://bfl.ai/blog/our-co-founder-and-ceo-urges-g7-leaders-to-back-open-innovation",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Helsing",
+    "website": "https://helsing.ai",
+    "hq_city": "Munich",
+    "hq_country": "Germany",
+    "segment": "Defence AI",
+    "what_they_do": "European defence-AI company that builds AI software, autonomous systems and drones for NATO and allied militaries. It is the most valuable startup in mainland Europe.",
+    "signals": [
+      {
+        "signal": "$1.8B Series E at an $18B valuation, Europe's largest defence-tech round (Dragoneer, Lightspeed, Goldman Sachs Alternatives, JPMorganChase, CPP Investments, General Catalyst). Proceeds go to developing and integrating advanced AI platforms across partner nations.",
+        "date": "2026-07-13",
+        "source_url": "https://www.cnbc.com/2026/07/13/helsing-fund-raise-defense-18-billion.html"
+      },
+      {
+        "signal": "Round first reported in May as a $1.2B raise at $18B; demand exceeded the allocation.",
+        "date": "2026-05-11",
+        "source_url": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/"
+      },
+      {
+        "signal": "Defence News coverage of the record round.",
+        "date": "2026-07-13",
+        "source_url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv, mostly training. Covers perception, sensor-fusion and autonomy models, large-scale simulation and synthetic data. Classified or national data needs isolated, sovereign-controlled clusters.",
+    "fit_score": 9,
+    "timing_rationale": "$1.8B was deployed from mid-2026 into multi-country AI platform integration. Defence workloads cannot run on shared clouds, so dedicated liquid-cooled blocks under a client-controlled SPV match the requirement. Capacity planning for H1 2027 programmes is happening now.",
+    "contacts": [
+      {
+        "name": "Torsten Reil",
+        "title": "Co-founder & Co-CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Gundbert Scherf",
+        "title": "Co-founder & Co-CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "AMI Labs (Advanced Machine Intelligence)",
+    "website": null,
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "European model lab - world models / physical AI",
+    "what_they_do": "Frontier research lab founded by Yann LeCun to build world models trained on real-world data, for robotics, healthcare and industrial systems. Offices in New York, Montreal and Singapore.",
+    "signals": [
+      {
+        "signal": "$1.03B seed at a $3.5B pre-money valuation, Europe's largest seed ever. Co-led by Cathay Innovation, Greycroft, Hiro Capital, HV Capital and Bezos Expeditions; NVIDIA and Samsung are strategic investors.",
+        "date": "2026-03-09",
+        "source_url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
+      },
+      {
+        "signal": "Coverage notes AMI needs GPUs and training capacity before shipping product, and that its strategic investors have a stake in the compute world models will demand.",
+        "date": "2026-03",
+        "source_url": "https://builtin.com/articles/ami-labs-yann-lecun"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000+ H100-equiv for training. World models trained on video and sensor data are compute-heavy. With $1B+ raised, likely spend is several hundred million on compute over 2026-2028.",
+    "fit_score": 8,
+    "timing_rationale": "The lab launched in March 2026 and is in its first major compute ramp. A second wave of cluster procurement for 2027 training runs is likely being negotiated now. Paris headquarters and a European-sovereignty narrative favour EU-sited capacity.",
+    "contacts": [
+      {
+        "name": "Yann LeCun",
+        "title": "Founder & Executive Chairman",
+        "linkedin_url": null,
+        "source_url": "https://builtin.com/articles/ami-labs-yann-lecun",
+        "confidence": "high"
+      },
+      {
+        "name": "Alexandre LeBrun",
+        "title": "CEO (reported Dec 2025; not re-verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "NEURA Robotics",
+    "website": "https://neura-robotics.com",
+    "hq_city": "Metzingen",
+    "hq_country": "Germany",
+    "segment": "Robotics / physical AI",
+    "what_they_do": "Cognitive and humanoid robotics (4NE-1 humanoid) plus the Neuraverse physical-AI software platform.",
+    "signals": [
+      {
+        "signal": "Raising about EUR1B in a round backed by Tether.",
+        "date": "2026-03-04",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-03-04/neura-robotics-raising-1-billion-in-round-backed-by-tether"
+      },
+      {
+        "signal": "Series C of up to EUR1.2B to build a physical-AI platform from Europe. Tether leads, with Amazon, Qualcomm Ventures, Bosch, Schaeffler, EIB and Lingotto; valuation about EUR4B.",
+        "date": "2026-06",
+        "source_url": "https://www.eu-startups.com/2026/06/germanys-neura-robotics-raises-up-to-e1-2-billion-in-series-c-round-to-build-physical-ai-from-europe/"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv for training and simulation. Covers robot foundation and VLA models, sim-to-real with synthetic data, and fleet learning. A EUR1B+ round explicitly for a physical-AI platform implies substantial compute.",
+    "fit_score": 8,
+    "timing_rationale": "The capital closed in H1 2026 and the physical-AI platform build runs through 2027. The German HQ plus EIB and industrial investors favour German or EU-sovereign capacity, and the training-cluster ramp should follow hiring in H2 2026.",
+    "contacts": [
+      {
+        "name": "David Reger",
+        "title": "Founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://siliconangle.com/2026/03/04/humanoid-robot-maker-neura-robotics-reportedly-raising-1-2b-funding/",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "Gradium",
+    "website": "https://gradium.ai",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "Generative voice / audio AI",
+    "what_they_do": "Kyutai spin-out building ultra-low-latency, multilingual real-time voice and audio models for voice agents.",
+    "signals": [
+      {
+        "signal": "Seed extended to $100M, about seven months after launch, with NVIDIA as a new investor. Opening a Bay Area office.",
+        "date": "2026-07-09",
+        "source_url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/"
+      },
+      {
+        "signal": "Launched from stealth with a $70M seed (FirstMark, Eurazeo, DST Global Partners, Eric Schmidt, Xavier Niel).",
+        "date": "2025-12",
+        "source_url": "https://sifted.eu/articles/gradium-70m-seed-voice-ai"
+      },
+      {
+        "signal": "Lead investor's thesis is titled 'Arming the rebels with GPUs': the company is explicitly compute-centric.",
+        "date": "2025-12",
+        "source_url": "https://www.amplifypartners.com/blog-posts/arming-the-rebels-with-gpus-gradium-kyutai-and-audio-ai"
+      }
+    ],
+    "est_gpu_need": "128-512 H100-equiv, split between training and real-time inference. Audio foundation-model training plus latency-sensitive serving; inference grows with voice-agent adoption.",
+    "fit_score": 8,
+    "timing_rationale": "Fresh capital from July 2026 and NVIDIA backing. The next model generation and production voice-agent traffic should ramp in H1 2027. Real-time voice serving in Europe needs low-latency, EU-resident capacity, which 0.5 MW blocks size well.",
+    "contacts": [
+      {
+        "name": "Neil Zeghidour",
+        "title": "Co-founder & CEO (not re-verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "DeepL",
+    "website": "https://www.deepl.com",
+    "hq_city": "Cologne",
+    "hq_country": "Germany",
+    "segment": "AI-native app with own models (language AI)",
+    "what_they_do": "Language-AI company with translation, writing and agent products. It trains its own LLMs on owned NVIDIA DGX SuperPODs hosted in colocation.",
+    "signals": [
+      {
+        "signal": "Deployed its third NVIDIA DGX SuperPOD, the first DGX GB200 system in Europe, at EcoDataCenter in Sweden. Shows a repeat pattern of buying dedicated clusters.",
+        "date": "2025-06",
+        "source_url": "https://www.prnewswire.com/news-releases/deepl-first-to-deploy-nvidia-dgx-superpod-with-dgx-gb200-systems-in-europe-advancing-language-ai-with-powerful-generative-features-and-enhanced-user-experience-302478655.html"
+      },
+      {
+        "signal": "CEO discussed laying off about 25% of the workforce and said IPO markets are not open for companies of DeepL's size. Signals cost discipline.",
+        "date": "2026-06-01",
+        "source_url": "https://www.cnbc.com/video/2026/06/01/deepl-ceo-decision-to-lay-off-25-percent-of-workforce-one-of-the-hardest-you-can-make.html"
+      },
+      {
+        "signal": "CEO says staying private has 'a lot of advantages' right now.",
+        "date": "2026-09-21",
+        "source_url": "https://tech.eu/2026/09/21/being-a-private-company-actually-has-a-lot-of-advantages-right-now-says-deepl-boss"
+      }
+    ],
+    "est_gpu_need": "500-2,000 H100-equiv for training and inference. Past SuperPOD purchases (H100 'Mercury', then GB200) suggest the next refresh is on a similar scale.",
+    "fit_score": 7,
+    "timing_rationale": "Cluster purchases have come roughly every 18-24 months (2023 H100, mid-2025 GB200), so the next capacity decision falls around H1 2027. After the layoffs, a dedicated cluster bought as opex or through an SPV, rather than owned capex, may appeal. DeepL already uses Nordic colocation.",
+    "contacts": [
+      {
+        "name": "Jarek Kutylowski",
+        "title": "Founder & CEO",
+        "linkedin_url": null,
+        "source_url": "https://tech.eu/2026/09/21/being-a-private-company-actually-has-a-lot-of-advantages-right-now-says-deepl-boss",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "H Company",
+    "website": "https://www.hcompany.ai",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "European model lab - agentic / computer-use models",
+    "what_they_do": "Builds action-oriented AI agents and its own computer-use models (the Holo family) for enterprise automation.",
+    "signals": [
+      {
+        "signal": "Released Holo 3, its latest generation of computer-use models (exact 2026 date not verified).",
+        "date": "2026",
+        "source_url": "https://www.knowlee.ai/blog/french-agentic-ai-startups-2026"
+      },
+      {
+        "signal": "Record $220M seed (Bpifrance, Eurazeo, Xavier Niel and others), part of the background for continued model training.",
+        "date": "2024-05",
+        "source_url": "https://sifted.eu/articles/h-raises-220m-seed-round"
+      }
+    ],
+    "est_gpu_need": "256-1,000 H100-equiv for training (RL on UI environments) and agent inference. Computer-use agents consume many tokens per task, so enterprise rollout drives inference.",
+    "fit_score": 7,
+    "timing_rationale": "Holo 3 is in market in 2026, so the next model generation and enterprise agent serving will need capacity in H1 2027. A follow-on raise is probable given seed-era capital. French sovereign positioning suits EU-resident, isolated capacity.",
+    "contacts": [
+      {
+        "name": "Gautier Cloix",
+        "title": "CEO (not re-verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Quantum Systems",
+    "website": "https://quantum-systems.com",
+    "hq_city": "Gilching (Munich region)",
+    "hq_country": "Germany",
+    "segment": "Defence AI / autonomous systems",
+    "what_they_do": "Software-defined autonomous air, land and sea systems (for example the Vector ISR drone) that combine unmanned platforms with AI, sensors and mission-control software.",
+    "signals": [
+      {
+        "signal": "$1.2B Series D at about $8B post-money, co-led by Blackstone, Noteus, Airbus and Advent. Funds go to scaling the next generation of AI-powered autonomous systems.",
+        "date": "2026-07-02",
+        "source_url": "https://quantum-systems.com/wp-content/uploads/2026/07/260702_PR_QS_Series-D_EN.pdf"
+      },
+      {
+        "signal": "Coverage of the Series D to accelerate multi-domain autonomy.",
+        "date": "2026-07",
+        "source_url": "https://www.suasnews.com/2026/07/quantum-systems-raises-1-2bn-series-d-to-accelerate-multi-domain-autonomy/"
+      }
+    ],
+    "est_gpu_need": "128-512 H100-equiv for training. Covers perception and autonomy models, sensor fusion, simulation and synthetic data for multi-domain platforms. Defence data argues for isolated clusters.",
+    "fit_score": 7,
+    "timing_rationale": "Capital from July 2026 is going into scaling and acquisitions. The jump to multi-domain autonomy needs more training capacity during 2027, and sovereign or defence data needs dedicated, client-controlled infrastructure.",
+    "contacts": [
+      {
+        "name": "Florian Seibel",
+        "title": "Co-founder & Co-CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.suasnews.com/2026/07/quantum-systems-raises-1-2bn-series-d-to-accelerate-multi-domain-autonomy/",
+        "confidence": "high"
+      },
+      {
+        "name": "Sven Kruck",
+        "title": "Co-CEO",
+        "linkedin_url": null,
+        "source_url": "https://www.suasnews.com/2026/07/quantum-systems-raises-1-2bn-series-d-to-accelerate-multi-domain-autonomy/",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "company": "Cohere (combined with Aleph Alpha)",
+    "website": "https://cohere.com",
+    "hq_city": "Berlin (dual HQ with Toronto); Heidelberg research centre",
+    "hq_country": "Germany",
+    "segment": "Sovereign enterprise LLM lab",
+    "what_they_do": "Enterprise LLM company. Once combined with Aleph Alpha it will operate as Cohere, positioned as a sovereign alternative to US AI for European governments and enterprises.",
+    "signals": [
+      {
+        "signal": "Cohere to acquire Aleph Alpha; deal includes about $600M investment into Cohere from Schwarz Gruppe; combined value reportedly about $20B.",
+        "date": "2026-04-24",
+        "source_url": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html"
+      },
+      {
+        "signal": "Definitive combination agreement: Berlin/Toronto dual HQ, growing past 1,000 employees across Canada and Germany, with government backing for sovereign AI.",
+        "date": "2026-09-16",
+        "source_url": "https://dealroom.co/news/154731-cohere-and-aleph-alpha-agree-to-combine-announced-2026/"
+      },
+      {
+        "signal": "TechCrunch analysis of why the companies are merging.",
+        "date": "2026-04-25",
+        "source_url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv for sovereign training and inference in Germany/EU. Sovereign enterprise and government customers need in-country, isolated serving and fine-tuning.",
+    "fit_score": 6,
+    "timing_rationale": "The merger signed in September 2026, so integration and a German sovereign-capacity build-out fall in H1 2027. Risk: Schwarz (STACKIT) is an investor and may be the default supplier. Pitch overflow or SPV-isolated capacity for specific government customers.",
+    "contacts": [
+      {
+        "name": "Aidan Gomez",
+        "title": "Co-founder & CEO, Cohere",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Jonas Andrulis",
+        "title": "Founder & CEO, Aleph Alpha (post-merger role unverified)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Harmattan AI",
+    "website": null,
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "Defence AI",
+    "what_they_do": "Defence autonomy stack and AI drones. Dassault is putting Harmattan's autonomy at the core of the Rafale F5 and future unmanned combat aircraft. France's first defence unicorn.",
+    "signals": [
+      {
+        "signal": "$200M Series B led by Dassault Aviation at a $1.4B valuation.",
+        "date": "2026-01-12",
+        "source_url": "https://techcrunch.com/2026/01/12/harmattan-ai-raises-200m-series-b-led-by-dassault-aviation-becomes-defense-unicorn"
+      },
+      {
+        "signal": "France orders 5,000 AI drones from Harmattan.",
+        "date": "2026-06-25",
+        "source_url": "https://www.techtimes.com/articles/319102/20260625/france-orders-5000-ai-drones-startup-that-delivered-on-time-europes-defense-proof-point.htm"
+      }
+    ],
+    "est_gpu_need": "128-512 H100-equiv for training. Covers autonomy and perception models and large-scale simulation for combat-aircraft integration. Sovereign French defence data.",
+    "fit_score": 6,
+    "timing_rationale": "Production scale-up for the 5,000-drone order and Rafale F5 autonomy development run through 2027. Defence data requires isolated clusters under French or EU control.",
+    "contacts": [
+      {
+        "name": "Mouad M'Ghari",
+        "title": "Co-founder & CEO (not verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Roche",
+    "website": "https://www.roche.com",
+    "hq_city": "Basel",
+    "hq_country": "Switzerland",
+    "segment": "AI for science / pharma (enterprise sovereign AI)",
+    "what_they_do": "Global pharma and diagnostics company running an NVIDIA 'AI factory' for biological foundation models, drug discovery and manufacturing digital twins.",
+    "signals": [
+      {
+        "signal": "Launched an NVIDIA AI factory: 2,176 Blackwell GPUs on-premises in the US and Europe, more than 3,500 GPUs in total. Called pharma's largest announced hybrid-cloud AI factory.",
+        "date": "2026-03-16",
+        "source_url": "https://www.roche.com/media/releases/med-cor-2026-03-16"
+      },
+      {
+        "signal": "Coverage of the 3,500-GPU deployment across hybrid cloud and on-prem.",
+        "date": "2026-03",
+        "source_url": "https://www.datacenterdynamics.com/en/news/pharmaceutical-company-roche-deploys-3500-nvidia-blackwell-gpus-across-hybrid-cloud-and-onpremises/"
+      }
+    ],
+    "est_gpu_need": "1,000-4,000 H100-equiv incremental, for training bio foundation models and inference. Roche is clearly scaling and prefers dedicated or on-prem setups, a strong match for isolated clusters.",
+    "fit_score": 6,
+    "timing_rationale": "A 3,500-GPU estate built through 2026 points to the next expansion in 2027. Patient and clinical data creates a residency need; an SPV-owned, client-controlled cluster mirrors the on-prem model without capex. Enterprise sales cycle is long.",
+    "contacts": [
+      {
+        "name": "Thomas Schinecker",
+        "title": "CEO, Roche Group",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "Gravis Robotics",
+    "website": null,
+    "hq_city": "Zurich",
+    "hq_country": "Switzerland",
+    "segment": "Robotics / physical AI (construction autonomy)",
+    "what_they_do": "ETH Zurich spinout that retrofits heavy construction machinery (Caterpillar, Volvo, JCB, Deere) for autonomy with AI software and the Gravis Rack kit. About 80 staff; outposts in Austin and Oxford.",
+    "signals": [
+      {
+        "signal": "$200M Series A led by SoftBank at a $1B valuation, the largest Series A in construction robotics.",
+        "date": "2026-08",
+        "source_url": "https://www.finsmes.com/2026/08/gravis-robotics-raises-200m-in-series-a-funding.html"
+      },
+      {
+        "signal": "Coverage of the Series A to expand the autonomous heavy-equipment platform.",
+        "date": "2026-08-17",
+        "source_url": "https://theaiinsider.tech/2026/08/17/gravis-robotics-raises-200m-in-series-a-funding-from-softbank-to-expand-autonomous-heavy-equipment-platform/"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training. Covers perception and autonomy models for excavators, simulation and fleet-data learning.",
+    "fit_score": 6,
+    "timing_rationale": "A $200M round in August 2026 for a roughly 80-person team implies a step up in ML. Fleet data volume grows with deployments into 2027. A Swiss HQ values data control.",
+    "contacts": [
+      {
+        "name": "Ryan Luke Johns",
+        "title": "Co-founder (CEO title per round listings; verify)",
+        "linkedin_url": null,
+        "source_url": "https://www.fundedstartupsdaily.com/company/gravis-robotics/",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "THEKER Robotics",
+    "website": null,
+    "hq_city": "Barcelona",
+    "hq_country": "Spain",
+    "segment": "Robotics / physical AI (industrial)",
+    "what_they_do": "AI-native, reconfigurable generalist industrial robots sold as Robot-as-a-Service. Already deployed inside Inditex production facilities.",
+    "signals": [
+      {
+        "signal": "$85M Series A, the largest robotics Series A in Europe, led by CRV with Samsung, LVMH, Cathay Innovation, 20VC and Henkel Ventures. Funds go to developing the core AI and robotics stack.",
+        "date": "2026-06-11",
+        "source_url": "https://theaiinsider.tech/2026/06/11/spains-theker-robotics-raises-85m-in-series-a-funding/"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training. Covers generalist manipulation and VLA models plus simulation.",
+    "fit_score": 6,
+    "timing_rationale": "Series A capital from June 2026 is going into the AI stack, so a training-capacity build-out is likely around H1 2027. A Spanish HQ means EU residency.",
+    "contacts": [
+      {
+        "name": "Carla Gómez Cano",
+        "title": "Co-founder (CEO title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://theaiinsider.tech/2026/06/11/spains-theker-robotics-raises-85m-in-series-a-funding/",
+        "confidence": "low"
+      },
+      {
+        "name": "Francesc Julià",
+        "title": "Co-founder (title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://theaiinsider.tech/2026/06/11/spains-theker-robotics-raises-85m-in-series-a-funding/",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "mimic Robotics",
+    "website": null,
+    "hq_city": "Zurich",
+    "hq_country": "Switzerland",
+    "segment": "Robotics / physical AI (foundation models for dexterous manipulation)",
+    "what_they_do": "ETH Zurich spin-off (founded 2024) building an AI foundation model and humanoid robotic hands. Co-developed the Flux-mimic action model with Black Forest Labs.",
+    "signals": [
+      {
+        "signal": "Partnered with Black Forest Labs on the Flux-mimic action model (FLUX 3 Action), validated with Audi Production Lab.",
+        "date": "2026-07-23",
+        "source_url": "https://www.manilatimes.net/2026/07/23/tmt-newswire/globenewswire/black-forest-labs-unveils-flux-3-a-new-multimodal-frontier-model-for-visual-intelligence/2390494"
+      },
+      {
+        "signal": "Named among European robotics startups building foundation models in a period of record robotics funding (H1 2026).",
+        "date": "2026-08",
+        "source_url": "https://www.eu-startups.com/2026/08/10-startups-shaping-our-robotic-future/"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training. Covers manipulation foundation models and imitation learning on teleoperation data.",
+    "fit_score": 5,
+    "timing_rationale": "Physical-AI momentum and the BFL partnership make a funding round and training scale-up in late 2026 or early 2027 likely. No C-level contact was verified this session.",
+    "contacts": []
+  },
+  {
+    "company": "Pleias",
+    "website": "https://pleias.ai",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "European model lab - open/compliant small LMs",
+    "what_they_do": "Trains open language models only on legally usable data (Common Corpus, over 2T tokens; SYNTH synthetic pipeline), positioned for GDPR and EU AI Act compliance.",
+    "signals": [
+      {
+        "signal": "Presented the design of Common Corpus and the SYNTH synthetic-data pipeline at the Paris Open Source AI Summit, alongside NVIDIA and GENCI.",
+        "date": "2026-07-10",
+        "source_url": "https://goodtech.info/paris-open-source-ai-summit-2026-line-up-intervenants/"
+      },
+      {
+        "signal": "Released a model family (3B/1B/350M) trained exclusively on Common Corpus.",
+        "date": "2025",
+        "source_url": "https://www.actuia.com/actualite/pleias-des-modeles-de-langages-ouverts-pour-une-ia-ethique-et-transparente/"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training. Small-to-mid models, but synthetic-data generation (SYNTH) is inference-heavy.",
+    "fit_score": 5,
+    "timing_rationale": "Synthetic-data-driven retraining cycles plus EU-compliance positioning favour sovereign EU capacity. A smaller account, but well matched to a 0.5 MW block. Has historically used public HPC (GENCI), so a funding trigger is needed.",
+    "contacts": [
+      {
+        "name": "Anastasia Stasenko",
+        "title": "Co-founder (title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.actuia.com/actualite/pleias-des-modeles-de-langages-ouverts-pour-une-ia-ethique-et-transparente/",
+        "confidence": "low"
+      },
+      {
+        "name": "Pierre-Carl Langlais",
+        "title": "Co-founder (title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.actuia.com/actualite/pleias-des-modeles-de-langages-ouverts-pour-une-ia-ethique-et-transparente/",
+        "confidence": "low"
+      },
+      {
+        "name": "Ivan Yamshchikov",
+        "title": "Co-founder (title unconfirmed)",
+        "linkedin_url": null,
+        "source_url": "https://www.actuia.com/actualite/pleias-des-modeles-de-langages-ouverts-pour-une-ia-ethique-et-transparente/",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Bioptimus",
+    "website": "https://www.bioptimus.com",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "AI for science / biotech foundation models",
+    "what_they_do": "Building a multi-scale 'world model' for biology. Its first model, H-Optimus-0, was trained on more than 500,000 pathology slides. Three of six co-founders are ex-Google DeepMind.",
+    "signals": [
+      {
+        "signal": "Total funding reached $76M ($41M led by Cathay Innovation) as it prepared to launch a foundation model for biology. Older than the preferred window.",
+        "date": "2025-01-14",
+        "source_url": "https://www.businesswire.com/news/home/20250114054102/en/Bioptimus-Hits-76M-Funding-Milestone-and-Prepares-to-Launch-Groundbreaking-Foundation-Model-for-Biology"
+      },
+      {
+        "signal": "Positioning as a 'world model' for biology across molecules, cells, tissues and organisms (2026 profile).",
+        "date": "2026",
+        "source_url": "https://www.genomeweb.com/informatics/french-ai-startup-bioptimus-seeks-world-model-biology"
+      }
+    ],
+    "est_gpu_need": "128-512 H100-equiv for training. Multimodal biology foundation models; health data creates residency needs.",
+    "fit_score": 5,
+    "timing_rationale": "The last disclosed raise was January 2025, so a growth round in late 2026 or 2027 is likely and would trigger a next-gen model training cluster. Health-data residency favours isolated EU capacity. No 2026 funding was verified.",
+    "contacts": [
+      {
+        "name": "Jean-Philippe Vert",
+        "title": "Co-founder & CEO (not verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "Cradle",
+    "website": "https://www.cradle.bio",
+    "hq_city": "Amsterdam (dual ops Zurich)",
+    "hq_country": "Netherlands",
+    "segment": "AI for science / protein design",
+    "what_they_do": "AI platform for protein engineering with its own wet lab. Used by six of the top 25 pharma companies (J&J, AbbVie, Novo Nordisk) across 50+ projects.",
+    "signals": [
+      {
+        "signal": "Platform now serving six of the top 25 pharma leaders, with 50+ projects running.",
+        "date": "2026",
+        "source_url": "https://www.prnewswire.com/news-releases/cradle-ai-powered-protein-engineering-platform-serving-six-of-top-25-pharma-leaders-302643154.html"
+      },
+      {
+        "signal": "$73M Series B led by IVP, with total funding above $100M. Older than the preferred window.",
+        "date": "2024-11",
+        "source_url": "https://european-biotechnology.com/latest-news/cradle-secures-73m-series-b-to-accelerate-ai-driven-protein-engineering/"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training protein language/structure models and customer-specific fine-tunes.",
+    "fit_score": 5,
+    "timing_rationale": "Commercial traction in 2026 makes a Series C plausible, which would trigger compute expansion. Pharma customers' IP sensitivity favours isolated clusters. No 2026 raise was verified.",
+    "contacts": [
+      {
+        "name": "Stef van Grieken",
+        "title": "Co-founder & CEO (not verified this session)",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "company": "STARK Defence",
+    "website": null,
+    "hq_city": "Berlin",
+    "hq_country": "Germany",
+    "segment": "Defence AI (autonomous loitering munitions)",
+    "what_they_do": "Builds autonomous loitering munitions. Its Virtus drone identifies targets autonomously; holds Bundeswehr contracts.",
+    "signals": [
+      {
+        "signal": "EUR500M round led by Sequoia and Founders Fund at a EUR3.2B valuation.",
+        "date": "2026-06-23",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-06-23/sequoia-founders-fund-back-german-drone-startup-stark-at-3-5-billion-valuation"
+      },
+      {
+        "signal": "Coverage of the EUR500M raise.",
+        "date": "2026-06",
+        "source_url": "https://thenextweb.com/news/stark-defence-500-million-sequoia-founders-fund-3-5-billion-valuation"
+      }
+    ],
+    "est_gpu_need": "64-256 H100-equiv for training. Edge autonomy and target-recognition models plus simulation; mostly hardware and manufacturing spend.",
+    "fit_score": 5,
+    "timing_rationale": "Fresh capital from June 2026; autonomy model iteration grows with production. Defence data requires isolated clusters. No C-level contact was verified this session.",
+    "contacts": []
+  },
+  {
+    "company": "Alta Ares",
+    "website": null,
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "Defence AI (counter-UAS)",
+    "what_they_do": "AI-guided drone interceptors (Pixel Lock guidance) and Gamma ISTAR edge intelligence. Deployed in three active conflict zones.",
+    "signals": [
+      {
+        "signal": "EUR50M Series A led by Air Street Capital (Cherry, OTB, Harpoon). Funds go to production, engineering and a German subsidiary.",
+        "date": "2026-06",
+        "source_url": "https://sifted.eu/articles/alta-ares-defence-tech-50m-round"
+      }
+    ],
+    "est_gpu_need": "64-128 H100-equiv for training vision and guidance models and simulation.",
+    "fit_score": 4,
+    "timing_rationale": "Engineering scale-up in 2026-27; defence data needs isolation. Smaller GPU footprint, and no contact was verified this session.",
+    "contacts": []
+  },
+  {
+    "company": "Lovable",
+    "website": "https://lovable.dev",
+    "hq_city": "Stockholm",
+    "hq_country": "Sweden",
+    "segment": "AI-native app with heavy inference",
+    "what_they_do": "AI app builder that turns prompts into full-stack apps. One of Europe's fastest-growing AI companies.",
+    "signals": [
+      {
+        "signal": "$400M Series C at a $13.3B valuation. Funds go to product, infrastructure and security, international expansion and team growth.",
+        "date": "2026-08",
+        "source_url": "https://www.vestbee.com/insights/articles/european-funding-rounds-closed-in-august-2026"
+      }
+    ],
+    "est_gpu_need": "Uncertain: 0 to 512 H100-equiv. Inference mostly runs through third-party frontier LLM APIs. GPUs would only be needed if Lovable fine-tunes or serves its own models (routing, code-completion, small specialist models).",
+    "fit_score": 4,
+    "timing_rationale": "Infrastructure is an explicit use of the August 2026 funds. Margin pressure from API costs often pushes app companies toward self-hosted fine-tuned models within 6-12 months. Speculative.",
+    "contacts": [
+      {
+        "name": "Anton Osika",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "company": "Mistral AI",
+    "website": "https://mistral.ai",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "segment": "European model lab (stretch account; also sells compute)",
+    "what_they_do": "Europe's leading frontier LLM developer. Building its own data centres and also selling 'Mistral AI Cloud' capacity, so it is partly a competitor.",
+    "signals": [
+      {
+        "signal": "Raised EUR3B led by Samsung at a valuation above EUR21B, the largest European tech round.",
+        "date": "2026-09-08",
+        "source_url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+      },
+      {
+        "signal": "$830M debt to complete a 44 MW data centre at Bruyères-le-Châtel with 13,800 GB300 GPUs (operational from Q2 2026).",
+        "date": "2026-03-30",
+        "source_url": "https://en.cryptonomist.ch/2026/05/28/mistral-ai-data-center-debt-facility/"
+      },
+      {
+        "signal": "Targets 200 MW of compute across European sites by end-2027 and 1 GW by 2030.",
+        "date": "2026-05-28",
+        "source_url": "https://www.maddyness.com/2026/05/28/mistral-ai-vise-une-capacite-de-calcul-dun-gigawatt-a-lhorizon-2030/"
+      },
+      {
+        "signal": "1.4 GW Paris campus joint venture with MGX, Bpifrance and NVIDIA; construction H2 2026, operations 2028.",
+        "date": "2026",
+        "source_url": "https://www.datacenterdynamics.com/en/news/mgx-bpifrance-nvidia-and-mistral-ai-plan-14gw-paris-data-center-campus/"
+      }
+    ],
+    "est_gpu_need": "Gigawatt-scale self-build. The only realistic opening is bridging capacity: going from 44 MW today to a 200 MW target by end-2027 could need 5-10 MW (2,500-4,000 GPUs) of interim dedicated capacity.",
+    "fit_score": 4,
+    "timing_rationale": "The gap between 44 MW live and the 200 MW end-2027 target, with the 1.4 GW campus not live until 2028, could create interim demand in H1 2027. Low probability: Mistral builds its own and also resells compute.",
+    "contacts": [
+      {
+        "name": "Arthur Mensch",
+        "title": "Co-founder & CEO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Timothée Lacroix",
+        "title": "Co-founder & CTO",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "medium"
+      },
+      {
+        "name": "Guillaume Lample",
+        "title": "Co-founder & Chief Scientist",
+        "linkedin_url": null,
+        "source_url": null,
+        "confidence": "low"
+      }
+    ]
+  }
+]

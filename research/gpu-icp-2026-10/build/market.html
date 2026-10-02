@@ -1,0 +1,54 @@
+  <section id="market">
+    <div class="sec-head">
+      <div class="label">Market</div>
+      <h2>The GPU market in October 2026</h2>
+      <p>Prices are rising and dedicated capacity is booked months ahead. Most new supply is tied up in a handful of mega-deals. That leaves 0.5–5 MW buyers under-served, and that is the gap Raion fills.</p>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>What</th><th>Figure</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr><td>GPUs in one 0.5 MW block</td><td class="num">About 200–250 Blackwell GPUs: 3 × GB300 NVL72 racks (216 GPUs) or about 30 HGX B300 nodes</td><td class="small">Estimate from NVIDIA, HPE and Lenovo power specs (HGX B300 ≈ 14.5 kW per node; GB300 NVL72 ≈ 132–142 kW per rack)</td></tr>
+          <tr><td>Contract value per block</td><td class="num">About $7–13M a year on 1–3 year terms (about $20–38M over 3 years)</td><td class="small">Estimate; cross-checked with Nebius's disclosed $20–25M per MW per year (<a href="https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf" target="_blank" rel="noopener">Q2 2026 letter</a>)</td></tr>
+          <tr><td>B300 price per GPU-hour</td><td class="num">Reserved median $5.71; on-demand median $7.87 (mid-Sep 2026)</td><td class="small"><a href="https://savrn.com/ai-index/pricing/gpus/b300" target="_blank" rel="noopener">savrn B300 index</a> (aggregator, directional)</td></tr>
+          <tr><td>H100 one-year contract index</td><td class="num">$1.70 (Oct 2025) → $2.35 (Mar 2026), up about 40%</td><td class="small"><a href="https://seekingalpha.com/news/4572260-nvidias-h100-gpu-rental-prices-surge-nearly-40-in-6-months-semianalysis" target="_blank" rel="noopener">SemiAnalysis via Seeking Alpha</a></td></tr>
+          <tr><td>Price shock</td><td class="num">Nebius raised on-demand prices 17–21% from 1 Oct 2026 (B300 $7.85 → $9.50)</td><td class="small"><a href="https://www.fool.com/investing/2026/09/27/nebius-is-raising-the-price-of-its-ai-compute-on-oct-1-here-s-what-that-says-about-the-shortage/" target="_blank" rel="noopener">Motley Fool</a></td></tr>
+          <tr><td>Lead times</td><td class="num">36–52 weeks for cluster hardware; reserved capacity booked 6+ months ahead; OEM deposits 9–12 months before shipping</td><td class="small"><a href="https://newsletter.semianalysis.com/p/the-great-gpu-shortage-rental-capacity" target="_blank" rel="noopener">SemiAnalysis</a> and aggregator sources (directional)</td></tr>
+          <tr><td>Contract terms</td><td class="num">One year is standard; 2–3 years usually with about 20% prepaid</td><td class="small"><a href="https://compute.exchange/blogs/reserved-gpus-contract-length" target="_blank" rel="noopener">Compute Exchange</a> (aggregator)</td></tr>
+          <tr><td>Vera Rubin</td><td class="num">First production NVL72 went live at CoreWeave on 30 Sep 2026 (Cognition is the first customer). Smaller buyers will likely wait until 2027.</td><td class="small"><a href="https://www.coreweave.com/news/coreweave-delivers-nvidia-vera-rubin-nvl72-performance-at-production-scale-starting-with-cognition" target="_blank" rel="noopener">CoreWeave</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Provider</th><th>Where they stand</th><th>Opening for Raion</th></tr></thead>
+        <tbody>
+          <tr><td><b>CoreWeave</b></td><td>$104B backlog; ClusterMAX Platinum</td><td>Mid-size buyers wait in line behind mega-deals; customers rent and never own; US-owned</td></tr>
+          <tr><td><b>Nebius</b></td><td>Raised on-demand prices 17–21% from 1 Oct; big deals at $20–25M per MW per year</td><td>On-demand customers now face a price shock; shared cloud</td></tr>
+          <tr><td><b>Nscale</b></td><td>$103.4B contracted, about 85% from Microsoft and Anthropic; Loughton GB300 site from Q1 2027</td><td>The UK mid-market is under-served; only about 2.5% of contracted value is live</td></tr>
+          <tr><td><b>Fluidstack</b></td><td>Moved its HQ to New York; pulled out of the €10B French project; ClusterMAX "Unavailable"</td><td>European buyers lost a local option</td></tr>
+          <tr><td><b>Lambda</b></td><td>Capacity increasingly pre-sold to Microsoft; US footprint only</td><td>No UK or EU sovereignty option</td></tr>
+          <tr><td><b>Crusoe, Together AI</b></td><td>Both downgraded to Bronze in ClusterMAX 3.0 (23 Sep 2026)</td><td>Customers who care about reliability are open to a switch</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cols">
+      <div>
+        <div class="label">What to say</div>
+        <ul class="ticks">
+          <li>Lead with the timing: "Sign in Q4 2026, run in Q1 2027." Raion's capacity is live from November; elsewhere the wait is 6–12 months.</li>
+          <li>Lead with B300 and GB300. Offer Vera Rubin in later blocks to head off "we'll wait for Rubin".</li>
+          <li>Quote against public price indices (SemiAnalysis, Ornn, and the new ICE and CME GPU futures). CFOs can check them.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="label">What to prepare</div>
+        <ul class="ticks">
+          <li>Expect "are you rated?" Have burn-in reports, SLAs and a test window ready, and apply for a ClusterMAX rating.</li>
+          <li>Whether buyers will pay more for ownership and sovereignty is still untested. Ask about it in every discovery call.</li>
+          <li>Send seed and Series A teams to a pooled or forum offer. A full block is about $7M or more a year.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small">These figures come from search-result extracts gathered on 2 Oct 2026. Aggregator figures are directional only. Check them before using them in external material.</p>
+  </section>

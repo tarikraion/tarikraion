@@ -1,0 +1,15 @@
+{
+ "potential_channel_partners_neoclouds": [
+  {"name": "Verda (formerly DataCrunch)", "hq": "Helsinki, Finland", "note": "EUR164.8M Series B led by Emergence Capital; became a unicorn (Sep 2026)", "source_url": "https://www.eu-startups.com/2026/09/helsinkis-verda-becomes-europes-latest-unicorn-after-raising-e164-8-million-to-scale-its-full-stack-ai-cloud/"},
+  {"name": "Scaleway (Iliad)", "hq": "Paris, France", "note": "Leads the AION consortium bidding about $10B for a 200 MW EU AI gigafactory; Iliad/Xavier Niel also back Kyutai and Gradium", "source_url": "https://thenextweb.com/news/french-companies-bid-10bn-eu-ai-gigafactory-aion"},
+  {"name": "Mistral AI Cloud", "hq": "Paris, France", "note": "Mistral sells training and inference capacity; it is both a stretch account and a competitor", "source_url": "https://mistral.ai/products/aicloud/"},
+  {"name": "Nscale", "hq": "London, UK (out of scope; UK team)", "note": "$2B Series C (Mar 2026), GBP670M revolving credit facility (Jul 2026)", "source_url": "https://news.crunchbase.com/venture/funding-picked-up-ai-led-europe-q1-2026/"},
+  {"name": "Exoscale", "hq": "Switzerland", "note": "Sovereign GPU inference cloud", "source_url": "https://www.exoscale.com/ai-cloud-infrastructure/"},
+  {"name": "Nebius, Fluidstack, OVHcloud, Genesis Cloud, evroc, Sesterce", "hq": "various", "note": "Excluded competitors per brief; no new 2026 signals gathered this session", "source_url": null}
+ ],
+ "eu_programmes": [
+  {"name": "EuroHPC AI Gigafactories call for tenders", "note": "Published 30 Jul 2026; submission deadline 12 Nov 2026; awards early 2027; up to 7 gigafactories; 77 expressions of interest across 16 member states and 60 sites", "source_url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en"},
+  {"name": "AION consortium (France)", "note": "Scaleway, Ardian, Artefact, Bull, Capgemini, EDF, Iliad, Orange; about $10B, 200 MW", "source_url": "https://thenextweb.com/news/french-companies-bid-10bn-eu-ai-gigafactory-aion"},
+  {"name": "MGX / Bpifrance / NVIDIA / Mistral 1.4 GW Paris campus", "note": "Construction from H2 2026; operations 2028", "source_url": "https://www.datacenterdynamics.com/en/news/mgx-bpifrance-nvidia-and-mistral-ai-plan-14gw-paris-data-center-campus/"}
+ ]
+}
