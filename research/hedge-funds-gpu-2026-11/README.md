@@ -25,7 +25,7 @@ Scope: hedge funds in the UK, Europe, the US, Singapore and the Middle East, wit
 
 ## Not hedge funds, but worth a look
 
-- **DRW (Chicago, prop trading):** signed a dedicated NVIDIA B300 GPU-as-a-Service deal with QumulusAI on 11 Aug 2026, renewable annually for up to 4 years. It is an active buyer of exactly what Raion sells.
+- **DRW (Chicago, prop trading; LinkedIn: https://www.linkedin.com/company/drw):** signed a dedicated NVIDIA B300 GPU-as-a-Service deal with QumulusAI on 11 Aug 2026, renewable annually for up to 4 years. It is an active buyer of exactly what Raion sells.
 - **Unnamed "agentic hedge fund":** signed a Blackwell capacity deal with QumulusAI on 7 Aug 2026. Pricing is market-rate compute plus a share of trading profits.
 - **G-Research and Quadrature (London):** both are prop firms, and I found no 2026 compute signal for either.
 
