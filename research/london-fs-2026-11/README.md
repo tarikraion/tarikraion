@@ -20,3 +20,25 @@ These lists cover London banks, hedge funds and trading firms that could buy ded
 - `london-trading-firms.csv` adds Hudson River Trading (renting more than 1,000 Blackwell systems from Lambda; London AI lab) and Jane Street (a $6bn CoreWeave commitment). Maven is on the watchlist.
 - Anonymised London recruiter ads for "GPU Systems Engineer – algorithmic fund" (Oxford Knight, Mar–Apr 2026) and "HPC Platform Engineer – $25bn systematic firm" show further unnamed demand. The first is probably HRT, but that is unconfirmed.
 - Not done, because the shared search limit ran out: about 20 UK fintechs (Lendable, ClearScore, GoCardless, Moneybox and others) and several London hedge funds (Caxton, Pharo, TCI and others).
+
+## Update 5 Nov (third pass): more London FS firms
+- `london-fs-firms.csv` gains Bloomberg (fit 8), BNY, Elliptic, Experian, Lendable, Tide, Checkout.com, Tractable and ComplyAdvantage. Behavox moves to fit 9 after its $8m dedicated-GPU commitment with Civo (7 Oct 2026, verified on civo.com). The list is re-ranked by GPU fit.
+- `london-trading-firms.csv` adds XTX Markets (25,000+ GPU cluster; building its own Finnish data centres).
+- In the sheet only (Other Leads): BlueCrest, H2O AM and Cosine (UK sovereign model; not financial services).
+
+## Update 5 Nov: people like Shane Moore (Standard Chartered)
+- **Seed:** Shane Moore. Apollo lists him as MD & Head of US Commercial Real Estate, Standard Chartered, New York. Standard Chartered's own releases on VIRTUS Data Centres (EUR210m Berlin, Feb 2026; GBP2.45bn, Sep 2026) quote him as **Head of Commercial Real Estate, EMEA**, so his desk lends to data centres and he is probably London-based now.
+- `dc-re-finance-people.csv` lists 43 lookalikes plus the seed, in London, New York and Abu Dhabi:
+  - Tier A (23): people who run data-centre or digital-infrastructure lending, or who were quoted on a data-centre deal.
+  - Tier B (20): general real-estate lenders and Gulf investors.
+  - 28 have a LinkedIn profile: 27 from Apollo matching, 1 from a search result.
+- `lenders.csv` adds 16 banks and investors "like Standard Chartered", plus a contact for each lender where one is known.
+- **Method:**
+  - Apollo lookalike agent, plus free Apollo people search, plus Apollo matching (28 credits).
+  - Three research agents, one each for London, New York and Abu Dhabi, at about 45 searches each.
+- **Spot checks:** Shane Moore's VIRTUS quotes, HSBC–Core42 $550m (Shaikha Almarri), Khazna $2.62bn (ADCB/FAB, Ludovic Nobili) and John Wilson's SMBC data-centre role.
+- **Gaps:**
+  - No LinkedIn found for Jess Tomlinson (Lloyds) or MGX's CEO.
+  - Several titles come from Apollo only (marked "Partly verified").
+  - Nick Donias has moved from SMBC to Goldman Sachs.
+  - No 2026 data-centre deal was found for CIBC, NAB or OCBC in the US.
