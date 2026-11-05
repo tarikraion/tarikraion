@@ -42,3 +42,28 @@ These lists cover London banks, hedge funds and trading firms that could buy ded
   - Several titles come from Apollo only (marked "Partly verified").
   - Nick Donias has moved from SMBC to Goldman Sachs.
   - No 2026 data-centre deal was found for CIBC, NAB or OCBC in the US.
+
+## Update 5 Nov: Abu Dhabi capital, more lenders like Standard Chartered, and missing contact LinkedIn profiles
+- **`abu-dhabi-capital.csv`:** 42 Abu Dhabi and UAE banks, sovereign funds, holding companies and global credit or infrastructure funds with Abu Dhabi offices that finance data centres, GPU clouds or AI infrastructure.
+  - Tier A (13) is active in Raion's markets in 2025–26. Top picks:
+    - Blue Owl: lender on Nscale's GPU-backed loan; ADGM office since Jun 2026.
+    - ADIC: backed Nscale's $3.36bn pre-IPO notes.
+    - Mubadala Capital: co-led Crusoe's Series E.
+    - HSBC UAE: Core42's $550m.
+    - Stonepeak, Partners Group, Harrison Street and EQT.
+  - Spot-checked: ADIC–Nscale (Sep 2026) and Blue Owl's ADGM office.
+- **`lenders.csv`:** 24 more lenders "like Standard Chartered" (real-estate or infrastructure desks that financed data centres in 2025–26):
+  - Aareal Bank: its first data-centre loan, from a new dedicated unit.
+  - US banks: Wells Fargo (its CRE Specialty Capital group), Citizens, First Citizens, Truist, PNC, U.S. Bank and regional banks.
+  - Canadian banks: TD, Scotiabank and National Bank of Canada.
+  - European banks: UniCredit, Intesa, NORD/LB and LBBW.
+  - Debt funds: ICG (a £750m London data centre), AllianzGI, Infranity, Brookfield Infrastructure Debt, Rivage, AXA IM Alts, F2i, Apollo and Starwood.
+  - Asian banks: DBS, UOB and Maybank.
+  - Israel: Mizrahi-Tefahot.
+  - Spot-checked: Aareal–Goodman, DataBank's $800m syndicate and First Citizens–T5.
+- **Missing contact LinkedIn:** Apollo filled most gaps across all tabs, using 63 credits in total. The monthly Apollo allowance is now used up and resets on 25 Nov 2026.
+- **Contact moves found:**
+  - Kristin Khanna: Barclays to QTS.
+  - Pri McNair: left Emirates NBD.
+  - François Regnier: left BNP Paribas.
+  - Nick Donias: SMBC to Goldman Sachs.
