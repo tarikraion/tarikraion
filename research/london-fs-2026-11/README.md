@@ -67,3 +67,18 @@ These lists cover London banks, hedge funds and trading firms that could buy ded
   - Pri McNair: left Emirates NBD.
   - François Regnier: left BNP Paribas.
   - Nick Donias: SMBC to Goldman Sachs.
+
+## Update 5 Nov: top 10 new UK/London data-centre financiers
+`uk-top10-dc-financiers.csv` (also Lenders rows 59–68) ranks the 10 best new UK financiers for Raion:
+1. OakNorth: £25m DataVita AI data-centre loan
+2. National Wealth Fund
+3. Legal & General
+4. Siemens Financial Services
+5. Investec
+6. Barclays
+7. InfraRed
+8. 3i Infrastructure
+9. USS
+10. Scottish National Investment Bank
+
+Contact LinkedIn URLs were taken from LinkedIn-restricted web search results, because Apollo, Explorium and Apify had no credits left. A URL was found for 9 of the 10; there is none for USS's Ben Levenstein. No London private-credit fund lending against GPUs was found: the GPU-backed loans traced went to lenders already listed.
