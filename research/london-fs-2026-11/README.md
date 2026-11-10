@@ -82,3 +82,18 @@ These lists cover London banks, hedge funds and trading firms that could buy ded
 10. Scottish National Investment Bank
 
 Contact LinkedIn URLs were taken from LinkedIn-restricted web search results, because Apollo, Explorium and Apify had no credits left. A URL was found for 9 of the 10; there is none for USS's Ben Levenstein. No London private-credit fund lending against GPUs was found: the GPU-backed loans traced went to lenders already listed.
+
+## Update 10 Nov: next 10 data-centre / GPU financiers (banks that fund data centres first)
+`next10-dc-financiers-banks-first.csv` (also Lenders rows 84–93). Following the preference for banks that fund data centres, 7 of the 10 are banks:
+1. BBVA: AtlasEdge €1.2bn lender; structuring bank on Switch's $2.6bn facility; London project-finance head
+2. Nordic Investment Bank: €22m GPU loan to Verda (Jul 2026)
+3. La Banque Postale: one of seven banks on Mistral's $830m GPU debt
+4. KfW IPEX-Bank: AtlasEdge lender; London branch infrastructure team
+5. EBRD: London HQ; $14–70m data-centre loans in its countries
+6. CIBC: joint lead arranger on Switch's $2.6bn facility
+7. EIB: €1bn Mistral GPU project financing under appraisal (not signed)
+8. Silver Point Capital: co-lender on NexGen Cloud's $106m GPU loan
+9. Future Growth Capital: £20m nLighten UK edge data-centre loan
+10. GLIL Infrastructure: buying a majority stake in Yondr's Slough campus (equity)
+
+Lenders column O ("Preference") flags every bank with a data-centre deal. Contact LinkedIn was found for 8 of 10 (none for KfW's Linda Zahri or for GLIL). Left out: NIBC (an ABN AMRO subsidiary since 3 Aug 2026), Bank of Ireland (its €1.85bn deal could not be confirmed), and Alpha Bank and NatWest (each named as an AtlasEdge lender in one source only). Silver Point is a London private-credit lender against GPUs, which the 5 Nov search had not found.
