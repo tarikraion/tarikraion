@@ -96,4 +96,4 @@ Contact LinkedIn URLs were taken from LinkedIn-restricted web search results, be
 9. Future Growth Capital: £20m nLighten UK edge data-centre loan
 10. GLIL Infrastructure: buying a majority stake in Yondr's Slough campus (equity)
 
-Lenders column O ("Preference") flags every bank with a data-centre deal. Contact LinkedIn was found for 8 of 10 (none for KfW's Linda Zahri or for GLIL). Left out: NIBC (an ABN AMRO subsidiary since 3 Aug 2026), Bank of Ireland (its €1.85bn deal could not be confirmed), and Alpha Bank and NatWest (each named as an AtlasEdge lender in one source only). Silver Point is a London private-credit lender against GPUs, which the 5 Nov search had not found.
+Lenders column O ("Preference") flags every bank with a data-centre deal. Contact LinkedIn was found for 8 of 10 (none for KfW's Linda Zahri or for GLIL); company LinkedIn pages for all 10. Left out: NIBC (an ABN AMRO subsidiary since 3 Aug 2026), Bank of Ireland (its €1.85bn deal could not be confirmed), and Alpha Bank and NatWest (each named as an AtlasEdge lender in one source only). Silver Point is a London private-credit lender against GPUs, which the 5 Nov search had not found.
