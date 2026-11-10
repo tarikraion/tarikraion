@@ -112,3 +112,18 @@ Lenders column O ("Preference") flags every bank with a data-centre deal. Contac
 10. ABN AMRO (incl. NIBC): Nebius, Nscale Narvik, DataVita
 
 Left out, with reasons, on the tab: Goldman Sachs International, PIMCO, Blue Owl, LuminArx, Scottish National Investment Bank, NIB, Nordea, Armada, the large US/Japanese/French banks, Dell Financial Services, Barclays, Lloyds, NatWest, British Business Bank and UK Export Finance.
+
+## Update 10 Nov: 10 new UK GPU financiers we had not searched or contacted
+`new10-uk-gpu-financiers.csv` (also Lenders rows 94–103). The search excluded every name already on a tab, every lender already searched and rejected, and every financier in the calendar. Seven of the 10 are banks:
+1. KB Kookmin Bank: leading Korea's first GPU loan (~$8bn, Brookfield/Naver)
+2. Tikehau Capital: London team; Polar HPC data-centre loan
+3. Shinhan Bank: £2bn UK investment target
+4. QNB: one of the lead banks on Zankore's $3.1bn GPU loan
+5. KDB: Naver Sejong AI data centre
+6. Hana Bank: GPU-server import trade finance
+7. Woori Bank: Pohang AI Factory loan
+8. CTBC: $445m GPU-backed loan to GMI Cloud
+9. Crestline (Rithm Capital): US data-centre lending; London team
+10. US EXIM ExportAI Initiative: whether UK buyers qualify is unconfirmed
+
+None of the 10 has a UK GPU loan yet. Every lender with UK GPU deals is already on the sheet. Also found but not added: SWI Group, Sandton Capital, Palistar, Post Road, EDC, ANZ, Westpac and NH NongHyup.
