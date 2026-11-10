@@ -97,3 +97,18 @@ Contact LinkedIn URLs were taken from LinkedIn-restricted web search results, be
 10. GLIL Infrastructure: buying a majority stake in Yondr's Slough campus (equity)
 
 Lenders column O ("Preference") flags every bank with a data-centre deal. Contact LinkedIn was found for 8 of 10 (none for KfW's Linda Zahri or for GLIL); company LinkedIn pages for all 10. Left out: NIBC (an ABN AMRO subsidiary since 3 Aug 2026), Bank of Ireland (its €1.85bn deal could not be confirmed), and Alpha Bank and NatWest (each named as an AtlasEdge lender in one source only). Silver Point is a London private-credit lender against GPUs, which the 5 Nov search had not found.
+
+## Update 10 Nov: perfect-fit 10 financiers for UK GPU projects
+`uk-gpu-financiers-top10.csv` (also the new **UK GPU Financiers Top 10** tab). Three research agents traced 23 GPU and AI data-centre loans from 2025–26 and scored about 60 lenders on four tests: (1) has lent against GPUs or to a GPU cloud, (2) UK deal or London desk, (3) deal size near Raion's $5–50m first ticket, (4) a named contact with a LinkedIn profile seen in search results. Ranking:
+1. Macquarie (Specialised & Asset Finance; London Branch): GPU loans to Nscale, Fluidstack and Polarise. Eli Appelbaum has accepted a call with Raion on 17 Nov.
+2. USD.AI: $34m non-recourse B200 loan to NexGen Cloud
+3. Silver Point: London co-heads of Europe; NexGen $106m
+4. HSBC: Mistral GPU financing; Nebius MLA; warm route via HSBC Innovation Banking
+5. OakNorth: £25m sole lender to DataVita (CoreWeave)
+6. National Wealth Fund: £202m guarantee for UK compute
+7. Siemens Financial Services: DataVita lender; Kao Data
+8. MUFG: led Nebius $775m GPU loan
+9. Victory Park: Crusoe $175m GPU loan; NexGen
+10. ABN AMRO (incl. NIBC): Nebius, Nscale Narvik, DataVita
+
+Left out, with reasons, on the tab: Goldman Sachs International, PIMCO, Blue Owl, LuminArx, Scottish National Investment Bank, NIB, Nordea, Armada, the large US/Japanese/French banks, Dell Financial Services, Barclays, Lloyds, NatWest, British Business Bank and UK Export Finance.
