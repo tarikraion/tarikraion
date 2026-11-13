@@ -127,3 +127,12 @@ Left out, with reasons, on the tab: Goldman Sachs International, PIMCO, Blue Owl
 10. US EXIM ExportAI Initiative: whether UK buyers qualify is unconfirmed
 
 None of the 10 has a UK GPU loan yet. Every lender with UK GPU deals is already on the sheet. Also found but not added: SWI Group, Sandton Capital, Palistar, Post Road, EDC, ANZ, Westpac and NH NongHyup.
+
+## Update 13 Nov: round 3, new UK banks and financiers
+`round3-uk-financiers-2026-11-13.csv` (also Lenders rows 119–128). This round excluded everything already on any tab (including the 11 Nov rows 104–118 and the Gulf Capital tab) and every lender already searched. Three agents traced the unnamed lenders on UK deals (including Companies House charges), about 30 banks never searched before, and about 45 non-banks never searched before. The results are tiered:
+- **A, lenders:** CPP Investments (lent C$225m to an Ontario data-centre build pre-leased to an AI cloud), IFM Investors and Principal (both lenders on Yondr's European holdco facility).
+- **B, UK data-centre owners that could host or co-invest:** DWS (Stellanor, 11 UK sites) and I Squared (nLighten UK edge sites; Saragon AI-inference colocation).
+- **C, data-centre equity with London teams:** CVC DIF, Igneo, Nuveen.
+- **D, weak banks:** IBK, Mega ICBC.
+
+The pool of UK lenders against GPUs is now largely on the sheet. The lenders of Virtus' other ~8 banks and Pulsant's 4 new lenders are still undisclosed.
