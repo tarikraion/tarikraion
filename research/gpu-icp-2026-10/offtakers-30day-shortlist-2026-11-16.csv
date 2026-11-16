@@ -1,0 +1,11 @@
+rank,source_list,company,30_day_probability,company_linkedin,contact_name,contact_title,contact_linkedin,why_they_could_sign_in_30_days
+1,NEW,AMP PBC,MEDIUM-HIGH,Not found,Anjney Midha,Founder,https://www.linkedin.com/in/anjney/,Exists to buy GPU capacity from operators; ~$1.3B first fund; 1.3 GW target
+2,Round 1,SF Compute (San Francisco Compute Company),MEDIUM-HIGH,https://www.linkedin.com/company/sfcompute,Evan Conrad,Co-founder & CEO,https://www.linkedin.com/in/evan-conrad/,Sold $245M of 36-month B300 clusters; must source supply behind them
+3,Round 1,DRW,MEDIUM,https://www.linkedin.com/company/drw,Don Wilson,Founder & CEO,https://www.linkedin.com/in/donwilsonjr/,Bought a dedicated B300 cluster from a small provider (Aug); building compute trading
+4,NEW,General Catalyst,MEDIUM,https://www.linkedin.com/company/general-catalyst,Alexis Black Björlin,Chief Strategy Officer,https://www.linkedin.com/in/alexisbjorlin/,Building a compute pool for its startups now (14 Oct); own build too slow for spring 2027
+5,Round 2,Utopai Studios,MEDIUM,Not found,Cecilia Shen,Co-founder & CEO,https://www.linkedin.com/in/cecilia-shen,"Rents dedicated GPUs at GMI now; $60M raised; 2027 film slate. KYC: MiniMax base model, Huace partner"
+6,Round 1,Parasail,MEDIUM,Not found,Mike Henry,Co-founder & CEO,https://www.linkedin.com/in/mike-henry-72204123/,Rents all its GPUs from third parties and resells by the token
+7,Round 2,Decagon,MEDIUM-LOW,Not found,Jesse Zhang,Co-founder & CEO,https://www.linkedin.com/in/thejessezhang/,Runs on rented B200s at Together; second source and price hedge
+8,Round 1,Inferact,MEDIUM-LOW,Not found,Simon Mo,Co-founder & CEO,https://www.linkedin.com/in/simon-mo-834217162/,Managed vLLM cloud on GPUs it provisions; $150M seed
+9,Round 1,Exa (Exa Labs),MEDIUM-LOW,Not found,Jeff Pinner,CTO,https://www.linkedin.com/in/jeff-pinner/,Traffic ~10x a year on its own cluster; may prefer to own hardware
+10,NEW,Andreessen Horowitz (a16z Oxygen),LOW-MEDIUM,https://www.linkedin.com/company/a16z,(Oxygen lead not identified),,Not found,"Expanding ~20,000-GPU pool now; mostly via Switch and Volta, which a16z backs"
