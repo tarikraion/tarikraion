@@ -136,3 +136,10 @@ None of the 10 has a UK GPU loan yet. Every lender with UK GPU deals is already 
 - **D, weak banks:** IBK, Mega ICBC.
 
 The pool of UK lenders against GPUs is now largely on the sheet. The lenders of Virtus' other ~8 banks and Pulsant's 4 new lenders are still undisclosed.
+
+## Update 16 Nov: family offices, batch 3
+`family-offices-batch3-2026-11-16.csv` (also the family_offices_batch1 sheet, Family Offices tab rows 37–46). Excludes the 35 family offices already on that tab and every earlier reject. Each has a dated 2025–26 data-centre, powered-land or GPU deal.
+- **A, cheque-writers:** Battery Global Advisors (20% of Anan Data Centers; $208.5m data-centre platform fund, Sep 2026), 8090 Industries (co-led Nscale's $2bn Series C), Boultbee Brooks (investor in and lender to SUB1, UK powered shells).
+- **B, smaller investors, landowners and family-owned operators:** E. Bank Lauridsen Holding and Systematic Holding (both in Thylander Data Centers), Peterson Companies, Thor Equities, Lugman Group, Bynet Data Centers, Hypertec.
+
+The pool of family offices with dated data-centre or GPU deals is close to exhausted.
