@@ -40,3 +40,30 @@ Ratings adjusted conservatively:
 - **Needs a manual check:** Christi DeCuir. Her LinkedIn headline now reads "Sr. Director, Robotics Strategic Alliances", so Apollo's title may be stale.
 
 **Unresolved:** 42 shortlisted people could not be matched to a full name. The search tool strips first names from people queries, and Apollo masks surnames. Revealing them would need Apollo enrichment credits, which reset on 25 Nov.
+
+## Rounds 3 and 4 (17 Nov 2026)
+
+New method in these rounds:
+1. **Harvest:** LinkedIn-restricted searches collected NVIDIA profile URLs by role and place.
+2. **Bulk check:** the URLs went through Apollo's free LinkedIn-URL filter, combined with the nvidia.com and 5+ years-in-current-title filters. Only profiles Apollo returned were kept, and each record's first name and surname mask had to match the profile name.
+3. **Re-check:** every URL was checked again before saving. All passed.
+
+The method is strict. Someone who has been at NVIDIA a long time but changed title less than 5 years ago does not pass, so the list leans towards stable roles.
+
+**Round 3:** `nvidia-5yr-people-round3-2026-11-17.csv`
+- 47 people: US/Canada 16, UK 8, continental Europe 18, other 4, and 1 former (Gary Hicok, 25 years at NVIDIA).
+- Name + LinkedIn: `nvidia-5yr-people-round3-names-linkedin.csv`.
+
+**Round 4:** `nvidia-5yr-people-round4-2026-11-17.csv`
+- 166 people: Israel 35, India/APAC 33, leadership 29, US DGX/sales/SA 29, US networking 25, EMEA 15.
+- The `raion_relevant` column marks 143 as yes; the other 23 are in HR, finance, audit, chip design and similar roles.
+- Name + LinkedIn: `nvidia-5yr-people-round4-names-linkedin.csv`.
+
+**Flagged for a manual check:**
+- David Hogan (round 3): his profile headline doesn't mention NVIDIA.
+- Keiko Wakabayashi (round 4): sources disagree on whether she is still at NVIDIA.
+- Fredrik Liljegren (round 4): his Apollo title is informal ("Chief Happiness Manager").
+
+**Known limitation:** in one case (Jean Baptiste Riaux, dropped), Apollo's 5+ year tenure conflicted with a recent "joined from Groq" post. Rows rated medium-high rest on Apollo's tenure data.
+
+**Cumulative total:** 29 + 46 + 47 + 166 = 288 people.
