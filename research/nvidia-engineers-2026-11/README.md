@@ -15,3 +15,28 @@ Confidence:
 Mellanox staff (Israel) count from the April 2020 acquisition; earlier Mellanox years are noted.
 
 No emails, phone numbers or addresses were collected. About 30 Apollo candidates could not be resolved to a full name, because Apollo masks surnames and the search tool strips names from many queries.
+
+## Round 2 (17 Nov 2026): `nvidia-5yr-people-round2-2026-11-17.csv`
+
+This round adds 46 more people, all currently at NVIDIA, with none repeated from round 1. Unlike round 1, it includes business-side people (alliances, cloud-provider business development, partner/channel, data-centre acquisitions) alongside engineers.
+
+| Group | People |
+|---|---|
+| EU technical | 14 |
+| Israel networking/cloud (mostly ex-Mellanox) | 12 |
+| US data centre / GPU cloud | 8 |
+| EU partners/sales | 8 |
+| US cloud partners/leaders | 4 |
+
+**Confidence:** 14 high, 27 medium-high, 5 medium.
+
+How it was built:
+- **Candidates:** a new Apollo pull (no credits used) of NVIDIA staff with 5+ years in their current title, about 2,000 records across UK/EU, US/Canada and Israel. From these, 88 people were shortlisted, excluding everyone in round 1 and its unresolved list.
+- **Names and LinkedIn:** resolved with LinkedIn-restricted web searches. A URL is listed only if it appeared in a result.
+- **Extra check:** all 41 LinkedIn URLs were fed back into Apollo's free LinkedIn-URL filter, together with the NVIDIA and 5+ year filters. Every one returned the same long-tenure record, so the profile, the name and the tenure belong to one person.
+
+Ratings adjusted conservatively:
+- **Downgraded to medium-high:** Ariel Kit, Arik Kol and Eyal Babish, because their dated evidence came only from search summaries.
+- **Needs a manual check:** Christi DeCuir. Her LinkedIn headline now reads "Sr. Director, Robotics Strategic Alliances", so Apollo's title may be stale.
+
+**Unresolved:** 42 shortlisted people could not be matched to a full name. The search tool strips first names from people queries, and Apollo masks surnames. Revealing them would need Apollo enrichment credits, which reset on 25 Nov.
