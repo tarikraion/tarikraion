@@ -1,0 +1,35 @@
+rank,company,urgency,contact_name,contact_title,contact_linkedin,company_linkedin
+1,Harvey,NOW,Winston Weinberg,CEO & Co-founder,,
+1,Harvey,NOW,Gabe Pereyra,President & Co-founder,https://www.linkedin.com/in/gabepereyra/,
+1,Harvey,NOW,Katie Burke,Chief Operating Officer,,
+2,Pinterest,NOW,Bill Ready,CEO,https://www.linkedin.com/in/williamready/,
+2,Pinterest,NOW,James Dibbo,CFO (per one analyst; sources disagree),,
+2,Pinterest,NOW,Matt (surname masked Ma***l),Chief Product & Technology Officer,,
+3,Ricursive Intelligence,NOW,Anna Goldie,Co-founder & CEO,,https://www.linkedin.com/company/ricursive-intelligence/
+3,Ricursive Intelligence,NOW,Azalia Mirhoseini,Co-founder,,https://www.linkedin.com/company/ricursive-intelligence/
+4,Doximity,NOW,Jeff Tangney,CEO & Co-founder,https://www.linkedin.com/in/jtangney/,
+4,Doximity,NOW,Matt Sonefeldt,CFO,,
+5,Tolan (Portola),NOW,Quinten Farmer,Founder & CEO,,https://www.linkedin.com/company/hiportola
+5,Tolan (Portola),NOW,Evan Goldschmidt,Founder & CTO,https://www.linkedin.com/in/evangoldschmidt/,https://www.linkedin.com/company/hiportola
+5,Tolan (Portola),NOW,Ajay Mehta,Founder & President,,https://www.linkedin.com/company/hiportola
+6,Databricks,SOON,Ali Ghodsi,Co-founder & CEO,,https://www.linkedin.com/company/databricks
+6,Databricks,SOON,Matei Zaharia,CTO & Co-founder,,https://www.linkedin.com/company/databricks
+7,Datadog,SOON,Olivier Pomel,Co-founder & CEO,,
+8,Snowflake,SOON,Sridhar Ramaswamy,CEO,https://www.linkedin.com/in/sridhar-ramaswamy-9722202/,
+8,Snowflake,SOON,Jon (surname masked Os***n),CTO,,
+9,Shopify,SOON,Tobias Lütke,CEO,,
+9,Shopify,SOON,Mikhail Parakhin,CTO,,
+9,Shopify,SOON,Jeff Hoffmeister,CFO,,
+10,doubleAI,SOON,Amnon Shashua,Co-founder & CEO,https://www.linkedin.com/in/amnon-shashua/,https://www.linkedin.com/company/doubleai/
+11,Revolution Labs,SOON,Nando de Freitas,Founder,https://www.linkedin.com/in/nandodefreitas/,
+12,EliseAI,SOON,Minna Song,Co-founder & CEO,https://www.linkedin.com/in/minna-song/,https://www.linkedin.com/company/eliseai
+12,EliseAI,SOON,Stoyan (surname masked St***v),Co-founder & CTO,,https://www.linkedin.com/company/eliseai
+13,Reducto,SOON,Adit Abraham,Co-founder & CEO,,https://www.linkedin.com/company/reducto-ai
+13,Reducto,SOON,Raunak Chowdhuri,Co-founder,,https://www.linkedin.com/company/reducto-ai
+14,Einride,SOON,Roozbeh Charli,CEO,,https://www.linkedin.com/company/einride
+14,Einride,SOON,Anubhav Verma,CFO,,https://www.linkedin.com/company/einride
+15,Dream Security,SOON,Shalev Hulio,Co-founder & CEO,,https://www.linkedin.com/company/dreamsecurity
+15,Dream Security,SOON,Gil Dolev,CTO,,https://www.linkedin.com/company/dreamsecurity
+15,Dream Security,SOON,Sebastian Kurz,Co-founder,,https://www.linkedin.com/company/dreamsecurity
+16,Sarvam AI,SOON,Pratyush Kumar,Co-founder,,https://www.linkedin.com/company/sarvam-ai/
+16,Sarvam AI,SOON,Vivek Raghavan,Co-founder,https://in.linkedin.com/in/vivek-raghavan-16005424,https://www.linkedin.com/company/sarvam-ai/
