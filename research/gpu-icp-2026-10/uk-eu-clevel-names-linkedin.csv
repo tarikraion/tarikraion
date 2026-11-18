@@ -1,52 +1,63 @@
-company,full_name,title,person_linkedin,company_linkedin
-Applied Computing,Callum Adamson,Co-founder & CEO,,
-Applied Computing,Samyakh (Sam) Tukra,Co-founder & Chief AI Officer,,
-Applied Computing,Dan Jeavons,President,,
-Arlequin AI,Hugo Micheron,Co-founder & CEO,,
-Arlequin AI,Antoine Jardin,Co-founder & CTO,,
-Basecamp Research,Philipp Lorenz,Chief Technology Officer,,
-Basecamp Research,John Finn,Chief Scientific Officer,,
-Behavox (incl. Gigatokens),Alex Glasman,Co-founder & Chief Scientist (also listed as Chief Data Scientist),,
-Black Forest Labs,Andreas Blattmann,"Co-founder (active; public technical lead; no C-title confirmed, CTO only per Gitnux)",,
-CuspAI,Aron Walsh,Chief Scientific Officer (since Jan 2026; also Imperial professor),,
-DeepL,Gavin Mee,Chief Operating Officer,,
-DeepL,Martino Cadoni,Chief Financial Officer,,
-DeepL,Gonçalo Gaiolas,Chief Product Officer,,
-Domyn (formerly iGenius),Danilo Roncasaglia,Chief Financial Officer,,
-Domyn (formerly iGenius),Luca Antiga,CTO,,
-Gravis Robotics,Dominic Jud,CTO & Co-founder,,
-Magnific (formerly Freepik),Omar Pera,Chief Product Officer,,
-Magnific (formerly Freepik),Alejandro Gómez,CTO,,
-Model ML,Chaz Englander,Co-founder & CEO,,
-Model ML,Arnie Englander,Co-founder & CTO,,
-Model ML,Alex Kayyal,Chief Financial Officer,,
-Noxtua,Simon Joecks,Chief Technology Officer,,
-Noxtua,Ruth Rothmaler,Chief Product Officer,,
-Speechmatics,Antony Berg,Chief Financial Officer,https://www.linkedin.com/in/antony-berg-1348a0,https://www.linkedin.com/company/speechmatics
-Synthesia,Steffen Tjerrild,Co-founder & COO,https://www.linkedin.com/in/steffentjerrild,
-Synthesia,Daniel Kim,Chief Financial Officer,,
-Tandem Health,Oliver Åstrand,CTO & Co-founder,,
-Tandem Health,Oscar Boldt-Christmas,Co-founder & Chief Commercial Officer (active co-founder),,
-Doctolib,Ivan Schneider,Co-founder / Solution Architect,https://www.linkedin.com/in/ivan-schneider-500b104b,https://www.linkedin.com/company/doctolib
-Doctolib,Jessy Bernal,Principal Engineer & Co-founder,https://www.linkedin.com/in/jessy,https://www.linkedin.com/company/doctolib
-Doctolib,Alex Kaluzny,Chief Technology Officer,https://www.linkedin.com/in/akaluzny,https://www.linkedin.com/company/doctolib
-Doctolib,Pierre Vergnes,Group Chief Financial Officer,https://www.linkedin.com/in/pierrevergnes,https://www.linkedin.com/company/doctolib
-JetBrains,Sergey Dmitriev,President and co-owner,https://www.linkedin.com/in/sergey-dmitriev-05b581,https://www.linkedin.com/company/jetbrains
-JetBrains,Anastasia K.,Chief Information Security Officer,https://www.linkedin.com/in/anastasia-k-89a668159,https://www.linkedin.com/company/jetbrains
-JetBrains,Eugene Belyaev,Co-Founder,https://www.linkedin.com/in/eugene-belyaev-a7468764,https://www.linkedin.com/company/jetbrains
-JetBrains,Valentin K.,Founder,https://www.linkedin.com/in/valentin-k-13569590,https://www.linkedin.com/company/jetbrains
-JetBrains,Natalie Pokrovsky,"CFO, Managing Director",https://www.linkedin.com/in/natalie-pokrovsky-79b2a3,https://www.linkedin.com/company/jetbrains
-Pathway,Adrian Kosowski,"Co-Founder, Chief Scientific Officer",https://www.linkedin.com/in/kosowski,https://www.linkedin.com/company/pathway
-Pathway,Adam Kurzrok,Chief Product Officer,https://www.linkedin.com/in/adam-kurzrok,https://www.linkedin.com/company/pathway
-Pathway,Claire Nouet,Co-Founder & COO,https://www.linkedin.com/in/clairenouet,https://www.linkedin.com/company/pathway
-Recursive Superintelligence,Laura Moss,Chief Financial Officer,https://www.linkedin.com/in/laura-moss-92bb1b19,https://www.linkedin.com/company/recursive-si
-Recursive Superintelligence,Tim Shi,Co-Founder,https://www.linkedin.com/in/tianlinshi,https://www.linkedin.com/company/recursive-si
-Recursive Superintelligence,Yuandong Tian,Co-Founder,https://www.linkedin.com/in/yuandongtian,https://www.linkedin.com/company/recursive-si
-Recursive Superintelligence,Josh Tobin,Co-founder & CTO,https://www.linkedin.com/in/josh-tobin-4b3b10a9,https://www.linkedin.com/company/recursive-si
-Recursive Superintelligence,Caiming Xiong,Co-Founder,https://www.linkedin.com/in/caiming-xiong-150a1417,https://www.linkedin.com/company/recursive-si
-Recursive Superintelligence,Alexey Dosovitskiy,Co-Founder,https://www.linkedin.com/in/alexey-dosovitskiy-3694a1a9,https://www.linkedin.com/company/recursive-si
-Speechmatics,Tony Robinson,Founder,https://www.linkedin.com/in/drtonyrobinson,https://www.linkedin.com/company/speechmatics
-Sword Health,Jeremy L.,Chief Information Security Officer,https://www.linkedin.com/in/jeremy---lynch,https://www.linkedin.com/company/swordhealth
-Sword Health,Márcio Colunas,Founder and CSO,https://www.linkedin.com/in/marciocolunas,https://www.linkedin.com/company/swordhealth
-Sword Health,Caroline McGoldrick,Chief Strategy Officer,https://www.linkedin.com/in/carolinemcgoldrick,https://www.linkedin.com/company/swordhealth
-Sword Health,Valentina Longo,Chief Financial Officer,https://www.linkedin.com/in/valentina-longo-a3134b253,https://www.linkedin.com/company/swordhealth
+status,company,full_name,title,person_linkedin,possible_linkedin_unconfirmed,company_linkedin,source,note
+Counted C-level,Applied Computing,Callum Adamson,Co-founder & CEO,,https://uk.linkedin.com/in/callumadamson,,web,
+Counted C-level,Applied Computing,Samyakh (Sam) Tukra,Co-founder & Chief AI Officer,https://www.linkedin.com/in/samyakhtukra,,,web,
+Counted C-level,Applied Computing,Dan Jeavons,President,,,,web,
+Counted C-level,Arlequin AI,Hugo Micheron,Co-founder & CEO,https://www.linkedin.com/in/hugo-micheron-549657294,,,web,
+Counted C-level,Arlequin AI,Antoine Jardin,Co-founder & CTO,https://www.linkedin.com/in/antoine-jardin-95803150,,,web,
+Counted C-level,Basecamp Research,Philipp Lorenz,Chief Technology Officer,,https://uk.linkedin.com/in/phil-lorenz-a4992aa1,https://www.linkedin.com/company/basecamp-research,web,
+Counted C-level,Basecamp Research,John Finn,Chief Scientific Officer,,,https://www.linkedin.com/company/basecamp-research,web,
+Counted C-level,Black Forest Labs,Andreas Blattmann,"Co-founder (active; public technical lead; no C-title confirmed, CTO only per Gitnux)",https://www.linkedin.com/in/andreas-blattmann-479038186,,https://www.linkedin.com/company/bflai,web,
+Counted C-level,Black Forest Labs,Axel Sauer,Co-Founder,https://www.linkedin.com/in/axel-sauer,,https://www.linkedin.com/company/bflai,HeyReach: 988989 Black Forest Labs,Co-founder in research role (not management)
+Counted C-level,Black Forest Labs,Sumith Kulal,Co-Founder & Research Scientist,https://www.linkedin.com/in/sumith-kulal,,https://www.linkedin.com/company/bflai,HeyReach: 988989 Black Forest Labs,Co-founder in research role (not management)
+Counted C-level,Black Forest Labs,Dustin Podell,Founder/Researcher,https://www.linkedin.com/in/dustinpodell,,https://www.linkedin.com/company/bflai,HeyReach: 988989 Black Forest Labs,Co-founder in research role (not management)
+Counted C-level,CuspAI,Aron Walsh,Chief Scientific Officer (since Jan 2026; also Imperial professor),https://www.linkedin.com/in/aron-walsh-10861354,,,web,
+Counted C-level,DeepL,Gavin Mee,Chief Operating Officer,https://www.linkedin.com/in/gavin-mee-4b309b2,,https://www.linkedin.com/company/deepl,web,
+Counted C-level,DeepL,Martino Cadoni,Chief Financial Officer,https://www.linkedin.com/in/martinocadoni,,https://www.linkedin.com/company/deepl,web,
+Counted C-level,DeepL,Gonçalo Gaiolas,Chief Product Officer,https://www.linkedin.com/in/goncalogaiolas,,https://www.linkedin.com/company/deepl,web,
+Counted C-level,Doctolib,Ivan Schneider,Co-founder / Solution Architect,https://www.linkedin.com/in/ivan-schneider-500b104b,,https://www.linkedin.com/company/doctolib,HeyReach,
+Counted C-level,Doctolib,Jessy Bernal,Principal Engineer & Co-founder,https://www.linkedin.com/in/jessy,,https://www.linkedin.com/company/doctolib,HeyReach,
+Counted C-level,Doctolib,Alex Kaluzny,Chief Technology Officer,https://www.linkedin.com/in/akaluzny,,https://www.linkedin.com/company/doctolib,HeyReach,
+Counted C-level,Doctolib,Pierre Vergnes,Group Chief Financial Officer,https://www.linkedin.com/in/pierrevergnes,,https://www.linkedin.com/company/doctolib,HeyReach,
+Counted C-level,Domyn (formerly iGenius),Danilo Roncasaglia,Chief Financial Officer,https://www.linkedin.com/in/danilo-roncasaglia-b19465203,,,web,
+Counted C-level,Domyn (formerly iGenius),Luca Antiga,CTO,https://www.linkedin.com/in/lantiga,,,web,
+Counted C-level,Gravis Robotics,Dominic Jud,CTO & Co-founder,,https://www.linkedin.com/in/dominic-jud-3a0990231,,web,
+Counted C-level,Harmattan AI,Jean-Christophe Charlaix,Deputy CTO & Co-Founder,https://www.linkedin.com/in/jean-christophe-charlaix-28704977,,https://www.linkedin.com/company/harmattan-ai,HeyReach: 780432 Chief Synthesis Black Forest Labs,Co-founder; Deputy CTO
+Counted C-level,Harmattan AI,Jean-Patrice Coste,Co-founder & Chief Revenue Officer,https://www.linkedin.com/in/jeanpatricecoste,,https://www.linkedin.com/company/harmattan-ai,HeyReach: 780432 Chief Synthesis Black Forest Labs,Co-founder; title Chief Revenue Officer
+Counted C-level,JetBrains,Sergey Dmitriev,President and co-owner,https://www.linkedin.com/in/sergey-dmitriev-05b581,,https://www.linkedin.com/company/jetbrains,HeyReach,
+Counted C-level,JetBrains,Anastasia K.,Chief Information Security Officer,https://www.linkedin.com/in/anastasia-k-89a668159,,https://www.linkedin.com/company/jetbrains,HeyReach,
+Counted C-level,JetBrains,Eugene Belyaev,Co-Founder,https://www.linkedin.com/in/eugene-belyaev-a7468764,,https://www.linkedin.com/company/jetbrains,HeyReach,
+Counted C-level,JetBrains,Valentin K.,Founder,https://www.linkedin.com/in/valentin-k-13569590,,https://www.linkedin.com/company/jetbrains,HeyReach,
+Counted C-level,JetBrains,Natalie Pokrovsky,"CFO, Managing Director",https://www.linkedin.com/in/natalie-pokrovsky-79b2a3,,https://www.linkedin.com/company/jetbrains,HeyReach,
+Counted C-level,Magnific (formerly Freepik),Omar Pera,Chief Product Officer,https://www.linkedin.com/in/ompemi,,,web,
+Counted C-level,Magnific (formerly Freepik),Alejandro Gómez,CTO,,https://www.linkedin.com/in/agomezfc,,web,"CTO per Magnific about page; possible LinkedIn match describes a systems engineer, so not confirmed"
+Counted C-level,Magnific (formerly Freepik),Gary Lumsdon,Chief Financial Officer,,,,Magnific about page (undated),medium confidence: company page undated
+Counted C-level,Magnific (formerly Freepik),Javier González,Chief Operating Officer,,,,Magnific about page (undated),medium confidence: company page undated
+Counted C-level,Model ML,Chaz Englander,Co-founder & CEO,,,,web,
+Counted C-level,Model ML,Arnie Englander,Co-founder & CTO,https://www.linkedin.com/in/arnie-englander,,,web,
+Counted C-level,Model ML,Alex Kayyal,Chief Financial Officer,,,,web,
+Counted C-level,Noxtua,Simon Joecks,Chief Technology Officer,https://www.linkedin.com/in/joecks,,,web,
+Counted C-level,Noxtua,Ruth Rothmaler,Chief Product Officer,https://www.linkedin.com/in/ruthrothmaler,,,web,
+Counted C-level,Pathway,Adrian Kosowski,"Co-Founder, Chief Scientific Officer",https://www.linkedin.com/in/kosowski,,https://www.linkedin.com/company/pathway,HeyReach,
+Counted C-level,Pathway,Adam Kurzrok,Chief Product Officer,https://www.linkedin.com/in/adam-kurzrok,,https://www.linkedin.com/company/pathway,HeyReach,
+Counted C-level,Pathway,Claire Nouet,Co-Founder & COO,https://www.linkedin.com/in/clairenouet,,https://www.linkedin.com/company/pathway,HeyReach,
+Counted C-level,PhysicsX,Chris Wigley,Chief Operating Officer,https://www.linkedin.com/in/wigleychris,,https://www.linkedin.com/company/physicsx,HeyReach: 780432 Chief Synthesis Black Forest Labs,last GPU signal Jun 2026 (older than Aug-Nov window)
+Counted C-level,Recursive Superintelligence,Laura Moss,Chief Financial Officer,https://www.linkedin.com/in/laura-moss-92bb1b19,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Recursive Superintelligence,Tim Shi,Co-Founder,https://www.linkedin.com/in/tianlinshi,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Recursive Superintelligence,Yuandong Tian,Co-Founder,https://www.linkedin.com/in/yuandongtian,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Recursive Superintelligence,Josh Tobin,Co-founder & CTO,https://www.linkedin.com/in/josh-tobin-4b3b10a9,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Recursive Superintelligence,Caiming Xiong,Co-Founder,https://www.linkedin.com/in/caiming-xiong-150a1417,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Recursive Superintelligence,Alexey Dosovitskiy,Co-Founder,https://www.linkedin.com/in/alexey-dosovitskiy-3694a1a9,,https://www.linkedin.com/company/recursive-si,HeyReach,
+Counted C-level,Speechmatics,Antony Berg,Chief Financial Officer,https://www.linkedin.com/in/antony-berg-1348a0,,https://www.linkedin.com/company/speechmatics,web,
+Counted C-level,Speechmatics,Tony Robinson,Founder,https://www.linkedin.com/in/drtonyrobinson,,https://www.linkedin.com/company/speechmatics,HeyReach,
+Counted C-level,Stability AI,Ryan Holeman,Chief Information Security Officer (CISO),https://www.linkedin.com/in/ryan-holeman,,https://www.linkedin.com/company/stability-ai,HeyReach: 780432 Chief Synthesis Black Forest Labs,last signal Aug 2026
+Counted C-level,Sword Health,Jeremy L.,Chief Information Security Officer,https://www.linkedin.com/in/jeremy---lynch,,https://www.linkedin.com/company/swordhealth,HeyReach,
+Counted C-level,Sword Health,Márcio Colunas,Founder and CSO,https://www.linkedin.com/in/marciocolunas,,https://www.linkedin.com/company/swordhealth,HeyReach,
+Counted C-level,Sword Health,Caroline McGoldrick,Chief Strategy Officer,https://www.linkedin.com/in/carolinemcgoldrick,,https://www.linkedin.com/company/swordhealth,HeyReach,
+Counted C-level,Sword Health,Valentina Longo,Chief Financial Officer,https://www.linkedin.com/in/valentina-longo-a3134b253,,https://www.linkedin.com/company/swordhealth,HeyReach,
+Counted C-level,Synthesia,Steffen Tjerrild,Co-founder & COO,https://www.linkedin.com/in/steffentjerrild,,,web,
+Counted C-level,Synthesia,Daniel Kim,Chief Financial Officer,,,,web,
+Counted C-level,Tandem Health,Oliver Åstrand,CTO & Co-founder,https://www.linkedin.com/in/oliverastrand,,https://www.linkedin.com/company/tandem-health,web,
+Counted C-level,Tandem Health,Oscar Boldt-Christmas,Co-founder & Chief Commercial Officer (active co-founder),https://www.linkedin.com/in/oscar-boldt-christmas,,https://www.linkedin.com/company/tandem-health,web,
+Weaker (not counted),blackshark.ai,Michael Putz,Co-Founder & CEO,https://www.linkedin.com/in/michaelputz,,https://www.linkedin.com/company/blackshark-ai,web,No dated GPU signal (Form D raise only)
+Weaker (not counted),blackshark.ai,Christian Molden,CFO,https://www.linkedin.com/in/christian-molden,,https://www.linkedin.com/company/blackshark-ai,web,No dated GPU signal (Form D raise only)
+Unconfirmed (not counted),Behavox (incl. Gigatokens),Alex Glasman,Co-founder & Chief Scientist (also listed as Chief Data Scientist),,,https://www.linkedin.com/company/behavox,web,Chief Scientist title only in older sources; no profile found
