@@ -1,0 +1,152 @@
+company,full_name,title,category,gpu_relevance,person_linkedin,company_linkedin,verification,confidence
+CrowdStrike,AJ Shipley,Chief Product Officer,C-level,primary,https://www.linkedin.com/in/aj-shipley-1146679,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Alex Ionescu,Chief Technology Innovation Officer,C-level,primary,https://www.linkedin.com/in/aionescu,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Bartley Richardson,Chief AI & Autonomous Systems Officer,C-level,primary,https://www.linkedin.com/in/bartleyrichardson,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,medium
+CrowdStrike,Burt Podbere,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/burt-podbere-1399613,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,George Kurtz,"President, CEO & Founder",C-level,primary,https://www.linkedin.com/in/georgekurtz,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Justin Acquaro,Chief Information Officer,C-level,primary,https://www.linkedin.com/in/jacquaro,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,medium
+CrowdStrike,Aditya Kapoor,"VP, Data Science",Decision maker,primary,https://www.linkedin.com/in/kapooraditya,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Greg Sly,SVP Infrastructure,Decision maker,primary,https://www.linkedin.com/in/greg-sly,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Santhosh Subramanian,"VP, CFO Product & Engineering Finance",Decision maker,primary,https://www.linkedin.com/in/sansubramanian,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+CrowdStrike,Sri Nagavarapu,"SVP, Business Technology",Decision maker,primary,https://www.linkedin.com/in/nagavarapu,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,medium
+CrowdStrike,Viswa Soubramanien,"VP of Engineering - SIEM, SOAR, AI-Native SOC, Data & ML Platform",Decision maker,primary,,https://www.linkedin.com/company/crowdstrike,"no LinkedIn URL seen; name/title confirmed: yes (Apollo So***n, consistent)",medium
+CrowdStrike,Keith Culley,Vice President of Engineering,Decision maker,secondary,https://www.linkedin.com/in/keithculley,https://www.linkedin.com/company/crowdstrike,LinkedIn URL confirmed in Apollo,high
+Palo Alto Networks,Dipak Golechha,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/dipak-golechha-8b9a209,,LinkedIn URL confirmed in Apollo,high
+Palo Alto Networks,Lee Klarich,Chief Product Officer (some sources: Chief Product & Technology Officer),C-level,primary,,,no LinkedIn URL seen; name/title confirmed: name/title via Apollo record of his EA,medium
+Palo Alto Networks,Meerah Rajavel,Chief Information Officer,C-level,primary,https://www.linkedin.com/in/meerah-rajavel,,LinkedIn URL confirmed in Apollo,high
+Palo Alto Networks,Nikesh Arora,Chairman & CEO,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+Palo Alto Networks,Carole Ou,"Vice President, Cloud Finance and AI Acceleration",Decision maker,primary,https://www.linkedin.com/in/caroleren,,LinkedIn URL confirmed in Apollo,medium
+Palo Alto Networks,Siddharth Shah,"Vice President, Data, Analytics and AI",Decision maker,primary,https://www.linkedin.com/in/siddharthshah,,LinkedIn URL confirmed in Apollo,medium
+The Weather Company,Dan Margulies,Chief Information Officer,C-level,primary,https://www.linkedin.com/in/danmargulies,,LinkedIn URL confirmed in Apollo,medium
+The Weather Company,Matthew Drooker,Chief Technology Officer,C-level,primary,https://www.linkedin.com/in/matthew-drooker,,LinkedIn URL confirmed in Apollo,high
+The Weather Company,Rohit Agarwal,CEO,C-level,primary,https://www.linkedin.com/in/rohitcagarwal,,LinkedIn URL confirmed in Apollo,high
+The Weather Company,Peter Neilley,"SVP, Science and Forecasting Operations",Decision maker,primary,https://www.linkedin.com/in/peter-neilley-09407159,,LinkedIn URL confirmed in Apollo,high
+The Weather Company,Thomas M. Hamill,Senior Director of Numerical Weather Prediction,Decision maker,primary,https://www.linkedin.com/in/thomasmorehamill,,LinkedIn URL confirmed in Apollo,high
+The Weather Company,Adam McDaniel,VP of Software Engineering,Decision maker,secondary,https://www.linkedin.com/in/adam-mcdaniel-089b6043,,LinkedIn URL confirmed in Apollo,high
+Tomorrow.io,Arun Chawla,Chief Weather Officer,C-level,primary,https://www.linkedin.com/in/arun-chawla-7613331,https://www.linkedin.com/company/tomorrow-io,LinkedIn URL confirmed in Apollo,high
+Tomorrow.io,Leigha Kemmett,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/leigha-kemmett-a51b8510,https://www.linkedin.com/company/tomorrow-io,LinkedIn URL confirmed in Apollo,high
+Tomorrow.io,Rei Goffer,Co-founder & Chief Strategy Officer,C-level,primary,,https://www.linkedin.com/company/tomorrow-io,no LinkedIn URL seen; name/title confirmed: not in Apollo,medium
+Tomorrow.io,Shimon Elkabetz,CEO & Co-founder,C-level,primary,,https://www.linkedin.com/company/tomorrow-io,no LinkedIn URL seen; name/title confirmed: no,medium
+Tomorrow.io,Itai Zlotnik,Co-founder & Chief Commercial Officer,C-level,secondary,https://www.linkedin.com/in/itai-zlotnik-4b14a935,https://www.linkedin.com/company/tomorrow-io,LinkedIn URL confirmed in Apollo,high
+Tomorrow.io,Forest Cannon,"VP, Data Science",Decision maker,primary,https://www.linkedin.com/in/forest-cannon-9a348a51,https://www.linkedin.com/company/tomorrow-io,LinkedIn URL confirmed in Apollo,medium
+The Walt Disney Company,Hugh Johnston,Senior Executive Vice President & Chief Financial Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+The Walt Disney Company,Josh D'Amaro,Chief Executive Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: not in Apollo,medium
+The Walt Disney Company,Karandeep Anand,Senior Executive Vice President & Chief Technology Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,high
+The Walt Disney Company,Toni Tran,"VP, Technology Sourcing",Decision maker,primary,https://www.linkedin.com/in/tonitran,,LinkedIn URL confirmed in Apollo,high
+Skydio,Abraham Bachrach,Co-founder & CTO,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+Skydio,Adam Bry,Co-founder & CEO,C-level,primary,https://www.linkedin.com/in/adambry,,LinkedIn URL confirmed in Apollo,high
+Skydio,James LaCamp,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/jlacamp,,LinkedIn URL confirmed in Apollo,high
+Skydio,Davide Falanga,"Senior Director of Engineering, Autonomy Systems",Decision maker,primary,https://www.linkedin.com/in/dfalanga,,LinkedIn URL confirmed in Apollo,high
+Skydio,Harvest Zhang,"Director of Autonomy, Flight Core",Decision maker,primary,https://www.linkedin.com/in/harvestzhang,,LinkedIn URL confirmed in Apollo,high
+Skydio,Kalpana Seshadrinathan,Senior Director of Deep Learning,Decision maker,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+Skydio,Mindy Hsu,"VP, Supply Chain",Decision maker,primary,https://www.linkedin.com/in/mindyhhsu,,LinkedIn URL confirmed in Apollo,high
+Skydio,Peter Henry,Head of Computer Vision,Decision maker,primary,https://www.linkedin.com/in/peter-henry-65769931,,LinkedIn URL confirmed in Apollo,high
+Skydio,Ryan Reading,"SVP, Software Engineering",Decision maker,secondary,https://www.linkedin.com/in/ryan-reading-8aaba114a,,LinkedIn URL confirmed in Apollo,high
+Aurora Innovation,Chris Urmson,Co-founder & CEO,C-level,primary,https://www.linkedin.com/in/chris-urmson-5392273,,LinkedIn URL from search result (not in Apollo),high
+Aurora Innovation,David Maday,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/davidmaday,,LinkedIn URL confirmed in Apollo,high
+Aurora Innovation,Drew Bagnell,Co-founder & Chief Scientist,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+Aurora Innovation,Ossa Fisher,President,C-level,primary,https://www.linkedin.com/in/ossa-fisher,,LinkedIn URL confirmed in Apollo,high
+Aurora Innovation,Brad Shively,"Director, Developer Experience",Decision maker,primary,https://www.linkedin.com/in/bradleyjshively,,LinkedIn URL confirmed in Apollo,high
+Aurora Innovation,Drew Steedly,VP of Software Engineering,Decision maker,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (St***y, consistent)",medium
+Aurora Innovation,Juan Argote,"Senior Director, Aurora Data Solutions",Decision maker,primary,https://www.linkedin.com/in/juanargote,,LinkedIn URL confirmed in Apollo,high
+Aurora Innovation,Pedro Urbina,"Senior Director, ML Data Engine",Decision maker,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (Ur***a, consistent)",medium
+Capital One,Andrew Young,Chief Financial Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: yes,medium
+Capital One,Frank LaPrade,Chief Enterprise Services Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: yes,medium
+Capital One,Lucy-Marie Hagues,"Executive Vice President, International (Capital One UK)",C-level,primary,https://www.linkedin.com/in/lucyhagues,,LinkedIn URL confirmed in Apollo,high
+Capital One,Prem Natarajan,"EVP, Chief Scientist & Head of Enterprise Data and AI",C-level,primary,https://www.linkedin.com/in/natarajan,,LinkedIn URL confirmed in Apollo,high
+Capital One,Richard Fairbank,"Founder, Chairman & CEO",C-level,primary,,,no LinkedIn URL seen; name/title confirmed: not in Apollo,medium
+Capital One,Robert Alexander,Chief Information Officer,C-level,primary,https://www.linkedin.com/in/robert-alexander-3777a04,,LinkedIn URL confirmed in Apollo,high
+Capital One,David Rimmer,"Vice President, UK CISO",C-level,secondary,https://www.linkedin.com/in/rimmerd,,LinkedIn URL from search result (not in Apollo),medium
+Capital One,Abhijit Bose,"SVP, Head of Enterprise AI and ML Platforms",Decision maker,primary,https://www.linkedin.com/in/abose,,LinkedIn URL confirmed in Apollo,high
+Capital One,Ashley Goodwin,Head of Data (UK),Decision maker,primary,https://www.linkedin.com/in/ashley-goodwin-0a810057,,LinkedIn URL confirmed in Apollo,high
+Capital One,Bayan Bruss,"VP, Applied AI Research",Decision maker,primary,https://www.linkedin.com/in/bayan-bruss,,LinkedIn URL confirmed in Apollo,high
+Capital One,Brian Cole,"Managing Vice President, Finance",Decision maker,primary,https://www.linkedin.com/in/brian-cole-b85b953,,LinkedIn URL confirmed in Apollo,high
+Capital One,David Robinson,"Director, UK Data Science",Decision maker,primary,https://www.linkedin.com/in/dlrobinson1,,LinkedIn URL confirmed in Apollo,high
+Capital One,Lee Carr,"Senior Director, Shared Tech (UK)",Decision maker,primary,https://www.linkedin.com/in/lee-carr-1207806,,LinkedIn URL confirmed in Apollo,high
+Capital One,Maulin Patel,"Managing VP of Product, AI & ML Platforms",Decision maker,primary,https://www.linkedin.com/in/maulin-patel,,LinkedIn URL confirmed in Apollo,medium
+Capital One,Milind Naphade,"SVP, Technology, AI Foundations",Decision maker,primary,https://www.linkedin.com/in/milind-naphade-a919816,,LinkedIn URL confirmed in Apollo,high
+Capital One,Paul Sullivan,"VP, Cloud Governance",Decision maker,primary,https://www.linkedin.com/in/paulsullivan,,LinkedIn URL confirmed in Apollo,high
+Capital One,Pete Augusterfer,Interim Head of UK Finance,Decision maker,primary,https://www.linkedin.com/in/pete-augusterfer,,LinkedIn URL confirmed in Apollo,high
+Capital One,Tom Morton,"Director of Engineering, Cloud Productivity Engineering (UK)",Decision maker,primary,https://www.linkedin.com/in/errantx,,LinkedIn URL confirmed in Apollo,high
+Capital One,Arjun Dugal,"EVP & CIO, Consumer and Business Cards",Decision maker,secondary,https://www.linkedin.com/in/arjundugal,,LinkedIn URL confirmed in Apollo,high
+Capital One,Bruno Tavares,Senior Director of Engineering (UK),Decision maker,secondary,https://www.linkedin.com/in/brunotavares,,LinkedIn URL confirmed in Apollo,high
+Capital One,Dhaval Chauhan,"Director, Head of Digital Technology & Specifications Development (UK)",Decision maker,secondary,https://www.linkedin.com/in/dhaval-chauhan-88115914,,LinkedIn URL confirmed in Apollo,medium
+Capital One,Jason Strle,"EVP, CIO Discover Technology",Decision maker,secondary,https://www.linkedin.com/in/jason-strle,,LinkedIn URL confirmed in Apollo,high
+Capital One,Kimmy Cummings,Senior Director of Software Engineering (UK),Decision maker,secondary,https://www.linkedin.com/in/kimmy-cummings-15a2b427,,LinkedIn URL confirmed in Apollo,high
+Capital One,Saul Francis,VP of Software Engineering (UK),Decision maker,secondary,https://www.linkedin.com/in/saul-francis-39915696,,LinkedIn URL confirmed in Apollo,medium
+Rescale,Adam McKenzie,Co-founder & CTO,C-level,primary,,https://www.linkedin.com/company/rescale,no LinkedIn URL seen; name/title confirmed: no,medium
+Rescale,David Si,Chief Financial Officer,C-level,primary,,https://www.linkedin.com/company/rescale,no LinkedIn URL seen; name/title confirmed: no,medium
+Rescale,Joris Poort,Founder & CEO,C-level,primary,,https://www.linkedin.com/company/rescale,no LinkedIn URL seen; name/title confirmed: no,medium
+Rescale,Matt McKee,Chief Operating Officer,C-level,primary,,https://www.linkedin.com/company/rescale,no LinkedIn URL seen; name/title confirmed: no,medium
+Rescale,Kevin Cangemi,"Senior Director, Strategic Partnerships & Alliances",Decision maker,primary,https://www.linkedin.com/in/kcangemi,https://www.linkedin.com/company/rescale,LinkedIn URL confirmed in Apollo,high
+Volkswagen Group,Arno Antlitz,"Member of the Board of Management, Finance & Operations (CFO & COO)",C-level,primary,,,no LinkedIn URL seen; name/title confirmed: yes,medium
+Volkswagen Group,Hauke Stars,"Member of the Board of Management, IT",C-level,primary,https://www.linkedin.com/in/haukestars,,LinkedIn URL confirmed in Apollo,high
+Volkswagen Group,Oliver Blume,Chairman of the Board of Management (CEO),C-level,primary,,,no LinkedIn URL seen; name/title confirmed: not in Apollo,medium
+Volkswagen Group,Peter Bosch,"CEO, CARIAD",C-level,primary,https://www.linkedin.com/in/peter-bosch-automotivefuture,,LinkedIn URL confirmed in Apollo,high
+Volkswagen Group,Christoph Barthel,"Head of Group IT Budget, Portfolio and Business Transformation",Decision maker,primary,https://www.linkedin.com/in/christoph-barthel-585752115,,LinkedIn URL confirmed in Apollo,medium
+Volkswagen Group,Denis Barz,Head of Global AI Transformation Programme (Global AI Drive),Decision maker,primary,https://www.linkedin.com/in/dr-denis-barz-7b94731bb,,LinkedIn URL confirmed in Apollo,medium
+Volkswagen Group,Michael Kwiatkowski,"Head of Data & AI, Volkswagen Commercial Vehicles",Decision maker,primary,https://www.linkedin.com/in/michael-kwiatkowski2,,LinkedIn URL confirmed in Apollo,medium
+Volkswagen Group,Oliver Beck,"Head of AI Core, CARIAD",Decision maker,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (Be***k, consistent)",medium
+Volkswagen Group,Sabine Wüst,"Head of AI & Group Digital Assistant, CARIAD",Decision maker,primary,https://www.linkedin.com/in/sabine-w%C3%BCst-97ba43113,,LinkedIn URL confirmed in Apollo,high
+Volkswagen Group,Sophie Vassarotti,"Division Head Data & AI, Volkswagen Group",Decision maker,primary,https://www.linkedin.com/in/vassarotti,,LinkedIn URL confirmed in Apollo,high
+Valeo,Christophe Périllat,Chief Executive Officer,C-level,primary,https://www.linkedin.com/in/christopheperillat,https://www.linkedin.com/company/valeo,LinkedIn URL confirmed in Apollo,high
+Valeo,Edouard de Pirey,Chief Financial Officer,C-level,primary,,https://www.linkedin.com/company/valeo,no LinkedIn URL seen; name/title confirmed: yes,medium
+Valeo,Marc Vrecko,"CEO, Valeo Brain Division & Group Executive Vice President",C-level,primary,https://www.linkedin.com/in/marc-vrecko-5b9994106,https://www.linkedin.com/company/valeo,LinkedIn URL from search result (not in Apollo),high
+Valeo,Gilles Mabire,"CTO, Valeo Brain Division",Decision maker,primary,https://www.linkedin.com/in/gilles-mabire-2456b5b,https://www.linkedin.com/company/valeo,LinkedIn URL confirmed in Apollo,high
+Cogent Security,Geng Sng,Co-Founder & CTO,C-level,primary,https://www.linkedin.com/in/geng-sng,,LinkedIn URL confirmed in Apollo,high
+Cogent Security,Thanos Baskous,Co-Founder; VP Engineering (per July 2025 launch release),C-level,primary,https://www.linkedin.com/in/thanosbaskous,,LinkedIn URL from search result (not in Apollo),high
+Cogent Security,Vineet Edupuganti,Co-Founder & CEO,C-level,primary,https://www.linkedin.com/in/vineetedupuganti,,LinkedIn URL confirmed in Apollo,high
+Cogent Security,Anirudh Ravula,Head of AI,Decision maker,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+Cogent Security,Duc Hiep Chu,Head of Research (Cogent Research),Decision maker,primary,https://www.linkedin.com/in/duc-hiep-chu-538422142,,LinkedIn URL from search result (not in Apollo),medium
+Cogent Security,Jake Friedman,Head of Finance & Corporate Ops,Decision maker,primary,https://www.linkedin.com/in/jake-friedman-0b0a7410b,,LinkedIn URL confirmed in Apollo,high
+May Mobility,Edwin Olson,Co-founder & CEO,C-level,primary,https://www.linkedin.com/in/edwin-olson,,LinkedIn URL confirmed in Apollo,high
+May Mobility,Thomas Fennimore,Chief Financial Officer,C-level,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (Fe***e, consistent)",medium
+May Mobility,Balajee Kannan,SVP (Autonomy Core Engineering per agent; Apollo: Senior Vice President),Decision maker,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (Ka***n, consistent)",medium
+May Mobility,Jacob Crossman,SVP of Autonomy,Decision maker,primary,https://www.linkedin.com/in/jacob-crossman-8475438,,LinkedIn URL confirmed in Apollo,high
+May Mobility,Matthew Wood,VP of Safety and Validation,Decision maker,primary,,,"no LinkedIn URL seen; name/title confirmed: yes (Wo***d, consistent)",medium
+Toptal,Carlos Aguirre,Interim Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/carlostaguirre,https://www.linkedin.com/company/toptal,LinkedIn URL confirmed in Apollo,high
+Toptal,Ismael Peinado,Chief Technology Officer,C-level,primary,https://www.linkedin.com/in/ismaelpeinado,https://www.linkedin.com/company/toptal,LinkedIn URL confirmed in Apollo,high
+Toptal,Paul Cioni,"Chief Technology Officer, Technology Services",C-level,primary,https://www.linkedin.com/in/paulcioni,https://www.linkedin.com/company/toptal,LinkedIn URL confirmed in Apollo,high
+Toptal,Taso Du Val,Founder & CEO (also leads Toptal AI),C-level,primary,https://www.linkedin.com/in/tasod,https://www.linkedin.com/company/toptal,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Awinash Sinha,Chief Digital & Information Officer,C-level,primary,https://www.linkedin.com/in/awinashsinha,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Eric Yuan,Founder & CEO,C-level,primary,,https://www.linkedin.com/company/zoom-video-communications,no LinkedIn URL seen; name/title confirmed: no,medium
+Zoom Communications,Michelle Chang,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/michelle-chang-640b21,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Xuedong Huang,Chief Technology Officer,C-level,primary,https://www.linkedin.com/in/xdhuang,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Alex Nguyen,Head of Global Carrier Relations & Data Center Operations,Decision maker,primary,https://www.linkedin.com/in/alex-q-nguyen,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Curtis McIntyre,Data Center Operations Manager (Acting),Decision maker,primary,https://www.linkedin.com/in/curtismcintyre,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,high
+Zoom Communications,Shizhen Wang,Head of AI Infra,Decision maker,primary,https://www.linkedin.com/in/shizhen-wang-a4354222,https://www.linkedin.com/company/zoom-video-communications,LinkedIn URL confirmed in Apollo,medium
+Standard Chartered,Alvaro Garrido,Group Chief Information Officer,C-level,primary,https://www.linkedin.com/in/garridoalvaro,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Bill Winters,Group Chief Executive,C-level,primary,https://www.linkedin.com/in/billthomaswinters,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Daniel Hodge,Deputy CFO and Group Treasurer,C-level,primary,https://www.linkedin.com/in/daniel-hodge-1b2767a0,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Gareth Hughes,CIO Markets,C-level,primary,https://www.linkedin.com/in/gareth-hughes-b301292,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Guillermo Veiga,Group Chief Information & Operations Officer,C-level,primary,https://www.linkedin.com/in/guillermoveiga,,LinkedIn URL confirmed in Apollo,medium
+Standard Chartered,James Gibson,CIO for CIB Digital Channels & Coverage Platforms,C-level,primary,https://www.linkedin.com/in/jamesgibson1,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Manus Costello,Interim Group Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/manus-costello,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Noelle Eder,"Group Head, Technology",C-level,primary,https://www.linkedin.com/in/noelleeder,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Saif Malik,"CEO & Head of Client Coverage, UK",C-level,primary,https://www.linkedin.com/in/saifmalik1,,LinkedIn URL from search result (not in Apollo),medium
+Standard Chartered,Shebani Baweja,Group Chief Data Officer,C-level,primary,https://www.linkedin.com/in/shebanibaweja,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Tanuj Kapilashrami,Group Chief Operating Officer,C-level,primary,https://www.linkedin.com/in/tanuj-kapilashrami,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Christian Schwarz,"Managing Director, Head of Markets Analytics & AI (MA²I)",Decision maker,primary,https://www.linkedin.com/in/christian-schwarz,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,David Hookings,"MD, Global Head, Models & Predictive Analytics",Decision maker,primary,https://www.linkedin.com/in/davidhookings,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Eoin Smaill,"Director, Supplier Performance",Decision maker,primary,https://www.linkedin.com/in/eoin-smaill,,LinkedIn URL confirmed in Apollo,medium
+Standard Chartered,Geoff Kot,Enterprise Co-head of AI,Decision maker,primary,,,no LinkedIn URL seen; name/title confirmed: yes (name unmasked in Apollo),high
+Standard Chartered,John Sharratt,"Global Head, Technology and Infrastructure",Decision maker,primary,https://www.linkedin.com/in/john-sharratt-26358644,,LinkedIn URL confirmed in Apollo,high
+Standard Chartered,Krishnamoorthy Chinnadurai,Head of Data Platform and Tools Engineering,Decision maker,primary,https://www.linkedin.com/in/krishnamoorthy-chinnadurai-91535392,,LinkedIn URL confirmed in Apollo,medium
+Standard Chartered,Trishal Doshi,"Head, AI Platforms",Decision maker,primary,https://www.linkedin.com/in/trishaldoshi,,LinkedIn URL confirmed in Apollo,medium
+Terray Therapeutics,Eli Berlin,Co-Founder; Chief Financial and Operating Officer,C-level,primary,https://www.linkedin.com/in/eli-berlin-906a6441,https://www.linkedin.com/company/terray-therapeutics,LinkedIn URL confirmed in Apollo,high
+Terray Therapeutics,Jacob Berlin,CEO & Co-Founder,C-level,primary,,https://www.linkedin.com/company/terray-therapeutics,no LinkedIn URL seen; name/title confirmed: no,medium
+Terray Therapeutics,Narbe Mardirossian,Chief Technology Officer,C-level,primary,https://www.linkedin.com/in/narbe-mardirossian,https://www.linkedin.com/company/terray-therapeutics,LinkedIn URL confirmed in Apollo,high
+Terray Therapeutics,Vanessa Taylor,Chief Scientific Officer,C-level,primary,https://www.linkedin.com/in/vanessa-taylor-b589833,https://www.linkedin.com/company/terray-therapeutics,LinkedIn URL confirmed in Apollo,medium
+Terray Therapeutics,Matthew Katcher,"Director, Molecular Design",Decision maker,primary,https://www.linkedin.com/in/matthewkatcher,https://www.linkedin.com/company/terray-therapeutics,LinkedIn URL confirmed in Apollo,medium
+University of Utah,Erin Witter Rothwell,Vice President for Research,C-level,primary,https://www.linkedin.com/in/erin-witter-rothwell-491a2a30,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Gary McArthur,Enterprise Chief Financial Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+University of Utah,Jake Johansen,Interim Chief Information Officer,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: not in Apollo,medium
+University of Utah,Jeffrey Labrum,Chief Operating Officer,C-level,primary,https://www.linkedin.com/in/jeffreyklabrum,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Manish Parashar,"Chief AI Officer; Executive Director, Scientific Computing & Imaging (SCI) Institute",C-level,primary,https://www.linkedin.com/in/parasharm,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Rachel Hess,System Chief Research Officer; Associate Vice President for Research - Health (University of Utah Health),C-level,primary,https://www.linkedin.com/in/rachel-hess-a7126714,,LinkedIn URL from search result (not in Apollo),medium
+University of Utah,Ravneet Chadha,Chief Data Officer & Vice Provost for Enterprise Planning,C-level,primary,https://www.linkedin.com/in/ravneet-chadha-a66a7312,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Taylor Randall,President,C-level,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
+University of Utah,Jason Atuaia,Deputy Chief Financial Officer,Decision maker,primary,https://www.linkedin.com/in/jason-atuaia-287b3b10b,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Steven Phillips,"Associate Vice President, Financial Services & University Controller",Decision maker,primary,https://www.linkedin.com/in/steven-m-phillips-b268227,,LinkedIn URL confirmed in Apollo,high
+University of Utah,William L. (Bill) Miller,"Senior Director, Research Computing & Data (leads Center for High Performance Computing)",Decision maker,primary,https://www.linkedin.com/in/william-l-miller-uutah,,LinkedIn URL confirmed in Apollo,high
+University of Utah,Zachary Christensen,"Chief Procurement Officer & Senior Director, Procure to Pay",Decision maker,primary,,,no LinkedIn URL seen; name/title confirmed: no,medium
