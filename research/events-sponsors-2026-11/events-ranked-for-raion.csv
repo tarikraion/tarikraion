@@ -1,0 +1,63 @@
+event,city,event_type,editions_covered,sponsor_rows_found,ai_native_buyers,enterprise_buyers,partners
+London Tech Week,London,tech-business,2025-06; 2026-06,66,ElevenLabs; Glean; JetBrains; Wayve,AstraZeneca; Aviva; Barclays; GSK; HSBC Innovation Banking; Lloyds Banking Group; Siemens; Uber,Accenture; Boston Consulting Group; Capgemini; EY
+AI Engineer Europe,London,ai-conference,2026-04,42,ElevenLabs; Liquid AI; Modal; RunPod; Snorkel AI; Together AI,Spotify,Accenture
+ACL 2025,Vienna,academic-ml,2025-07,34,Adobe; Bloomberg; Cohere; Translated,Citadel; JP Morgan Chase; NatWest Group; Thomson Reuters,
+EuroPython 2026,Kraków,community,2026-07,31,Bloomberg; JetBrains; Modal,G-Research; Hudson River Trading; Optiver; Revolut,BCG X
+RAISE Summit,Paris,ai-conference,2025-07; 2026-07,31,Cognition; Cohere; Hive; Prosus; Together AI,,
+VivaTech,Paris,tech-business,2025-06; 2026-06,73,Adobe,AXA; BNP Paribas; Booking.com; Crédit Agricole; Orange; Sanofi,"Accenture; Capgemini; EY; KPMG; PwC; QuantumBlack, AI by McKinsey"
+RecSys 2025,Prague,academic-ml,2025-09,15,AppLovin,Booking; Netflix Research; Sky UK; Spotify; Zalando,
+AI Engineer Paris,Paris,ai-conference,2025-09; 2026-09,40,Black Forest Labs; Mistral AI; Modal,,
+The AI Summit London,London,ai-conference,2025-06; 2026-06,32,Glean; JetBrains; Reflection,,Boston Ltd; Computacenter UK Ltd.; EY; Hexaware Technologies; KPMG; World Wide Technology
+EuroPython 2025,Prague,community,2025-07,28,Bloomberg; JetBrains,G-Research; Picnic,
+Web Summit,Lisbon,tech-business,2024-11; 2025-11; 2026-11,23,Adobe; Niantic,American Express; Visa,KPMG
+EurIPS 2025,Copenhagen,academic-ml,2025-12,12,NXAI; Prior Labs,G-Research; Novo Nordisk Foundation,
+GenAI Zurich,Zurich,ai-conference,2025-03; 2026-04,20,DeepL; Sony AI,Siemens,Capgemini; Cognizant Netcentric; Eraneos; KPMG; TD SYNNEX
+SXSW London,London,tech-business,2025-06; 2026-06,51,Adobe; Prosus,,Deloitte; Globant; KPMG; Oliver Wyman
+TechBBQ,Copenhagen,startup-vc,2025-08; 2026-08,28,,AstraZeneca; Danske Bank; Danske Bank Growth; Novo Nordisk Foundation,
+Sifted Summit,London,startup-vc,2026-09,17,FlexAI,HSBC Innovation Banking; Morgan Stanley,
+STATION F F/ai accelerator - batch 2,Paris,startup-vc,2026-09,16,ElevenLabs; Mistral AI,,
+Mistral AI Worldwide Hackathon,Paris,community,2026-02,9,ElevenLabs,Jump Trading,
+ICRA 2026,Vienna,academic-ml,2026-06,25,Helsing,,
+AI Summit Barcelona,Barcelona,ai-conference,2026-09,23,ElevenLabs,,Artefact; McKinsey & Company; NTT Data
+HumanX Amsterdam (HumanX Europe/EMEA),Amsterdam,ai-conference,2026-09,19,Prosus,,Deloitte; PwC
+ECCV 2026,Malmö,academic-ml,2026-09,12,Synthesia,,
+World Summit AI,Amsterdam,ai-conference,2024-10; 2025-10; 2026-10,12,Glean,,EY; HCLTech
+Interspeech 2025,Rotterdam,academic-ml,2025-08,9,Speechmatics,,
+AI & Big Data Expo Global,London,ai-conference,2026-02,5,DeepL,,
+AI Action Summit Party (STATION F),Paris,ai-conference,2025-02,5,H Company,,
+ICASSP 2026,Barcelona,academic-ml,2026-05,5,Adobe,,
+Agents in Production - MLOps Community x Prosus,Amsterdam,community,2025-11,1,Prosus,,
+Datacloud Global Congress,Cannes,gpu-hpc-datacentre,2025-06; 2026-06,47,,Siemens,
+Data Centre World London (Tech Show London),London,gpu-hpc-datacentre,2025-03; 2026-03; 2027-03,15,,Siemens,
+Slush,Helsinki,startup-vc,2024-11; 2025-11; 2026-11,15,,Nordea,PwC Finland; Tietoevry Create
+Capacity Europe,London,tech-business,2025-10; 2026-10,13,,Vodafone,
+DES - Digital Enterprise Show,Malaga,tech-business,2025-06; 2027-06,13,,Santander,
+Tech.eu Summit London,London,tech-business,2025-03,12,,HSBC,
+Founders Forum Global,London,startup-vc,2025-06; 2026-06,10,,London Stock Exchange,Globant
+Tech Show London - Cloud & AI Infrastructure,London,gpu-hpc-datacentre,2026-03; 2027-03,22,,,Noventiq
+Tech Show London - Big Data & AI World,London,ai-conference,2025-03; 2027-03,16,,,
+DCD>Connect | London,London,gpu-hpc-datacentre,2026-09,12,,,
+GITEX Europe,Berlin,tech-business,2025-05,10,,,
+ISC High Performance,Hamburg,gpu-hpc-datacentre,2025-06; 2026-06,10,,,
+Data Innovation Summit,Stockholm,ai-conference,2025-05; 2026-05,9,,,
+NVIDIA GTC Paris (at VivaTech),Paris,gpu-hpc-datacentre,2025-06,7,,,Capgemini; E4 Computer Engineering; EY
+Datacenter Forum Copenhagen,Copenhagen,gpu-hpc-datacentre,2026-09,5,,,
+Dublin Tech Summit,Dublin,tech-business,2025-05; 2026-05,5,,,
+AI Action Summit Business Day (STATION F),Paris,ai-conference,2025-02,4,,,
+Agents Hack (Hugging Face Paris HQ),Paris,community,2025-06,4,,,
+Datacenter Forum Stockholm,Stockholm,gpu-hpc-datacentre,2026-12,4,,,
+PyData London 2026,London,community,2026-06,4,,,
+Zurich AI Summit (Startup Network Europe),Zurich,ai-conference,2025-12,3,,,
+Big Data & AI Paris,Paris,tech-business,2025-10,2,,,
+Bits & Pretzels,Munich,startup-vc,2025-09,2,,,
+Data & AI Stockholm Summit,Stockholm,ai-conference,2026-10,2,,,
+ECAI 2025,Bologna,academic-ml,2025-10,2,,,
+ECML PKDD 2025,Porto,academic-ml,2025-09,2,,,
+Mistral AI Robotics Hackathon,Paris,community,2025-04,2,,,
+Nordic AI Factory Summit,Stockholm,gpu-hpc-datacentre,2026-10,2,,,
+Nordic Responsible AI Summit,Oslo (virtual),ai-conference,2026-02,2,,,
+AMLD EPFL 2025,Lausanne,ai-conference,2025-02,1,,,
+London AI x Science Hackathon,London,community,2026-10,1,,,
+MLOps Days London,London,community,2025-09,1,,,
+Mistral MCP Hackathon (Le Chat),Paris,community,2025-09,1,,,
+TNW Conference,Amsterdam,tech-business,2025-06,1,,,
