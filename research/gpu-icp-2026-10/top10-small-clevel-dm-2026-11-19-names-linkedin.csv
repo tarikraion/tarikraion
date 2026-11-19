@@ -1,0 +1,60 @@
+rank,company,full_name,title,category,gpu_relevance,person_linkedin,verification,confidence
+1,Ortet,Elman Mansimov,Co-founder & Chief Science Officer,C-level,primary,https://www.linkedin.com/in/elmanmansim,LinkedIn URL confirmed in Apollo,high
+1,Ortet,Henri Dwyer,Co-founder & CTO,C-level,primary,,no LinkedIn URL seen; name/title confirmed by web/Apollo,medium
+1,Ortet,Keunwoo Choi,Co-founder & Chief AI Officer,C-level,primary,https://www.linkedin.com/in/keunwoo-choi-29434155,LinkedIn URL confirmed in Apollo,high
+1,Ortet,Kyunghyun Cho,Co-founder & CEO,C-level,primary,https://www.linkedin.com/in/kyunghyun-cho-2171681b,LinkedIn URL confirmed in Apollo,high
+1,Ortet,Claudia Shi,Founding Member,Decision maker,secondary,,no LinkedIn URL seen; name/title confirmed by web/Apollo,medium
+2,Boltz,Gabriele Corso,Co-founder & CEO,C-level,primary,,no LinkedIn URL seen; name/title confirmed by web/Apollo,medium
+2,Boltz,Jeremy Wohlwend,Co-founder,C-level,primary,https://www.linkedin.com/in/jeremy-wohlwend,LinkedIn URL confirmed in Apollo,high
+2,Boltz,Saro Passaro,Co-founder,C-level,primary,https://www.linkedin.com/in/saro-passaro,LinkedIn URL confirmed in Apollo,high
+2,Boltz,Geoffrey Smith,Founding Scientist,Decision maker,primary,https://www.linkedin.com/in/geoffreymtsmith,LinkedIn URL confirmed in Apollo,high
+3,Articul8 AI,Arun K. Subramaniyan,Founder and CEO,C-level,primary,https://www.linkedin.com/in/arunsubramaniyan,apollo,high
+3,Articul8 AI,Andre Von Zuben,Head of Architecture,Decision maker,secondary,https://www.linkedin.com/in/avzuben,apollo,high
+3,Articul8 AI,Felipe Viana,Head of Applied Research,Decision maker,primary,https://www.linkedin.com/in/felipeacviana,apollo,high
+3,Articul8 AI,Renato G. Nascimento,Head of Technology,Decision maker,primary,https://www.linkedin.com/in/renatogiorgiani,apollo,high
+3,Articul8 AI,Susifina Afemui-Pittorf,Head of Operations,Decision maker,primary,https://www.linkedin.com/in/susifina-afemui-pittorf-340a281aa,LinkedIn URL confirmed in Apollo,high
+4,Flam,Amit Gaiki,Co-Founder & CTO,C-level,primary,https://www.linkedin.com/in/amit-gaiki,apollo,high
+4,Flam,Malhar Patil,Co-Founder,C-level,primary,https://www.linkedin.com/in/malharmpatil,apollo,high
+4,Flam,Shourya Agarwal,Founder & CEO,C-level,primary,https://www.linkedin.com/in/shourya-agarwal-015947b5,apollo,high
+4,Flam,Vartul Jain,CFO,C-level,primary,https://www.linkedin.com/in/vartul-jain-0b96157,apollo,high
+4,Flam,Shubham Shukla,VP Mobile Engineering,Decision maker,primary,https://www.linkedin.com/in/shubham-shukla-9724a8137,apollo,high
+5,Cogent Security,Geng Sng,Co-Founder & CTO,C-level,primary,https://www.linkedin.com/in/geng-sng,LinkedIn URL confirmed in Apollo,high
+5,Cogent Security,Thanos Baskous,Co-Founder; VP Engineering (per July 2025 launch release),C-level,primary,https://www.linkedin.com/in/thanosbaskous,LinkedIn URL from search result (not in Apollo),high
+5,Cogent Security,Vineet Edupuganti,Co-Founder & CEO,C-level,primary,https://www.linkedin.com/in/vineetedupuganti,LinkedIn URL confirmed in Apollo,high
+5,Cogent Security,Anirudh Ravula,Head of AI,Decision maker,primary,,no LinkedIn URL seen; name/title confirmed: no,medium
+5,Cogent Security,Duc Hiep Chu,Head of Research (Cogent Research),Decision maker,primary,https://www.linkedin.com/in/duc-hiep-chu-538422142,LinkedIn URL from search result (not in Apollo),medium
+5,Cogent Security,Jake Friedman,Head of Finance & Corporate Ops,Decision maker,primary,https://www.linkedin.com/in/jake-friedman-0b0a7410b,LinkedIn URL confirmed in Apollo,high
+6,Tomorrow.io,Arun Chawla,Chief Weather Officer,C-level,primary,https://www.linkedin.com/in/arun-chawla-7613331,LinkedIn URL confirmed in Apollo,high
+6,Tomorrow.io,Itai Zlotnik,Co-founder & Chief Commercial Officer,C-level,primary,https://www.linkedin.com/in/itai-zlotnik-4b14a935,LinkedIn URL confirmed in Apollo,high
+6,Tomorrow.io,Leigha Kemmett,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/leigha-kemmett-a51b8510,LinkedIn URL confirmed in Apollo,high
+6,Tomorrow.io,Rei Goffer,Co-founder & Chief Strategy Officer,C-level,primary,https://www.linkedin.com/in/rei-goffer-73757984,LinkedIn URL from search (not in Apollo),medium
+6,Tomorrow.io,Shimon Elkabetz,CEO & Co-founder,C-level,primary,,no LinkedIn URL seen; name/title confirmed: no,medium
+6,Tomorrow.io,Forest Cannon,"VP, Data Science",Decision maker,primary,https://www.linkedin.com/in/forest-cannon-9a348a51,LinkedIn URL confirmed in Apollo,medium
+6,Tomorrow.io,Matan Faragi,VP of IT & Security,Decision maker,primary,https://www.linkedin.com/in/matan-faragi-6517b51a,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Anthony Pillitiere,Co-Founder,C-level,primary,https://www.linkedin.com/in/tonypnode,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Holly Grey,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/holly-grey-9946a71,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Snehal Antani,Co-Founder & CEO,C-level,primary,https://www.linkedin.com/in/snehalantani,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Gabriel Underwood,"Senior Director, Cloud Operations",Decision maker,primary,https://www.linkedin.com/in/gabriel-underwood,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Vinod Gupta,"Senior Director, Engineering",Decision maker,primary,https://www.linkedin.com/in/thevinodgupta,LinkedIn URL confirmed in Apollo,high
+7,Horizon3.ai,Z. Berkay Celik,"Inaugural Director, Adversarial Intelligence Frontier Lab",Decision maker,secondary,https://www.linkedin.com/in/berkaycelik,LinkedIn URL from search; Apollo still lists Purdue - his own post says he joined Horizon3.ai as lab director,medium
+8,Helm.ai,Roy Koo,Chief Strategy Officer,C-level,primary,https://www.linkedin.com/in/roykoo-ai,LinkedIn URL confirmed in Apollo,high
+8,Helm.ai,Vladislav Voroninski,CEO & Co-founder,C-level,primary,https://www.linkedin.com/in/vladislav-voroninski-83200213,LinkedIn URL confirmed in Apollo,high
+8,Helm.ai,Aria Mondragon,Vice President of Artificial Intelligence,Decision maker,secondary,https://www.linkedin.com/in/aria-mondragon-52475054,LinkedIn URL confirmed in Apollo,high
+8,Helm.ai,Michael Viscardi,"Research Scientist / Technical Lead, AI",Decision maker,primary,https://www.linkedin.com/in/michael-viscardi-868aa113b,LinkedIn URL confirmed in Apollo,medium
+8,Helm.ai,Nick Ruma,"SVP, People & Operations",Decision maker,primary,https://www.linkedin.com/in/nick-ruma-456426,LinkedIn URL confirmed in Apollo,medium
+9,May Mobility,Edwin Olson,Co-founder & CEO,C-level,primary,https://www.linkedin.com/in/edwin-olson,LinkedIn URL confirmed in Apollo,high
+9,May Mobility,Thomas Fennimore,Chief Financial Officer,C-level,primary,,"no LinkedIn URL seen; name/title confirmed: yes (Fe***e, consistent)",medium
+9,May Mobility,Balajee Kannan,SVP (Autonomy Core Engineering per agent; Apollo: Senior Vice President),Decision maker,primary,,"no LinkedIn URL seen; name/title confirmed: yes (Ka***n, consistent)",medium
+9,May Mobility,Jacob Crossman,SVP of Autonomy,Decision maker,primary,https://www.linkedin.com/in/jacob-crossman-8475438,LinkedIn URL confirmed in Apollo,high
+9,May Mobility,Matthew Wood,VP of Safety and Validation,Decision maker,secondary,https://www.linkedin.com/in/woodmatthews,LinkedIn URL confirmed in Apollo,medium
+9,May Mobility,Victor Canseco,Vice President of Operations and Information Technology,Decision maker,primary,https://www.linkedin.com/in/victorcanseco,LinkedIn URL confirmed in Apollo,high
+10,Buildots,Aviv Leibovici,Chief Product Officer & Co-Founder,C-level,primary,https://www.linkedin.com/in/avivleibovici,apollo,high
+10,Buildots,Carmit Tevet-Kuzy,Chief Financial Officer,C-level,primary,https://www.linkedin.com/in/carmit-tevet-kuzy,apollo,high
+10,Buildots,Roy Danon,CEO & Co-Founder,C-level,primary,https://www.linkedin.com/in/roydanon,apollo,high
+10,Buildots,Yakir Sudry,Co-Founder & CTO,C-level,primary,https://www.linkedin.com/in/yakirsudry,apollo,high
+10,Buildots,Amit Cohen,Head of DevOps,Decision maker,primary,https://www.linkedin.com/in/amit-cohen-5a4a2252,apollo,high
+10,Buildots,Bar Ziony,Director of Engineering,Decision maker,primary,https://www.linkedin.com/in/bar-ziony-b092b236,LinkedIn URL confirmed in Apollo,high
+10,Buildots,Elad Aldor,Director of Engineering,Decision maker,primary,https://www.linkedin.com/in/elad-aldor-a983184b,apollo,high
+10,Buildots,Ori Silberberg,VP of Product & Engineering,Decision maker,primary,https://www.linkedin.com/in/ori-silberberg,apollo,medium
+10,Buildots,Shahar Levi Rokach,Head of Algorithms,Decision maker,secondary,https://www.linkedin.com/in/shahar-levi-rokach-44b460178,apollo,medium
+10,Buildots,Shira Meirovitch,VP of Finance,Decision maker,primary,https://www.linkedin.com/in/shira-meirovitch-singer-53899477,LinkedIn URL confirmed in Apollo,high
