@@ -1,15 +1,15 @@
 first_name,last_name,title,linkedin_url,company,email,email_confidence,linkedin_check
-Bindu,Reddy,CEO and Co-Founder,https://www.linkedin.com/in/bindureddy/,Abacus.AI,,,live LinkedIn profile checked
+Bindu,Reddy,CEO and Co-Founder,https://www.linkedin.com/in/bindureddy/,Abacus.AI,bindureddy@abacus.ai,high,live LinkedIn profile checked
 Siddartha,Naidu,"Co-Founder, VP of ML and Research",https://www.linkedin.com/in/siddarthanaidu/,Abacus.AI,,,live LinkedIn profile checked
 Manish,Vora,"India Site Lead, Engineering Director",https://www.linkedin.com/in/mkvora/,Abacus.AI,,,live LinkedIn profile checked
 Thodoris,Petropoulos,VP of Forward Deployed Engineering,https://www.linkedin.com/in/thodoris-petropoulos/,Abacus.AI,,,live LinkedIn profile checked
-Faraj,Aalaei,Founder & CEO,https://www.linkedin.com/in/faraj-aalaei/,Cognichip,,,live LinkedIn profile checked
-Ehsan,Kamalinejad,Co-Founder & CTO,https://www.linkedin.com/in/ehsan-kamalinejad/,Cognichip,,,live LinkedIn profile checked
+Faraj,Aalaei,Founder & CEO,https://www.linkedin.com/in/faraj-aalaei/,Cognichip,faraj@cognichip.ai,high,live LinkedIn profile checked
+Ehsan,Kamalinejad,Co-Founder & CTO,https://www.linkedin.com/in/ehsan-kamalinejad/,Cognichip,ehsan@cognichip.ai,high,live LinkedIn profile checked
 Simon,Sabato,Co-Founder and Chief Architect,https://www.linkedin.com/in/simonsabato/,Cognichip,,,live LinkedIn profile checked
 Stelios,Diamantidis,Chief Product Officer,https://www.linkedin.com/in/stelix/,Cognichip,,,live LinkedIn profile checked
 Arun,Changaran,"Senior Director, Silicon Engineering",https://www.linkedin.com/in/arun-ck/,Cognichip,,,live LinkedIn profile checked
-Ari,Morcos,CEO and Co-founder,https://www.linkedin.com/in/arimorcos/,DatologyAI,,,live LinkedIn profile checked
-Bogdan,Gaza,Co-Founder & CTO,https://www.linkedin.com/in/bogdangaza/,DatologyAI,,,live LinkedIn profile checked
+Ari,Morcos,CEO and Co-founder,https://www.linkedin.com/in/arimorcos/,DatologyAI,arimorcos@datologyai.com,high,live LinkedIn profile checked
+Bogdan,Gaza,Co-Founder & CTO,https://www.linkedin.com/in/bogdangaza/,DatologyAI,bogdan@datologyai.com,high,live LinkedIn profile checked
 Matthew,Leavitt,Co-founder and Chief Scientist,https://www.linkedin.com/in/matthew-leavitt-6797703b/,DatologyAI,,,live LinkedIn profile checked
 Eddie,Hou,Head of Applied AI & Forward Deployed Engineering,https://www.linkedin.com/in/eddiehou/,DatologyAI,,,live LinkedIn profile checked
 Dominique,Mégret,Chief Executive Officer,https://www.linkedin.com/in/dominiquemegret/,Ecorobotix,,,live LinkedIn profile checked
@@ -17,7 +17,7 @@ Steve,Tanner,CTO and Co-Founder,https://www.linkedin.com/in/steve-tanner-86a7061
 Roch,Delsalle,CTO - Digital Solutions,https://www.linkedin.com/in/rochdelsalle/,Ecorobotix,,,live LinkedIn profile checked
 Rafael,Albea,Chief Product Officer,https://www.linkedin.com/in/rafael-albea/,Ecorobotix,,,live LinkedIn profile checked
 Tristan,Chevignard,Chief Operating Officer,https://www.linkedin.com/in/tristan-chevignard-scm/,Ecorobotix,,,live LinkedIn profile checked
-Ricky,Sahu,Founder / CEO,https://www.linkedin.com/in/ricky-sahu/,GenHealth.ai,,,live LinkedIn profile checked
+Ricky,Sahu,Founder / CEO,https://www.linkedin.com/in/ricky-sahu/,GenHealth.ai,ricky@genhealth.ai,high,live LinkedIn profile checked
 Ethan,Siegel,"Co-Founder, Chief Product & Technology Officer",https://www.linkedin.com/in/ethansiegel/,GenHealth.ai,,,live LinkedIn profile checked
 Al,Seeley,Head of Security and Engineering Operations,https://www.linkedin.com/in/albertseeley/,GenHealth.ai,,,live LinkedIn profile checked
 Sri,Ambati,CEO & Co-founder,https://www.linkedin.com/in/srisatishambati/,H2O.ai,sri@h2o.ai,medium,live LinkedIn profile checked
@@ -33,8 +33,8 @@ Meaghan,Baker,Director of Information Technology,https://www.linkedin.com/in/mea
 Arnaud,Robert,"President, Hexagon Robotics",https://www.linkedin.com/in/arnaud-robert-ca/,Hexagon Robotics,,,live LinkedIn profile checked
 Pascal,Gohl,Head of Robotics,https://www.linkedin.com/in/pascal-gohl-488b6144/,Hexagon Robotics,,,live LinkedIn profile checked
 Enno,de Lange,Director Physical AI,https://www.linkedin.com/in/ekdelange/,Hexagon Robotics,,,live LinkedIn profile checked
-Josh,Haimson,Co-Founder and CEO,https://www.linkedin.com/in/jhaimson/,Inductive Bio,,,live LinkedIn profile checked
-Ben,Birnbaum,"Co-Founder, President and CTO",https://www.linkedin.com/in/benbirnbaum/,Inductive Bio,,,live LinkedIn profile checked
+Josh,Haimson,Co-Founder and CEO,https://www.linkedin.com/in/jhaimson/,Inductive Bio,josh@inductive.bio,high,live LinkedIn profile checked
+Ben,Birnbaum,"Co-Founder, President and CTO",https://www.linkedin.com/in/benbirnbaum/,Inductive Bio,ben@inductive.bio,high,live LinkedIn profile checked
 Alexander,Rich,"Member of Technical Staff, Head of ML",https://www.linkedin.com/in/alexander-rich-83b74213a/,Inductive Bio,,,live LinkedIn profile checked
 Daniel,Seidel,Co-Founder & Co-CEO,https://www.linkedin.com/in/daniel-seidel-979524137/,LiveEO,,,live LinkedIn profile checked
 Sven,Przywarra,Co-Founder / Co-CEO,https://www.linkedin.com/in/svenprzy/,LiveEO,,,live LinkedIn profile checked
@@ -47,7 +47,7 @@ Fiona,Spruill,Chief Executive Officer,https://www.linkedin.com/in/fiona-spruill-
 Tamara,Mendelsohn,Chief Operating Officer,https://www.linkedin.com/in/tamaramendelsohn/,Overstory,,,live LinkedIn profile checked
 Doug,Perrygo,Chief Financial Officer,https://www.linkedin.com/in/dperrygo/,Overstory,,,live LinkedIn profile checked
 Rob,Clark,President,https://www.linkedin.com/in/clark-rob/,Seekr,,,live LinkedIn profile checked
-Stefanos,Poulis,Chief Technology and AI Officer,https://www.linkedin.com/in/stefanos-poulis-b5453916/,Seekr,,,live LinkedIn profile checked
+Stefanos,Poulis,Chief Technology and AI Officer,https://www.linkedin.com/in/stefanos-poulis-b5453916/,Seekr,spoulis@seekr.com,high,live LinkedIn profile checked
 Doug,Dubiel,Chief Operating Officer and Board Director,https://www.linkedin.com/in/doug-dubiel-9141b814/,Seekr,,,live LinkedIn profile checked
 Matt,Jones,"EVP, Chief Financial Officer, Treasurer & Secretary",https://www.linkedin.com/in/matthew-j-2a84883/,Seekr,,,live LinkedIn profile checked
 Elmer,Flordeliza,Vice President of Infrastructure & Operations,https://www.linkedin.com/in/eflordeliza/,Seekr,,,live LinkedIn profile checked
@@ -56,7 +56,7 @@ Michael,Kramer,Vice President of Software Engineering,https://www.linkedin.com/i
 Ben,Faircloth,"Senior Director, AI Strategy & Research",https://www.linkedin.com/in/ben-faircloth-96337213/,Seekr,bfaircloth@seekr.com,high,live LinkedIn profile checked
 Rourke,Willner,"VP, Finance",https://www.linkedin.com/in/rourke-willner-a4519b45/,Seekr,,,live LinkedIn profile checked
 Prateek,Bhatnagar,Head of Product Engineering,https://www.linkedin.com/in/pbhatna/,Ultralytics,,,live LinkedIn profile checked
-Ben,Burchfiel,Co-Founder & CTO,https://www.linkedin.com/in/benburchfiel/,Walden Robotics,,,live LinkedIn profile checked
+Ben,Burchfiel,Co-Founder & CTO,https://www.linkedin.com/in/benburchfiel/,Walden Robotics,ben@waldenrobotics.com,high,live LinkedIn profile checked
 Adrien,Gaidon,Co-Founder and Chief Strategy Officer,https://www.linkedin.com/in/adrien-gaidon-63ab2358/,Walden Robotics,,,live LinkedIn profile checked
 Rareș,Ambruș,Co-Founder & Head of AI,https://www.linkedin.com/in/rare%C8%99-ambru%C8%99-b04812125/,Walden Robotics,,,live LinkedIn profile checked
 Joseph,Romano,Head of Software,https://www.linkedin.com/in/joseph-romano-3934b54a/,Walden Robotics,,,live LinkedIn profile checked
