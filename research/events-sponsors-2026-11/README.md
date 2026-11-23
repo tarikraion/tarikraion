@@ -46,7 +46,8 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
 - Contact rules for both lists:
   - Names and titles come from Apollo or a source dated 2025–26.
   - LinkedIn URLs were used only when seen in results; none were guessed.
-  - Masked or abbreviated surnames were left as shown (for example "Mae W."), unless a database record gave the full name ("Jack G." is now Jack Grey).
+  - Masked or abbreviated surnames were left as shown (for example "Ash K."), unless a database record or the company's own pages gave the full name. "Jack G." is now Jack Grey (database record), and "Mae W." is now Mae Wang (TD SYNNEX pages).
+  - The 23 Nov email round added 12 LinkedIn URLs and corrected 1, so 108 of the 115 partnership contacts now have one. Two of the new URLs (Mauro Xavier, Patrick Pugh) are linked from PwC's own contact pages.
 
 ## Coverage
 - **UK:** London Tech Week, AI Summit London, SXSW London, AI & Big Data Expo, Tech Show London (Big Data & AI World, Cloud & AI Infrastructure, Data Centre World), Founders Forum, Tech.eu Summit, AI Engineer Europe, DCD>Connect, Capacity Europe.
