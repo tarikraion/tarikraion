@@ -11,6 +11,27 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
   - Each row lists the events they sponsored, with tier, and whether the name appears in earlier Raion research.
 - `events-ranked-for-raion.csv`: events ranked by how many group 1 and group 2 buyers sponsor them. Use it to decide where Raion should attend or sponsor.
 
+## Contacts at the 93 sponsors (added 23 Nov 2026)
+- `sponsor-clevel-contacts-2026-11-23.csv`:
+  - 206 current C-level contacts at 92 of the 93 sponsors.
+  - 130 have LinkedIn and 85 have emails (38 high and 47 medium confidence).
+  - QuantumBlack has no C-level of its own: it is led by McKinsey senior partners.
+  - Copied, without emails, into the "Event Sponsors – C-level" tab of the Raion FS searches sheet.
+- `sponsor-partnership-contacts-2026-11-23.csv`:
+  - 115 directors, heads and VPs of partnerships, alliances, ecosystem, business development and corporate development at 72 sponsors.
+  - None of them are C-level or already on the C-level list.
+  - 96 have LinkedIn. Verification: 89 verified, 26 partly verified.
+  - Each row gives the role's function, location, how and when the role was confirmed, and a note on fit.
+  - No emails. Copied into the "Event Sponsors – Partnerships" tab.
+- `sponsor-partnership-company-notes-2026-11-23.csv`:
+  - One row per sponsor (93), giving how many partnership contacts were found and the research notes.
+  - The notes include leads that could not be confirmed (masked surnames, unconfirmed titles).
+  - They also explain why 21 sponsors have no partnership contact.
+- Contact rules for both lists:
+  - Names and titles come from Apollo or a source dated 2025–26.
+  - LinkedIn URLs were used only when seen in results; none were guessed.
+  - Masked or abbreviated surnames were left as shown (for example "Jack G.").
+
 ## Coverage
 - **UK:** London Tech Week, AI Summit London, SXSW London, AI & Big Data Expo, Tech Show London (Big Data & AI World, Cloud & AI Infrastructure, Data Centre World), Founders Forum, Tech.eu Summit, AI Engineer Europe, DCD>Connect, Capacity Europe.
 - **Europe:** VivaTech, RAISE Summit, Web Summit, Slush, GITEX Europe, World Summit AI, TNW, NVIDIA GTC Paris, ISC Hamburg, Datacloud Global Congress, Datacenter Forum, Sifted Summit, AI Engineer Paris, Data Innovation Summit, Big Data & AI Paris, Bits & Pretzels, Dublin Tech Summit, TechBBQ, HumanX Amsterdam, GenAI Zurich, Mistral and Hugging Face hackathons, STATION F events, Nordic AI events, DES Málaga, AI Summit Barcelona.
@@ -37,4 +58,4 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
   - **Included:** companies that train or serve their own models, inference platforms that rent GPUs, and regulated enterprises with real AI compute.
   - **Excluded from buyer groups:** hyperscalers, frontier labs, acquired companies (e.g. Hugging Face → Nvidia, Cursor → xAI), China-HQ companies, chip/hardware/power vendors and neoclouds (competitors).
 - "name_in_earlier_raion_research" is a text match against earlier Raion research files and dedup lists. It can produce false positives, so check before relying on it.
-- No emails or phone numbers were collected.
+- The sponsor lists hold no emails or phone numbers. Emails exist only in `sponsor-clevel-contacts-2026-11-23.csv`. No phone numbers were collected.
