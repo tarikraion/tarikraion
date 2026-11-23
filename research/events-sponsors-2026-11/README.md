@@ -22,7 +22,23 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
   - None of them are C-level or already on the C-level list.
   - 96 have LinkedIn. Verification: 89 verified, 26 partly verified.
   - Each row gives the role's function, location, how and when the role was confirmed, and a note on fit.
-  - No emails. Copied into the "Event Sponsors – Partnerships" tab.
+  - Copied, without emails, into the "Event Sponsors – Partnerships" tab. That tab's "Email found" column shows High, Medium or None.
+  - Email columns added on 23 Nov: email, email_confidence, smtp_check, alternate_emails, email_how_found and email_note. There is also research_note_2026_11_23, which covers role checks such as people who have left.
+- `sponsor-partnership-emails-2026-11-23.csv`:
+  - Only the partnership contacts with a usable work email: 54 people at 42 companies, best first.
+  - 28 are high confidence and 26 medium.
+- How the partnership emails were found (23 Nov):
+  - Two email databases (b2bsearch and Dievio) were run on all 96 LinkedIn profiles, and harvestapi on 10 priority profiles.
+  - A 162-query Google sweep and 9 research agents looked for addresses published anywhere on the web.
+  - Every address was checked against the person's current employer and with a mail-server check (bounceverify).
+  - **High** means one of:
+    - the mail server confirmed the mailbox;
+    - two independent sources agree;
+    - the company published the address itself.
+
+    **Medium** means one database, on a server that accepts any address.
+  - Addresses that bounced, belong to old employers, are personal, or don't fit the person (for example initials-only) are not used as the primary email. A few are listed under alternate_emails with a warning.
+  - No address was guessed or built from a pattern.
 - `sponsor-partnership-company-notes-2026-11-23.csv`:
   - One row per sponsor (93), giving how many partnership contacts were found and the research notes.
   - The notes include leads that could not be confirmed (masked surnames, unconfirmed titles).
@@ -30,7 +46,7 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
 - Contact rules for both lists:
   - Names and titles come from Apollo or a source dated 2025–26.
   - LinkedIn URLs were used only when seen in results; none were guessed.
-  - Masked or abbreviated surnames were left as shown (for example "Jack G.").
+  - Masked or abbreviated surnames were left as shown (for example "Mae W."), unless a database record gave the full name ("Jack G." is now Jack Grey).
 
 ## Coverage
 - **UK:** London Tech Week, AI Summit London, SXSW London, AI & Big Data Expo, Tech Show London (Big Data & AI World, Cloud & AI Infrastructure, Data Centre World), Founders Forum, Tech.eu Summit, AI Engineer Europe, DCD>Connect, Capacity Europe.
@@ -58,4 +74,4 @@ Built 19 Nov 2026 for Raion: which companies that sponsor relevant events are th
   - **Included:** companies that train or serve their own models, inference platforms that rent GPUs, and regulated enterprises with real AI compute.
   - **Excluded from buyer groups:** hyperscalers, frontier labs, acquired companies (e.g. Hugging Face → Nvidia, Cursor → xAI), China-HQ companies, chip/hardware/power vendors and neoclouds (competitors).
 - "name_in_earlier_raion_research" is a text match against earlier Raion research files and dedup lists. It can produce false positives, so check before relying on it.
-- The sponsor lists hold no emails or phone numbers. Emails exist only in `sponsor-clevel-contacts-2026-11-23.csv`. No phone numbers were collected.
+- The sponsor lists hold no emails or phone numbers. Emails exist only in `sponsor-clevel-contacts-2026-11-23.csv`, `sponsor-partnership-contacts-2026-11-23.csv` and `sponsor-partnership-emails-2026-11-23.csv`. No phone numbers were collected.
