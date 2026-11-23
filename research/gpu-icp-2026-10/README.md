@@ -37,6 +37,18 @@ Raion's best buyers for this window are funded AI companies that train or serve 
 - LinkedIn URLs come only from search results or Explorium; none were guessed.
 - Market figures from aggregator sites are directional. Check them before using them in external material.
 
+## Deep research, 23 Nov 2026: smaller GPU offtakers and GPU tenders
+
+Smaller startups that raised money for GPU capacity, plus public GPU tenders. UK first, then worldwide (sanctioned countries excluded). Every buyer needs capacity now or within 3–6 months.
+
+| File | What it is |
+|---|---|
+| `deep-offtakers-2026-11-23.csv` | 11 verified buyers (3 UK) and 27 decision makers, one row per contact, best first. Gives why they need GPUs now, dated compute evidence, size estimate, fit caveats, tender details, LinkedIn and email |
+| `deep-offtakers-emails-2026-11-23.csv` | Emails only: 20 personal work emails (16 high, 4 medium confidence), then 16 published company or tender mailboxes |
+| `deep-offtakers-notes-2026-11-23.md` | Summary table, method, watch leads and limits |
+
+All 11 companies are new to Raion's lists. Every address was checked with a mail-server check; none was guessed.
+
 ## Gaps to close next
 
 - **No C-level contact found:**
