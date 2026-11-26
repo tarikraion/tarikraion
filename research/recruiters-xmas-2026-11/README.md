@@ -168,11 +168,11 @@ One find is directly relevant to Raion: **TTC Group** recruits for AI-infrastruc
 
 **Readiness signal.** 40 of the 47 have stable rather than growing headcount, and the `note` column says so. The growing ones rank first within each confidence level.
 
-**Confidence.**
-- 8 high: the mail server confirmed the mailbox. The Apify budget ran out after 9 checks.
-- 39 medium: every one has an Apollo-verified email and a live mail (MX) record on its domain. Within these:
-  - 6 are on catch-all mail servers;
-  - Primus Connect got a false "domain does not exist" from the checker, although its MX records are live.
+**Confidence: all 47 high.**
+- 8 were confirmed by bounceverify's mail-server check.
+- The other 39 were confirmed with Apollo's email check, run by LeadMagic on 26 Nov at the user's request, using 39 credits. Each came back "validated".
+- 6 of the 39 sit on domains Apollo flags as catch-all, where any validator is less certain: HCR Digital, Client Server, Unify Talent, Found Talent, Madison Bridge and Paradigm Tech. `smtp_check` marks them.
+- Primus Connect had earlier got a false "domain does not exist" from bounceverify. Apollo's check validated it.
 
 **Adjacent fit (6, marked in `note`):** Sanderson, Oliver James, Sentinel Staffing, Akkar, Certus and TEC Partners.
 
