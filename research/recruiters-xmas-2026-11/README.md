@@ -93,3 +93,53 @@ Caveats are in the `note` column:
 - no guessed addresses.
 
 The Clear. contact's title had a phone number in Apollo; it was removed.
+
+## Round 3: `recruiter-lookalikes-round3-2026-11-26.csv`
+
+39 more decision makers at 39 UK recruitment agencies, one per agency.
+
+**Nothing repeats.** The build script checks every agency against three lists and stops if it finds a match:
+- the 95 agencies on the user's list;
+- the agencies delivered in rounds 1 and 2;
+- the agencies dropped in rounds 1 and 2.
+
+**How they were found.**
+1. Two Apollo company searches for UK agencies tagged IT, tech, data, cyber, software or digital recruitment, or with a niche platform tag (SAP, Salesforce, ServiceNow, quant, AI, cloud). Each agency has 5–500 staff and grew headcount by at least 3% over 6 months. This returned about 390 firms.
+2. Every remaining homepage was read to confirm the agency recruits for tech.
+3. Decision makers were found with Apollo people search and then enriched, so every email is marked verified by Apollo.
+
+**Confidence.**
+- 21 high: the mail server confirmed the mailbox.
+- 18 medium. They split three ways:
+  - 8 sit on catch-all mail servers;
+  - Recruit 121's mail-server check timed out;
+  - 9 are Apollo-verified, not catch-all and have live mail (MX) records, but were not checked by bounceverify because the Apify budget ran out after 22 checks.
+
+**Core and adjacent.**
+- 27 are core tech recruiters.
+- 12 are adjacent fits and are marked in `note`. These are:
+  - finance and quant: AAA Global, Venture Search, Mondrian Alpha;
+  - executive search: Candela, Scene;
+  - RPO or embedded hiring: Join Talent, Talent Works;
+  - multi-sector: QCS, Rise Technical, AEJ Consulting, Cogs, Forsyth Barnes.
+
+**Dropped after enrichment.** Apollo matched the wrong organisation or a non-work address for these:
+- Arrows: the contact works at a US sales-software company called Arrows.
+- Scout: the contact's email is at a ski-travel company.
+- npv: the contact's email is on another domain and they are based in the US.
+- Henderson Scott: Apollo returned a US production company owner.
+- Thor: Apollo returned a bookkeeping mailbox.
+- Darwin Recruitment: the CEO's address is a personal domain.
+- Move: the founder's address is at a PR company.
+
+**Dropped as not close lookalikes:**
+- Flowtec: engineering.
+- Source: creative and design.
+- Trust In SODA: it belongs to Trinnovo Group, the same group as DeepRec.ai, which was delivered in round 1.
+
+**Screened out from the websites.** About 100 more were screened out before any enrichment:
+- non-tech desks: sales/GTM, property, energy, life sciences, legal, finance-only, healthcare and education;
+- recruitment software and job platforms;
+- offshore IT outsourcing.
+
+One find is directly relevant to Raion: **TTC Group** recruits for AI-infrastructure, data-centre and GPU-cluster roles.
