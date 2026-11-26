@@ -143,3 +143,54 @@ The Clear. contact's title had a phone number in Apollo; it was removed.
 - offshore IT outsourcing.
 
 One find is directly relevant to Raion: **TTC Group** recruits for AI-infrastructure, data-centre and GPU-cluster roles.
+
+## Round 4: `recruiter-lookalikes-round4-2026-11-26.csv`
+
+47 more decision makers at 47 UK tech and IT recruitment agencies, one per agency.
+
+**Nothing repeats.** The build script checks every agency and stops if it finds a match:
+- the user's list;
+- rounds 1–3 and every firm dropped in them;
+- sister brands of already-covered groups:
+  - Huxley and SThree (Computer Futures);
+  - Nigel Frank and Frank/FRG (Mason Frank);
+  - Opus Talent (Opus RS);
+  - Trinnovo (DeepRec.ai);
+  - X4 Technology (X4 Group);
+  - Sartre Group (Satre Group).
+
+**How they were found.**
+1. Apollo's free company lookup returned UK agencies tagged IT, tech, data, cyber, SAP, Salesforce or AI recruitment. It returned:
+   - firms with 3%+ headcount growth, including staffing firms tagged with tech domains;
+   - for the first time, firms with stable headcount (0–2% over 6 months), because the growing pool was almost used up.
+2. Every homepage was read to confirm a tech, IT or data recruitment focus.
+3. Decision makers with Apollo-verified emails were then enriched: 50 credits for 50 people.
+
+**Readiness signal.** 40 of the 47 have stable rather than growing headcount, and the `note` column says so. The growing ones rank first within each confidence level.
+
+**Confidence.**
+- 8 high: the mail server confirmed the mailbox. The Apify budget ran out after 9 checks.
+- 39 medium: every one has an Apollo-verified email and a live mail (MX) record on its domain. Within these:
+  - 6 are on catch-all mail servers;
+  - Primus Connect got a false "domain does not exist" from the checker, although its MX records are live.
+
+**Adjacent fit (6, marked in `note`):** Sanderson, Oliver James, Sentinel Staffing, Akkar, Certus and TEC Partners.
+
+**Dropped after enrichment (3):**
+- TXP Talent: its CEO's current employer is Concept Resourcing.
+- Moriati: media sales and advertising, not tech.
+- A duplicate second contact at Digital Waffle.
+
+**Caveats in `note`:**
+- **Shrinking headcount:**
+  - Focus Cloud Group: -15% over 6 months.
+  - European Tech Recruit and Oakwell Hampton: -50% over 12 months.
+  - Masento: -33% over 12 months.
+- **Email on another domain the company uses:**
+  - Focus Cloud: focuscloud.org.
+  - Sentinel: sentinelit.com.
+  - Explore Group: exploreltd.com.
+  - Dynamic Search: its German entity, dynamicsearch.de.
+- **Contact based outside the UK:** Impax, Saragossa, primehire, Akkar, ON3 Works and SO Digital.
+
+Apollo returned shortened surnames for "Rory G", "Charles S" and "Callum D". They were not completed.
