@@ -1,0 +1,65 @@
+# GPU market: urgent sellers and urgent buyers (27 Nov 2026)
+
+These lists are for brokering: take GPU capacity that someone needs to sell now, and place it with buyers who need capacity now. Every row has a dated source. Unconfirmed items are labelled as such in the `verification` column, and nothing was padded.
+
+## Files
+| File | Contents |
+|---|---|
+| `urgent-gpu-sellers-2026-11-27.csv` | 9 rows: capacity available now or within about 60 days, with an urgency signal |
+| `urgent-gpu-buyers-2026-11-27.csv` | 10 buyers needing capacity now or in Q1 2027, with 22 contacts (11 with emails, statuses as recorded) |
+| `../gpu-partners-2026-11/uk-gpu-providers-decision-makers-2026-11-27.csv` | partnership decision makers at the 13 UK GPU providers |
+
+## The market in one paragraph
+Short-term capacity in the UK and Europe is still tight. Several providers are sold out: T-Systems, TELUS, Northern Data/Taiga ("nearly sold out") and Era4 Chesterfield. CoreWeave is raising prices: short-term deals now cost more than $40M per MW a year, and its Q3 call on 10 Nov said prices are "still climbing". Surplus has appeared from two events:
+- A secondary report says Anthropic declined to renew H200 capacity at SpaceX. This is unconfirmed.
+- On 16 Nov the US restricted remote access to advanced GPUs by Chinese firms (confirmed by GPB and TweakTown). South-East Asian capacity that was built for Chinese customers is now being remarketed to Western buyers.
+
+Export-control and ownership checks are mandatory before reselling any capacity in South-East Asia.
+
+## Urgent sellers
+| # | Seller | What's available | Urgency | Status |
+|---|---|---|---|---|
+| 1 | Nebius (spot) | B300 at $1.90/GPU-hr in UK-South and $2.90 in France, against $5.90 in the US (spot page, 27 Nov) | idle European capacity priced to fill; reserve auctions | live price, preemptible; re-check before quoting |
+| 2 | Runcrate: Paris block | 576 B300, Paris, mid-December, 36-month term, $5.25/GPU-hr | posted on gpulist.ai 23 Nov | listing is "Unverified"; owner not named; Runcrate is itself a broker |
+| 3 | Runcrate: Malaysia block | 3,600 GB300 NVL72 (50 racks) from 1 Dec, 3-month term, $12.95/GPU-hr, prepaid | posted 4 days after the US rule | export and customer checks required |
+| 4 | SpaceX (formerly xAI) | about 50,000 H200 re-offered at about $5/GPU-hr; B200/B300 spot cut 20–35% | anchor tenant left | UNCONFIRMED (single secondary report) |
+| 5 | GPU Mart | B300 and B200 servers (hardware, not rental) shipping in December and January | sellers selling off after the US rule | quote not corroborated; HQ unverified |
+| 6 | Kordin (UK) | 40 H200, London, from 8 weeks, $3.99/GPU-hr | gpulist listing, 6 Nov | small; Ethernet only, so suits inference |
+| 7–9 | Liquid Compute, GPUaaS.com, Jarvislabs | exchange/broker inventory; 512 H200 in India | weak | sellers often unnamed |
+
+**Seller watchlist** (no dated statement of unsold capacity yet):
+- **Nscale:** Microsoft declined the Texas option on 5 Nov. The 2,304 B200 rented to ByteDance's Singapore unit at Glomfjord, Norway, face scrutiny under the US rule, so they could come to market. Karl Havard, now CCO at Era4, was previously CCO at Nscale.
+- **iomart (UK):** covenants likely to be breached in December, and it is selling its data centres for about £85M. These are data-centre assets, not GPUs.
+- **Fuse Energy:** 192 B300 in the UK from December; already recorded in the partner list.
+- **Together AI:** half-price preemptible compute headline (24 Nov), not checked.
+
+## Urgent buyers
+| # | Buyer | Need by | Why now | Contacts with email |
+|---|---|---|---|---|
+| 1 | Corma (Tel Aviv / SF) | NOW | CEO (16 Nov): compute is "one of the biggest challenges"; waitlist; 24x server growth; $125M Series A | Alon Pluda (CEO), Hofit Bata: both valid |
+| 2 | fal | NOW (second source) | $1.3B raise (3–4 Nov); CEO: "had to rate limit" customers | Burkay Gur (CEO), Gorkem Yurtseven (CTO): no email on file |
+| 3 | Relace | NOW | homepage: "If you have GPUs, we'd also like to talk" | Eitan Borgnia, Julian Thomassie: validated |
+| 4 | Agon (London) | Q1–Q2 2027 | $70M (23 Nov) for sovereign infrastructure "in Europe, for Europe" | none on file yet |
+| 5 | Remanence (Paris) | Q1 2027 | $30M seed (17 Nov) explicitly funds a GPU cluster | Hamza Benchekroun (CTO): Apollo verified, catch-all |
+| 6 | Embo | Q1 2027 | $110M seed (23 Nov) to pretrain a robot world model | Danijar Hafner, Wilson Yan: catch-all, medium |
+| 7 | Path Robotics | Q1–Q2 2027 | $300M (10–11 Nov) for model training and compute | Andrew and Alex Lonsberry: both valid |
+| 8 | Kape / ExpressAI | Q1–Q2 2027 | ExpressAI already runs on confidential-computing B200 in the EU; wider rollout pending | Peter Membrey, Charles Butler: validated |
+| 9 | Mirakl (Paris) | Q1–Q2 2027 | inference on its own GPUs plus Scaleway; cash-positive, $218M ARR | no emails |
+| 10 | Epochal | Q1–Q2 2027 | $100M launch (CEO's own money) | no emails |
+
+**Buyer pools with no named company:**
+- **Rackspace Spot** shuts down on 8 Dec after a breach. Its preemptible A30/H100 users must move, but they are small.
+- **CoreWeave renters** facing price rises: use CoreWeave's own Q3 figures as the price argument.
+- **UK BIST compute-demand report** (26 Nov): about 76% of projected demand needs sovereign, UK-hosted provision. Use it in UK pitches.
+- **EuroHPC AI Gigafactory consortia:** lot deadlines are 30 Dec 2026 and 4 Feb 2027. Raion could join a consortium as a capacity partner.
+- **Canada AI Compute Access Fund** reopened on 26 Nov. It pays 80% of costs if the compute provider is Canadian-owned, 50% otherwise. The health call closes 4 Jan 2027.
+
+## Suggested matches (to test, not promises)
+- **EU/UK capacity now** (Nebius UK spot B300, Runcrate Paris B300, Kordin London H200) → **Agon, Remanence, Kape/ExpressAI, Mirakl**. These buyers want European or sovereign capacity.
+- **Large short-term blocks** (Runcrate Malaysia GB300, possibly SpaceX H200) → **fal, Relace, Corma**. These are inference-heavy buyers that need capacity now. Run export and ownership checks first. Corma is Israeli, so add the data-residency check.
+- **UK providers to resell** (Era4, Hyve, Exponential-e, Fast2host and others) → UK buyers and any Rackspace Spot migrants. Decision makers are in the UK provider file.
+
+## Not found (searched)
+- No UK or EU administration, liquidation or auction of H100-class GPUs, Sep–Nov 2026.
+- No open UK tender (Find a Tender API, ~29,000 releases since 1 Sep) or EU tender buying GPU capacity as a service. EU GPU tenders are all on-premises hardware purchases.
+- No named company publicly asking for capacity on HN, LinkedIn or X in the last 30 days, apart from those above. The Reddit sweep was partial because Reddit is blocked from this session.
