@@ -85,3 +85,42 @@ There are **10 qualified sellers with an email** (5 rated B, 5 rated C) and **7 
 **Why so few:** the market is tightening, not loosening. The Computable GPU Index puts B300 on-demand at $10.41/hr, up about 21% in 30 days. Brokers (Liquid Compute, GPU Mart) say "thousands" of South-East Asian B300 are being remarketed after the 16 Nov rule but will not name the owners. Exchanges (SF Compute, Ornn, Compute Exchange, Vast) hide supplier identities.
 
 **Watch item:** from 26–27 Nov, Nvidia distributors are requiring neoclouds to drop Chinese renters. That could free capacity at unnamed US and EU neoclouds.
+
+## Round 3 (28 Nov): separate CSVs
+No email in these files was guessed. Every email domain had live mail servers on 28 Nov (55 domains checked).
+
+### `gpu-providers-with-emails-2026-11-28.csv`: 45 new GPU-capacity providers
+None of these are in the earlier lists.
+
+| | A | B | C | Total |
+|---|---|---|---|---|
+| Count | 5 | 22 | 18 | 45 |
+
+By region: North America 19, UK & Europe 14, APAC 11, Africa 1.
+
+Each row has:
+- the GPU offering, quoted from the provider's own site with the URL;
+- an email published on the provider's own site, with the source URL and surrounding text;
+- an MX check;
+- a LinkedIn page where one was seen.
+
+The `caution` column flags weak mailboxes (legal@, invest@, press@, support@), forward-only capacity, and KYC or China-ownership checks.
+
+**Priority A:**
+- Boost Run (info@boostrun.com)
+- 5C, formerly Hypertec Cloud (info@5c.ai)
+- Canopy Wave (sales@canopywave.com)
+- Visionbay.ai (Taiwan)
+- ESDS (India)
+
+**No published email (not in the CSV):** Leaseweb, Micron21, SoftBank Corp. and HostAfrica (sales by contact form only). UpCloud is also left out: its address was only readable through a page renderer that got past its bot check, so check it by hand.
+
+### `urgent-gpu-buyers-with-emails-2026-11-28.csv`: 9 buyers, 18 contacts
+- **New:** General Reasoning (London). A training run on 128 H200 is still going (Avalon-M1). Contact hello@gr.inc, addressed to Ross Taylor (CEO). Funding is small, so offer 128–256-GPU slices of partner capacity.
+- **Known companies with a fresh signal and emails already on file:** Suno, Cognition, Black Forest Labs, Genesis AI, Mirendil, Noeri, ElevenLabs and Boltz.
+  - Their urgency is inferred from raises, launches or revenue growth, except Black Forest Labs, which already rents B200s from Nebius. None stated a shortage.
+  - Email status as recorded on 22–23 Nov:
+    - valid: Suno, Cognition, BFL;
+    - catch-all: Genesis, Mirendil, Noeri, ElevenLabs;
+    - UNCHECKED: Boltz.
+- **No email:** Apera AI (Vancouver). On 27 Nov its CEO said it struggles to get compute (spend up to US$4M a year). Its site blocks automated access, so get the contact from apera.ai/contact in a browser.
