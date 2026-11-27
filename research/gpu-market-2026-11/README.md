@@ -124,3 +124,18 @@ The `caution` column flags weak mailboxes (legal@, invest@, press@, support@), f
     - catch-all: Genesis, Mirendil, Noeri, ElevenLabs;
     - UNCHECKED: Boltz.
 - **No email:** Apera AI (Vancouver). On 27 Nov its CEO said it struggles to get compute (spend up to US$4M a year). Its site blocks automated access, so get the contact from apera.ai/contact in a browser.
+
+### `gpu-provider-decision-makers-2026-11-28.csv`: decision makers at the 45 new providers
+- **People:** 84 people across all 45 providers.
+  - 71 full names are confirmed by an independent public source: the company's own team or leadership page, a press release, a speaker page, a registry or trade press.
+  - 13 surnames are still masked or unconfirmed and are marked "NO".
+  - 20 LinkedIn profiles, each seen on a team page, a speaker page or in a search result.
+- **Personal emails (8):** each one was published by the company, and its domain has live mail servers.
+  - **Decision makers (4):**
+    - Fredrik Dobber, CCO, Glesys
+    - Glenn Johansson, CEO, Glesys
+    - Jordan Friedman, CEO, Mantle
+    - Henry Chen, PolarGrid
+  - **Press or marketing contacts who can forward (4):** SWI Compute, DCAI, Visionbay and KONST.
+- **Everyone else:** use the company mailbox shown on each row (`company_mailbox`). No email was guessed.
+- **Missing personal emails:** most people have no personal email published, because Apollo, Explorium and Apify were out of credits. To get verified emails for the named people, top up Apollo (about 2 credits per person: one to find the email, one to validate it), or authorise Lusha, ZoomInfo or Clay.
