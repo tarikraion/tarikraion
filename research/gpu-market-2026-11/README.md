@@ -160,3 +160,31 @@ I re-checked the 103 buyers already in Raion's files that had a validated or cat
 - emails on old domains (medal.tv, buildt.ai, entos.ai);
 - better-placed contacts named in coverage;
 - existing big compute deals and M&A risk.
+
+## `gpu-sellers-ready-capacity-2026-11-28.csv`: 69 sellers with GPU capacity orderable NOW
+I re-checked all 163 known providers (the 105-partner list, the 13 UK providers and the 45 new ones) on their own sites on 27 Nov, plus a discovery sweep for new sellers. A seller counts as ready only with dated evidence of orderable data-centre GPU capacity now or within about 60 days. "Contact sales", sold-out and waitlist pages do not count.
+
+**Grades:**
+- **A (1):** 256+ GPUs or a stated cluster within 30 days, plus a partner programme.
+- **B (34):** real availability that is smaller or has no partner programme.
+- **C (34):** on-demand single nodes.
+
+**How each row is checked:**
+- Each row gives what is available, the evidence URL and quote, the date checked, the onboarding path (reseller, referral, broker, wholesale or direct only), the best email (validated person or published mailbox) and notes.
+- 62 of the 69 have an email, and every domain had live mail servers on 28 Nov.
+- Seven sell only through a web form: Together AI, Crusoe, Massed Compute, Mithril, Modal, Tata Vayu and SAKURA.
+
+**Best to onboard first:**
+- **Hyperstack (A):** GB300 NVL72 "now available"; reseller track with up to 12% rebate.
+- **1Legion:** broker programme; 256 B200 in the US from January.
+- **E2E Networks:** up to 1,024 B300 bookable for mid-January; referral programme.
+- **CloudFerro and Civo:** reseller programmes; EU and UK capacity in stock.
+- **Lyceum:** 256 B200 in Central Europe from December.
+- **GMI Cloud and Runpod:** reseller programmes.
+- **New sellers found in this sweep:** EcoHash (280 RTX PRO 6000 live), Eleveight AI (B300, Armenia), Chapek (EU B300 and H200 from January).
+
+**Caveats** (listed in each row's notes):
+- **Shadeform's live marketplace contradicts** some "available now" claims: Voltage Park, Lambda on-demand, DigitalOcean and Boost Run.
+- **Unstated region or block size:** Hyperstack's A grade and Nebius's large-block availability need confirming.
+- **Non-EU/US capacity** needs KYC and a check against the 16 Nov 2026 US remote-access rule.
+- **Weak mailboxes:** Fuse publishes only an energy-support address (use its /compute form); Lambda's address is from 2022.
