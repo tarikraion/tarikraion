@@ -71,3 +71,17 @@ This file has 80 unique emails from the 26–27 Nov GPU work, sorted as urgent s
 - **Excluded mailboxes:** press, PR, investor, careers and privacy addresses.
 
 All 67 email domains had live mail servers on 27 Nov (checked through dns.google). Recruiter contacts are a separate project and are not included.
+
+## Urgent sellers with emails (`urgent-gpu-sellers-with-emails-2026-11-27.csv`), round 2
+There are **10 qualified sellers with an email** (5 rated B, 5 rated C) and **7 watchlist companies with an email**. Every email was published by the company itself, on its own site, in a press release, or in its gpulist.ai listing (the listing's "contact seller" address forwards to the seller). Nebius is the exception: its email is a validated personal email from the partner list. All 15 domains had live mail servers on 27 Nov. No email was guessed.
+
+**New in round 2:**
+- **Datasection (Tokyo):** distressed. Forecast cut 89.3%, a ¥79.9bn order cancelled and its GPU financing ended. It holds 20,000 Blackwell GPUs. It has not offered them for sale, and a full export review is needed.
+- **Bentaus and Flatkey (US):** weak signals.
+- **UpStation:** 1,024 B300 listed on gpulist, but its identity is unverified.
+
+**Round 1 sellers without a published email** (contact forms only): SpaceX, Kordin and Liquid Compute.
+
+**Why so few:** the market is tightening, not loosening. The Computable GPU Index puts B300 on-demand at $10.41/hr, up about 21% in 30 days. Brokers (Liquid Compute, GPU Mart) say "thousands" of South-East Asian B300 are being remarketed after the 16 Nov rule but will not name the owners. Exchanges (SF Compute, Ornn, Compute Exchange, Vast) hide supplier identities.
+
+**Watch item:** from 26–27 Nov, Nvidia distributors are requiring neoclouds to drop Chinese renters. That could free capacity at unnamed US and EU neoclouds.
