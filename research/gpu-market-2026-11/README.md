@@ -63,3 +63,11 @@ Export-control and ownership checks are mandatory before reselling any capacity 
 - No UK or EU administration, liquidation or auction of H100-class GPUs, Sep–Nov 2026.
 - No open UK tender (Find a Tender API, ~29,000 releases since 1 Sep) or EU tender buying GPU capacity as a service. EU GPU tenders are all on-premises hardware purchases.
 - No named company publicly asking for capacity on HN, LinkedIn or X in the last 30 days, apart from those above. The Reddit sweep was partial because Reddit is blocked from this session.
+
+## All contacts with emails (`all-gpu-contacts-with-emails-2026-11-27.csv`)
+This file has 80 unique emails from the 26–27 Nov GPU work, sorted as urgent sellers, then urgent buyers, then UK GPU providers, then the 105 GPU-capacity partners:
+- **35 personal emails:** 11 buyers, 4 UK providers and 15 partner decision makers, each with the status recorded at the time. These are "valid (mail server confirmed)", Apollo-verified, or Apollo-verified plus LeadMagic-validated. Catch-all domains are marked.
+- **50 company mailboxes:** each one published on the company's own site; the source is in `email_status`.
+- **Excluded mailboxes:** press, PR, investor, careers and privacy addresses.
+
+All 67 email domains had live mail servers on 27 Nov (checked through dns.google). Recruiter contacts are a separate project and are not included.
