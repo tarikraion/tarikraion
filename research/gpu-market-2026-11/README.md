@@ -139,3 +139,24 @@ The `caution` column flags weak mailboxes (legal@, invest@, press@, support@), f
   - **Press or marketing contacts who can forward (4):** SWI Compute, DCAI, Visionbay and KONST.
 - **Everyone else:** use the company mailbox shown on each row (`company_mailbox`). No email was guessed.
 - **Missing personal emails:** most people have no personal email published, because Apollo, Explorium and Apify were out of credits. To get verified emails for the named people, top up Apollo (about 2 credits per person: one to find the email, one to validate it), or authorise Lusha, ZoomInfo or Clay.
+
+### `more-urgent-gpu-buyers-with-emails-2026-11-28.csv`: 33 buyers with fresh dated signals, 65 emails
+I re-checked the 103 buyers already in Raion's files that had a validated or catch-all email, looking for a dated GPU-need signal since 14 Oct 2026. Each row cites the signal URL and date. 70 had no qualifying signal and were rejected, each with a reason (scratchpad kb_out1–3).
+
+**NOW (6 companies, 11 emails):**
+- **Cohere:** CEO (10 Nov) says it has to "fight to get access to compute".
+- **Hudson River Trading:** about $1B a year of AI spend and growing.
+- **Wix/Base44:** about $250M ARR on its own model.
+- **AppLovin:** CFO says it is investing in more training compute.
+- **Modal:** 3–4-month GPU lead times; it buys 2–3x ahead.
+- **Higgsfield:** $1B+ ARR video generation; launched GPU Harness.
+
+**Q1–Q2 2027 (27 companies):**
+- Physical Intelligence, General Intuition, Liquid AI, Motif, Translated, Potential Sciences, Machenta, Rime
+- Thomson Reuters, JetBrains, Cosine, Eka Robotics, Iambic, Decagon, Scaled Cognition, Helsing, AstraZeneca, NatWest
+- Resolve AI, Trajectory, Wispr Flow, DeepL, Ollama, Aevius, Gradium, Chai Discovery, H2O.ai
+
+**Emails:** 23 are valid (the mail server confirmed the mailbox) and 42 are on catch-all domains, as recorded when found (22–23 Nov). Unchecked and personal Gmail addresses are excluded. All domains had live mail servers on 28 Nov. The `notes` column flags:
+- emails on old domains (medal.tv, buildt.ai, entos.ai);
+- better-placed contacts named in coverage;
+- existing big compute deals and M&A risk.
